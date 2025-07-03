@@ -1,0 +1,36 @@
+{
+  "name": "dog-witch-scraper",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Zamiell/dog-witch-scraper",
+  "bugs": {
+    "url": "https://github.com/Zamiell/dog-witch-scraper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zamiell/dog-witch-scraper.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Zamiell",
+  "type": "module",
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsx ./scripts/build.ts",
+    "lint": "tsx ./scripts/lint.ts",
+    "publish": "complete-cli publish",
+    "start": "tsx ./src/main.ts",
+    "update": "complete-cli update"
+  },
+  "devDependencies": {
+    "complete-cli": "1.2.1",
+    "complete-lint": "2.1.2",
+    "complete-node": "7.3.0",
+    "typescript": "5.8.3"
+  }
+}
