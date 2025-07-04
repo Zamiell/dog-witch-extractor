@@ -12,7 +12,7 @@ jobs:
 
   discord:
     name: Discord Failure Notification
-    needs: [build, lint]
+    needs: [lint]
     if: failure()
     runs-on: ubuntu-latest
     steps:
