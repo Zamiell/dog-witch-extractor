@@ -25,6 +25,7 @@ await lintScript(async () => {
     $`cspell-check-unused-words`,
 
     // Check for template updates.
-    $`complete-cli check`,
+    // @template-ignore-next-line
+    $`complete-cli check --ignore build.ts,knip.config.js`,
   ]);
 });
