@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/workflows/setup
-      - run: npm run lint
+      - run: bun run lint
 
   discord:
     name: Discord Failure Notification

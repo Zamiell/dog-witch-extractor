@@ -6,7 +6,8 @@ runs:
       uses: actions/setup-node@v4
       with:
         node-version: lts/*
-        cache: bun
+        # Setting "cache: bun" results in: Error: Caching for 'bun' is not supported
+        # https://github.com/oven-sh/setup-bun/issues/14#issuecomment-1714116221
 
     - name: Install dependencies
       run: bun install --frozen-lockfile
