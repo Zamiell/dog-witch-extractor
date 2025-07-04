@@ -1,13 +1,13 @@
 {
-  "name": "dog-witch-scraper",
+  "name": "dog-witch-extractor",
   "private": true,
-  "homepage": "https://github.com/Zamiell/dog-witch-scraper",
+  "homepage": "https://github.com/Zamiell/dog-witch-extractor",
   "bugs": {
-    "url": "https://github.com/Zamiell/dog-witch-scraper/issues"
+    "url": "https://github.com/Zamiell/dog-witch-extractor/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zamiell/dog-witch-scraper.git"
+    "url": "git+https://github.com/Zamiell/dog-witch-extractor.git"
   },
   "license": "MIT",
   "author": "Zamiell",
@@ -17,10 +17,14 @@
     "start": "bun run ./src/main.ts",
     "update": "complete-cli update"
   },
+  "dependencies": {
+    "complete-common": "2.3.1",
+    "complete-node": "7.3.1",
+    "yaml": "2.8.0"
+  },
   "devDependencies": {
     "complete-cli": "1.2.2",
     "complete-lint": "2.1.2",
-    "complete-node": "7.3.0",
     "typescript": "5.8.3"
   }
 }

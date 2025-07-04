@@ -21,5 +21,12 @@
     "pnpm-lock.yaml",
     "yarn.lock",
   ],
-  "words": ["dbaeumer", "esbenp", "sarisia", "Zamiell"],
+  "words": [
+    "Behaviour",
+    "dbaeumer",
+    "esbenp",
+    "sarisia",
+    "steamapps",
+    "Zamiell",
+  ],
 }

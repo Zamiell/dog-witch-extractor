@@ -26,6 +26,6 @@ await lintScript(async () => {
 
     // Check for template updates.
     // @template-ignore-next-line
-    $`complete-cli check --ignore build.ts,knip.config.js`,
+    $`complete-cli check --ignore ci.yml,build.ts,knip.config.js`,
   ]);
 });
