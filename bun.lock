@@ -4,7 +4,7 @@
     "": {
       "name": "dog-witch-scraper",
       "devDependencies": {
-        "complete-cli": "1.2.1",
+        "complete-cli": "1.2.2",
         "complete-lint": "2.1.2",
         "complete-node": "7.3.0",
         "typescript": "5.8.3",
@@ -412,9 +412,9 @@
 
     "comment-parser": ["comment-parser@1.4.1", "", {}, "sha512-buhp5kePrmda3vhc5B9t7pUQXAb2Tnd0qgpkIhPhkHXxJpiPJ11H0ZEU0oBpJ2QztSbzG/ZxMj/CHsYJqRHmyg=="],
 
-    "complete-cli": ["complete-cli@1.2.1", "", { "dependencies": { "@zamiell/clack-prompts": "0.10.2", "chalk": "5.4.1", "clipanion": "4.0.0-rc.4", "complete-common": "2.3.0", "complete-node": "7.0.2", "klaw-sync": "7.0.0", "yaml": "2.8.0" }, "bin": { "complete-cli": "dist/main.js" } }, "sha512-7bFh8pzGRMsNpZpd5koGjswSwtSRKj+iteOg9PHppejAyaHjg7Uvt5ZhsMMRXYV0sqqTHmY7piW/gIt+yK6nGg=="],
+    "complete-cli": ["complete-cli@1.2.2", "", { "dependencies": { "@zamiell/clack-prompts": "0.10.2", "chalk": "5.4.1", "clipanion": "4.0.0-rc.4", "complete-common": "2.3.1", "complete-node": "7.3.0", "klaw-sync": "7.0.0", "yaml": "2.8.0" }, "bin": { "complete-cli": "dist/main.js" } }, "sha512-38VBlYznKo1qUXoE3hzLvQXn65ZQbN+vv45/pHw+4i7PuIJJpQS2EaXs/UnT4jvgxBFDani2A5SyIPQYP7PPuw=="],
 
-    "complete-common": ["complete-common@2.3.0", "", {}, "sha512-/69p4Djh2V/plUtsNy8ogmsh4OHNuGFA0jRjeOljImKPTf2yWNdlsHFuG5YkzHBJvNvnnozHTCrxg5lJPK2mGw=="],
+    "complete-common": ["complete-common@2.3.1", "", {}, "sha512-SlPzR8621SUiPZvYyXqVDfRQOpS+P2+bMK6fCiR1b8T7cdoealj1P9/D/dS7kTvSqB3Ypg/LKqyHSLFEwR5tCg=="],
 
     "complete-lint": ["complete-lint@2.1.2", "", { "dependencies": { "@types/node": "24.0.4", "complete-tsconfig": "1.3.0", "cspell": "9.1.2", "cspell-check-unused-words": "1.5.3", "eslint": "9.29.0", "eslint-config-complete": "1.7.1", "eslint-import-resolver-typescript": "4.4.4", "knip": "5.61.2", "prettier": "3.6.2", "prettier-plugin-organize-imports": "4.1.0", "prettier-plugin-packagejson": "2.5.16", "tsx": "4.20.3" }, "peerDependencies": { "typescript": ">= 5.0.0" } }, "sha512-/DaUV4PbRI8d15xQ3CM1U0VOw5IFCfYQkEnDkplm3m5SlESJDvVx84OxAfonX3ojfGO/uXPx2HDxG0Nj1P82DA=="],
 
@@ -848,10 +848,6 @@
 
     "clean-regexp/escape-string-regexp": ["escape-string-regexp@1.0.5", "", {}, "sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg=="],
 
-    "complete-cli/complete-node": ["complete-node@7.0.2", "", { "dependencies": { "@arktype/fs": "0.46.0", "chalk": "5.4.1", "complete-common": "2.2.0", "diff": "8.0.2", "dotenv": "16.5.0", "execa": "9.6.0", "jsonc-parser": "3.3.1", "npm-check-updates": "18.0.1", "package-directory": "8.1.0", "prettier": "3.5.3", "stack-trace": "1.0.0-pre2", "which": "5.0.0", "zod": "3.25.67" } }, "sha512-QAuGjmYnoBnhHBSroWosYC2TMF5G+ubVQqsjgwQQj1fHN2JwSBNGQ545E4hyZmvgIM3YDSwLLxyKWEjbWQKHWg=="],
-
-    "complete-node/complete-common": ["complete-common@2.3.1", "", {}, "sha512-SlPzR8621SUiPZvYyXqVDfRQOpS+P2+bMK6fCiR1b8T7cdoealj1P9/D/dS7kTvSqB3Ypg/LKqyHSLFEwR5tCg=="],
-
     "cross-spawn/which": ["which@2.0.2", "", { "dependencies": { "isexe": "^2.0.0" }, "bin": { "node-which": "./bin/node-which" } }, "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA=="],
 
     "cspell-check-unused-words/cspell": ["cspell@9.0.1", "", { "dependencies": { "@cspell/cspell-json-reporter": "9.0.1", "@cspell/cspell-pipe": "9.0.1", "@cspell/cspell-types": "9.0.1", "@cspell/dynamic-import": "9.0.1", "@cspell/url": "9.0.1", "chalk": "^5.4.1", "chalk-template": "^1.1.0", "commander": "^13.1.0", "cspell-dictionary": "9.0.1", "cspell-gitignore": "9.0.1", "cspell-glob": "9.0.1", "cspell-io": "9.0.1", "cspell-lib": "9.0.1", "fast-json-stable-stringify": "^2.1.0", "file-entry-cache": "^9.1.0", "semver": "^7.7.1", "tinyglobby": "^0.2.13" }, "bin": { "cspell": "bin.mjs", "cspell-esm": "bin.mjs" } }, "sha512-AJqsX+3eSTz9GmIuyEZUzCCTbvCPw6+Nv7UYa4PCn7vNV3XEb5LHTp5i9y2i65fNaeNEcQXLrLYoY/JcBFmUSQ=="],
@@ -909,12 +905,6 @@
     "@typescript-eslint/parser/@typescript-eslint/typescript-estree/minimatch": ["minimatch@9.0.5", "", { "dependencies": { "brace-expansion": "^2.0.1" } }, "sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow=="],
 
     "@typescript-eslint/typescript-estree/minimatch/brace-expansion": ["brace-expansion@2.0.2", "", { "dependencies": { "balanced-match": "^1.0.0" } }, "sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ=="],
-
-    "complete-cli/complete-node/complete-common": ["complete-common@2.2.0", "", {}, "sha512-yAfwhgd4A+PhRft3wdmKSMEpDp59kidHN0HDLRmFWVPyOay5nu/s2lXPkiCB6yJNoJHocrOGhY4dwX77phjwcg=="],
-
-    "complete-cli/complete-node/dotenv": ["dotenv@16.5.0", "", {}, "sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg=="],
-
-    "complete-cli/complete-node/prettier": ["prettier@3.5.3", "", { "bin": { "prettier": "bin/prettier.cjs" } }, "sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw=="],
 
     "cross-spawn/which/isexe": ["isexe@2.0.0", "", {}, "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw=="],
 
