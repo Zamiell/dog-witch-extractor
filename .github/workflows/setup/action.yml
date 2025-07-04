@@ -2,12 +2,7 @@ runs:
   using: composite
 
   steps:
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
-        # Setting "cache: bun" results in: Error: Caching for 'bun' is not supported
-        # https://github.com/oven-sh/setup-bun/issues/14#issuecomment-1714116221
+    - uses: oven-sh/setup-bun@v2
 
     - name: Install dependencies
       run: bun install --frozen-lockfile
