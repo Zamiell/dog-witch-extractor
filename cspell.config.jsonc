@@ -20,10 +20,12 @@
     "package-lock.json",
     "pnpm-lock.yaml",
     "yarn.lock",
+    // @template-customization-start
+    "data/equipment.json",
+    // @template-customization-end
   ],
   "words": [
     "Behaviour",
-    "bonesprites",
     "dbaeumer",
     "dogwitch",
     "esbenp",
