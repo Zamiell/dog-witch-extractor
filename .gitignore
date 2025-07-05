@@ -6,6 +6,9 @@
 .DS_Store
 thumbs.db
 
+# Python artifacts
+__pycache__
+
 # ------------------------------
 # GitHub Node.gitignore template
 # https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore
