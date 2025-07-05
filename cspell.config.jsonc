@@ -22,6 +22,7 @@
     "yarn.lock",
     // @template-customization-start
     "data/equipment.json",
+    "scripts/python/**",
     // @template-customization-end
   ],
   "words": [
