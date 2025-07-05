@@ -10,8 +10,8 @@ import {
 import path from "node:path";
 import * as yaml from "yaml";
 import { name } from "../package.json";
-import { DEFAULT_EXTRACTED_FILES_PATH, INVENTORY_TYPES } from "./constants.js";
-import type { Inventory } from "./interfaces/Inventory.js";
+import { DEFAULT_EXTRACTED_FILES_PATH, EQUIPMENT_TYPES } from "./constants.js";
+import type { Equipment } from "./interfaces/Equipment.js";
 
 main();
 
@@ -46,13 +46,13 @@ function main() {
     );
   }
 
-  const inventory: Partial<Inventory> = {};
+  const equipment: Partial<Equipment> = {};
 
-  for (const inventoryType of INVENTORY_TYPES) {
-    const equipmentTypeDirectory = path.join(equipmentDirectory, inventoryType);
+  for (const equipmentType of EQUIPMENT_TYPES) {
+    const equipmentTypeDirectory = path.join(equipmentDirectory, equipmentType);
     if (!isDirectory(equipmentTypeDirectory)) {
       throw new Error(
-        `Failed to find an inventory directory at: ${equipmentTypeDirectory}`,
+        `Failed to find an equipment directory at: ${equipmentTypeDirectory}`,
       );
     }
 
@@ -63,6 +63,8 @@ function main() {
 
     let evil = false;
     for (const filePath of assetFilePaths) {
+      const guid = getEquipmentGUIDFromMeta(filePath);
+
       const fileContents = readFile(filePath);
 
       // The first 3 lines cause the YAML parser to fail, so we remove them.
@@ -90,51 +92,91 @@ function main() {
         );
       }
 
-      const { equipmentName, iconSprite, description } = MonoBehaviour;
+      const {
+        equipmentName,
+        iconSprite,
+        description,
+        linkedCorruptionCounterpart,
+        IsCorrupted,
+      } = MonoBehaviour;
 
       if (typeof equipmentName !== "string") {
         throw new TypeError(
-          `Failed to parse the "equipmentName" field of the "${filePath}" file: ${equipmentName}.`,
+          `Failed to parse the "equipmentName" field of the "${filePath}" file: ${equipmentName}`,
         );
       }
 
       if (!isObject(iconSprite)) {
         throw new TypeError(
-          `Failed to parse the "iconSprite" field of the "${filePath}" file as an object: ${iconSprite}.`,
+          `Failed to parse the "iconSprite" field of the "${filePath}" file as an object: ${iconSprite}`,
         );
       }
 
-      const { guid } = iconSprite;
+      const { guid: iconSpriteGUID } = iconSprite;
 
-      if (typeof guid !== "string") {
+      if (typeof iconSpriteGUID !== "string") {
         throw new TypeError(
-          `Failed to parse the "guid" field of the "${filePath}" file: ${guid}.`,
+          `Failed to parse the "iconSprite.guid" field of the "${filePath}" file: ${iconSpriteGUID}`,
         );
       }
 
-      const imageFilePath = getImageFilePath(
-        extractedFilesPath,
+      const imageFileName = getImageFileName(
         equipmentTypeDirectory,
-        guid,
+        iconSpriteGUID,
       );
 
       // Some files have no description, like "jewelry-bracelets\NoBracelet(Default).asset".
       if (typeof description !== "string" && description !== null) {
         throw new TypeError(
           // eslint-disable-next-line @typescript-eslint/no-base-to-string
-          `Failed to parse the "description" field of the "${filePath}" file: ${description}.`,
+          `Failed to parse the "description" field of the "${filePath}" file: ${description}`,
         );
       }
 
-      let thisInventoryType = inventory[inventoryType];
-      if (thisInventoryType === undefined) {
-        thisInventoryType = {};
-        inventory[inventoryType] = thisInventoryType;
+      if (!isObject(linkedCorruptionCounterpart)) {
+        throw new TypeError(
+          `Failed to parse the "linkedCorruptionCounterpart" field of the "${filePath}" file as an object: ${linkedCorruptionCounterpart}`,
+        );
       }
 
-      thisInventoryType[equipmentName] = {
+      const { guid: counterpartGUID } = linkedCorruptionCounterpart;
+
+      if (
+        typeof counterpartGUID !== "string"
+        && counterpartGUID !== undefined
+      ) {
+        throw new TypeError(
+          // eslint-disable-next-line @typescript-eslint/no-base-to-string
+          `Failed to parse the "linkedCorruptionCounterpart.guid" field of the "${filePath}" file as an object: ${counterpartGUID}`,
+        );
+      }
+
+      if (typeof IsCorrupted !== "number") {
+        throw new TypeError(
+          `Failed to parse the "IsCorrupted" field of the "${filePath}" file: ${iconSpriteGUID}`,
+        );
+      }
+
+      if (IsCorrupted !== 0 && IsCorrupted !== 1) {
+        throw new TypeError(
+          `The "IsCorrupted" field of the "${filePath}" file has an unknown value: ${iconSpriteGUID}`,
+        );
+      }
+
+      const corrupted = IsCorrupted === 1;
+
+      let thisEquipmentType = equipment[equipmentType];
+      if (thisEquipmentType === undefined) {
+        thisEquipmentType = {};
+        equipment[equipmentType] = thisEquipmentType;
+      }
+
+      thisEquipmentType[equipmentName] = {
+        guid,
+        corrupted,
         description: description ?? "",
-        imageFilePath,
+        imageFileName,
+        counterpartGUID,
       };
 
       // The file names alternate between the normal and evil versions.
@@ -145,16 +187,36 @@ function main() {
   const outputPath = path.join(extractedFilesPath, name);
   makeDirectory(outputPath);
 
-  const inventoryPath = path.join(outputPath, "inventory.json");
-  const inventoryString = `${JSON.stringify(inventory, undefined, 2)}\n`;
-  writeFile(inventoryPath, inventoryString);
+  const equipmentPath = path.join(outputPath, "equipment.json");
+  const equipmentString = `${JSON.stringify(equipment, undefined, 2)}\n`;
+  writeFile(equipmentPath, equipmentString);
 
-  console.log(`Wrote file: ${inventoryPath}`);
+  console.log(`Wrote file: ${equipmentPath}`);
+}
+
+function getEquipmentGUIDFromMeta(filePath: string): string {
+  const metaFilePath = `${filePath}.meta`;
+  const fileContents = readFile(metaFilePath);
+
+  const file = yaml.parse(fileContents) as unknown;
+  if (!isObject(file)) {
+    throw new Error(
+      `Failed to parse the "${filePath}" file as an object: ${file}`,
+    );
+  }
+
+  const { guid } = file;
+  if (typeof guid !== "string") {
+    throw new TypeError(
+      `Failed to parse the "guid" field of the "${filePath}" file: ${guid}`,
+    );
+  }
+
+  return guid;
 }
 
 /** Search through every file in the sprites directory, looking for a matching GUID. */
-function getImageFilePath(
-  extractedFilesPath: string,
+function getImageFileName(
   equipmentTypeDirectory: string,
   equipmentGUID: string,
 ): string {
@@ -198,7 +260,7 @@ function getImageFilePath(
 
     if (typeof guid !== "string") {
       throw new TypeError(
-        `Failed to parse the "guid" field of the "${filePath}" file: ${guid}.`,
+        `Failed to parse the "guid" field of the "${filePath}" file: ${guid}`,
       );
     }
 
@@ -211,12 +273,8 @@ function getImageFilePath(
     );
   }
 
-  const baseFilePath = trimSuffix(matchingAssetMetaFilePath, ".asset.meta");
-  const pngFilePath = `${baseFilePath}.png`;
+  const fileName = path.basename(matchingAssetMetaFilePath);
+  const baseFileName = trimSuffix(fileName, ".asset.meta");
 
-  const relativePath = path.relative(extractedFilesPath, pngFilePath);
-
-  return process.platform === "win32"
-    ? relativePath.replaceAll(path.sep, path.posix.sep)
-    : relativePath;
+  return `${baseFileName}.png`;
 }
