@@ -1,5 +1,12 @@
-import { isObject, repeat, trimPrefix, trimSuffix } from "complete-common";
 import {
+  assertDefined,
+  isObject,
+  repeat,
+  trimPrefix,
+  trimSuffix,
+} from "complete-common";
+import {
+  copyFileOrDirectoryAsync,
   getArgs,
   getFilePathsInDirectory,
   isDirectory,
@@ -7,15 +14,19 @@ import {
   readFile,
   writeFile,
 } from "complete-node";
+import { glob } from "glob";
 import path from "node:path";
 import * as yaml from "yaml";
-import { name } from "../package.json";
-import { DEFAULT_EXTRACTED_FILES_PATH, EQUIPMENT_TYPES } from "./constants.js";
+import {
+  DATA_PATH,
+  DEFAULT_EXTRACTED_FILES_PATH,
+  EQUIPMENT_TYPES,
+} from "./constants.js";
 import type { Equipment } from "./interfaces/Equipment.js";
 
-main();
+await main();
 
-function main() {
+async function main() {
   const args = getArgs();
   let [extractedFilesPath] = args;
   if (extractedFilesPath === undefined || extractedFilesPath === "") {
@@ -32,6 +43,12 @@ function main() {
     `Looking through the extracted Dog Witch files at: ${extractedFilesPath}`,
   );
 
+  makeDirectory(DATA_PATH);
+  const equipment = makeEquipmentJSON(extractedFilesPath);
+  await copyEquipmentImages(equipment);
+}
+
+function makeEquipmentJSON(extractedFilesPath: string): Equipment {
   const equipmentDirectory = path.join(
     extractedFilesPath,
     "ExportedProject",
@@ -184,14 +201,13 @@ function main() {
     }
   }
 
-  const outputPath = path.join(extractedFilesPath, name);
-  makeDirectory(outputPath);
-
-  const equipmentPath = path.join(outputPath, "equipment.json");
+  const equipmentPath = path.join(DATA_PATH, "equipment.json");
   const equipmentString = `${JSON.stringify(equipment, undefined, 2)}\n`;
   writeFile(equipmentPath, equipmentString);
 
   console.log(`Wrote file: ${equipmentPath}`);
+
+  return equipment as Equipment;
 }
 
 function getEquipmentGUIDFromMeta(filePath: string): string {
@@ -277,4 +293,41 @@ function getImageFileName(
   const baseFileName = trimSuffix(fileName, ".asset.meta");
 
   return `${baseFileName}.png`;
+}
+
+async function copyEquipmentImages(equipment: Equipment) {
+  const imageFileNamesSet = new Set<string>();
+  for (const equipmentType of Object.values(equipment)) {
+    for (const individualEquipment of Object.values(equipmentType)) {
+      const { imageFileName } = individualEquipment;
+      imageFileNamesSet.add(imageFileName);
+    }
+  }
+
+  const imageFileNames = [...imageFileNamesSet];
+
+  const imagesPath = path.join(DATA_PATH, "images");
+
+  await Promise.all(
+    imageFileNames.map(async (fileName) => {
+      const matchingFiles = await glob(`**/${fileName}`, {
+        absolute: true,
+        cwd: DEFAULT_EXTRACTED_FILES_PATH,
+      });
+
+      if (matchingFiles.length !== 1) {
+        throw new Error(
+          `Found more than one file named "${fileName}": ${matchingFiles}`,
+        );
+      }
+
+      const matchingFile = matchingFiles[0];
+      assertDefined(matchingFile, "Failed to get the first matching file.");
+
+      const dstPath = path.join(imagesPath, fileName);
+      await copyFileOrDirectoryAsync(matchingFile, dstPath);
+    }),
+  );
+
+  console.log(`Copied images to: ${imagesPath}`);
 }

@@ -15,16 +15,18 @@
   "scripts": {
     "lint": "bun run ./scripts/lint.ts",
     "start": "bun run ./src/main.ts",
-    "update": "complete-cli update"
+    "update": "complete-cli update",
+    "upload-images": "bun run ./scripts/upload-images.ts"
   },
   "dependencies": {
     "complete-common": "2.3.1",
     "complete-node": "7.3.1",
+    "glob": "11.0.3",
     "yaml": "2.8.0"
   },
   "devDependencies": {
     "complete-cli": "1.2.2",
-    "complete-lint": "2.1.2",
+    "complete-lint": "3.0.0",
     "typescript": "5.8.3"
   }
 }
