@@ -17,6 +17,7 @@ export const EQUIPMENT_TYPES = getEnumValues(EquipmentType);
 
 interface BaseEquipment {
   guid: string;
+  name: string;
   corrupted: boolean;
   description: string;
   imageFileName: string;

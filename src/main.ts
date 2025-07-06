@@ -241,6 +241,7 @@ function getEquipmentDataFromFile(
       return {
         type: equipmentType,
         guid,
+        name: equipmentName,
         corrupted,
         description: description ?? "",
         imageFileName,
@@ -253,6 +254,7 @@ function getEquipmentDataFromFile(
       return {
         type: equipmentType,
         guid,
+        name: equipmentName,
         corrupted,
         description: description ?? "",
         imageFileName,

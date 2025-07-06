@@ -2,6 +2,7 @@
   {
     "type": "bone",
     "guid": "87901d47c4ecf3447876dd3f00e6686a",
+    "name": "BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.",
     "imageFileName": "bone (default).png"
@@ -9,6 +10,7 @@
   {
     "type": "bone",
     "guid": "646b3310adf51b54287d38b96c658f7d",
+    "name": "BIG BONE",
     "corrupted": false,
     "description": "Gain 5 <style=\"k\">shield</style>. You cannot use bones on your next turn.",
     "imageFileName": "big_bone.png",
@@ -17,6 +19,7 @@
   {
     "type": "bone",
     "guid": "fc5edc73269a1be41b7adaa65f9eb929",
+    "name": "B‡G BØN3",
     "corrupted": true,
     "description": "Gain 10 <style=\"k\">shield</style>. You cannot use bones on your next turn.",
     "imageFileName": "big_bone.png",
@@ -25,6 +28,7 @@
   {
     "type": "bone",
     "guid": "e5b8cfa1d1503e24eb150af5e10d610f",
+    "name": "BLASTER BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to gain 3 <style=\"k\">missiles</style>.",
     "imageFileName": "bone_blaster.png",
@@ -33,6 +37,7 @@
   {
     "type": "bone",
     "guid": "1faee2dc9da551f4484861476e919ebc",
+    "name": "BL4$T3R BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to give yourself and each of your friends 3 <style=\"k\">missiles</style>.",
     "imageFileName": "bone_blaster.png",
@@ -41,6 +46,7 @@
   {
     "type": "bone",
     "guid": "d3570e626154cc24787597af4e6b5755",
+    "name": "STRANGE BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.",
     "imageFileName": "bone_evil_1.png",
@@ -49,6 +55,7 @@
   {
     "type": "bone",
     "guid": "f66ae170443941d48806480897752600",
+    "name": "$TR4NG3 BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to turn this into <style=\"k\">EVIL BONE</style> until the end of combat.",
     "imageFileName": "bone_evil_1.png",
@@ -57,6 +64,7 @@
   {
     "type": "bone",
     "guid": "8f36e91d9311fe141bcf32caa01a3a52",
+    "name": "EVIL BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.",
     "imageFileName": "bone_evil_2.png",
@@ -65,6 +73,7 @@
   {
     "type": "bone",
     "guid": "915cce4ee01e65b458219e34fad0f931",
+    "name": "3V‡L BØN3",
     "corrupted": true,
     "description": "Gain 2 shield.\n\nUse 3 in a turn to turn this into <style=\"k\">HELLFIRE BONE</style> until the end of combat.",
     "imageFileName": "bone_evil_2.png",
@@ -73,6 +82,7 @@
   {
     "type": "bone",
     "guid": "b063e3c2ccdcc0646b4a77fc46bae3b9",
+    "name": "H3LLF‡R3 BØN3",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.",
     "imageFileName": "bone_evil_3.png",
@@ -81,6 +91,7 @@
   {
     "type": "bone",
     "guid": "911c915946602b044a30017fc5f971b2",
+    "name": "H3LLF‡R3 BØN3",
     "corrupted": true,
     "description": "Gain 2 shield.\n\nUse 3 in a turn to deal 666 dmg to all enemies.",
     "imageFileName": "bone_evil_3.png",
@@ -89,6 +100,7 @@
   {
     "type": "bone",
     "guid": "eee53d04404bbac4c8a7dd460e51fdb9",
+    "name": "LIFE BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to heal 1 life.",
     "imageFileName": "bone_shield.png",
@@ -97,6 +109,7 @@
   {
     "type": "bone",
     "guid": "11f36597dd95f7d4f8ae73b2d09c29f3",
+    "name": "L‡F3 BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to heal your party 2 life.",
     "imageFileName": "bone_shield.png",
@@ -105,6 +118,7 @@
   {
     "type": "bone",
     "guid": "f97bcccbab14573449444bf569ec60c6",
+    "name": "MAGIC BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to cast a random spell for free.",
     "imageFileName": "bone_mana.png",
@@ -113,6 +127,7 @@
   {
     "type": "bone",
     "guid": "2b4ce966ec798214fb5b8937091a3035",
+    "name": "M4G‡¢ BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to cast your spell for free.",
     "imageFileName": "bone_mana.png",
@@ -121,6 +136,7 @@
   {
     "type": "bone",
     "guid": "eec437c570c07da43b8e0db931227cce",
+    "name": "POWER BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to give your friends +1 <style=k>strength</style> and +1 health.",
     "imageFileName": "bone_power.png",
@@ -129,6 +145,7 @@
   {
     "type": "bone",
     "guid": "56ad1d70664beda418a2edb7982bd2cd",
+    "name": "PØW3R BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to give your friends +3 <style=k>strength</style> and +3 health.",
     "imageFileName": "bone_power.png",
@@ -137,6 +154,7 @@
   {
     "type": "bone",
     "guid": "ba393839479a5ae45b56ebd1751f7fb7",
+    "name": "PUTRID BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to apply 2 <style=\"k\">poison</style> to all enemies.",
     "imageFileName": "bone_putrid.png",
@@ -145,6 +163,7 @@
   {
     "type": "bone",
     "guid": "6e0325818d678e04b8be2de05f194801",
+    "name": "PÜTR‡Ð BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to apply 4 <style=\"k\">poison</style> to all enemies.",
     "imageFileName": "bone_putrid.png",
@@ -153,6 +172,7 @@
   {
     "type": "bone",
     "guid": "da1a5eba7514cf44fad869e46825dfc9",
+    "name": "RAINBONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to randomly charge your wand or gain 1 mana or gain 1 life.",
     "imageFileName": "bone_rainbow.png",
@@ -161,6 +181,7 @@
   {
     "type": "bone",
     "guid": "b588a4afa38e80c459f2a2fe9469edb6",
+    "name": "R4‡NBØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to charge your wand, gain 1 mana and heal 1 life.",
     "imageFileName": "bone_rainbow.png",
@@ -169,6 +190,7 @@
   {
     "type": "bone",
     "guid": "cc6c8458f740163478e0f4b98248c784",
+    "name": "SHOCKY BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to activate <style=\"k\">electric shield</style>.",
     "imageFileName": "bone_shocky.png",
@@ -177,6 +199,7 @@
   {
     "type": "bone",
     "guid": "cbb2003e4b1463547ace9d820ddb28de",
+    "name": "$HØ¢K¥ BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to shield your friends and activate <style=\"k\">electric shield</style> on your party.",
     "imageFileName": "bone_shocky.png",
@@ -185,6 +208,7 @@
   {
     "type": "bone",
     "guid": "ceff21e1635cd8e4993fbc78f0666696",
+    "name": "SPICY BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to deal 3 dmg to all enemies.",
     "imageFileName": "bone_spicy.png",
@@ -193,6 +217,7 @@
   {
     "type": "bone",
     "guid": "bab3c020a73f3dc46a18afbd5f1cd6ae",
+    "name": "$P‡¢¥ BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to deal 6 dmg to all enemies.",
     "imageFileName": "bone_spicy.png",
@@ -201,6 +226,7 @@
   {
     "type": "bone",
     "guid": "3f039d08693c5df499dd6c128197a958",
+    "name": "SPOOKY BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to lower all enemies <style=\"chance\">resist</style>.",
     "imageFileName": "bone_spooky.png",
@@ -209,6 +235,7 @@
   {
     "type": "bone",
     "guid": "3b3b04d1e881b4b4288c12af13e619fe",
+    "name": "$PØØK¥ BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to lower all enemies <style=\"chance\">resist</style> by 3.",
     "imageFileName": "bone_spooky.png",
@@ -217,6 +244,7 @@
   {
     "type": "bone",
     "guid": "ec8dcfff2517e404eb4944b84d93e3b7",
+    "name": "SQUEAKY BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse three in a turn to make your friends attack.",
     "imageFileName": "bone_squeaky.png",
@@ -225,6 +253,7 @@
   {
     "type": "bone",
     "guid": "d6a8c4c29fd20ab4ead611a31ef42771",
+    "name": "$QÜ34K¥ BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse three in a turn to make your friends attack twice.",
     "imageFileName": "bone_squeaky.png",
@@ -233,6 +262,7 @@
   {
     "type": "bone",
     "guid": "2af565df7f658d84ebacb89b1a74bdb6",
+    "name": "STEEL BONE",
     "corrupted": false,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to make your shield last an extra turn.",
     "imageFileName": "bone_steel.png",
@@ -241,6 +271,7 @@
   {
     "type": "bone",
     "guid": "7c634acd20e988d4c890dd63c35d9205",
+    "name": "$T33L BØN3",
     "corrupted": true,
     "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to gain 8 <style=\"k\">shield</style> at the start of your next turn.",
     "imageFileName": "bone_steel.png",
@@ -249,6 +280,7 @@
   {
     "type": "book",
     "guid": "602ceac90c8df034b8b04aa5fe4fc236",
+    "name": "ALCHEMY BOOK",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">CONJURE JEWELRY</style>.",
     "imageFileName": "book_alchemy.png",
@@ -257,6 +289,7 @@
   {
     "type": "book",
     "guid": "aa5e8101b7ece334c856ecabd1694988",
+    "name": "CONJURE JEWELRY",
     "corrupted": false,
     "description": "Target yourself to morph your jewelry into pieces from a random powerful set.",
     "imageFileName": "book_alchemy_open.png",
@@ -265,6 +298,7 @@
   {
     "type": "book",
     "guid": "255de30b61cca8c4182e16c70ffdbde2",
+    "name": "4L¢H3M¥ BØØK",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">¢ØNJÜR3 J3W3LR¥</style>.",
     "imageFileName": "book_alchemy.png",
@@ -273,6 +307,7 @@
   {
     "type": "book",
     "guid": "a2a74ac6404b52946b42309f6b792a08",
+    "name": "¢ØNJÜR3 J3W3LR¥",
     "corrupted": true,
     "description": "Target yourself to morph your jewelry into pieces from a random powerful set.",
     "imageFileName": "book_alchemy_open.png",
@@ -281,6 +316,7 @@
   {
     "type": "book",
     "guid": "274cdc5709677c14282031134dc06158",
+    "name": "ART OF WAR",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SUPRISE</style>.",
     "imageFileName": "book_art_of_war.png",
@@ -289,6 +325,7 @@
   {
     "type": "book",
     "guid": "9048922de7bd0744287030ad1477cf73",
+    "name": "SUPRISE",
     "corrupted": false,
     "description": "Target enemy becomes <style=\"k\">marked</style> and your friends attack it.",
     "imageFileName": "book_art_of_war_open.png",
@@ -297,6 +334,7 @@
   {
     "type": "book",
     "guid": "a025f5dfa1a6b2e438cabb08f37452e2",
+    "name": "4RT ØF W4R",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$ÜPR‡$3</style>.",
     "imageFileName": "book_art_of_war.png",
@@ -305,6 +343,7 @@
   {
     "type": "book",
     "guid": "f722687ff6246f84d9a61d336b106280",
+    "name": "$ÜPR‡$3",
     "corrupted": true,
     "description": "Target enemy becomes <style=\"k\">marked</style>. Target enemy becomes <style=\"k\">marked</style> and your friends attack it, twice.",
     "imageFileName": "book_art_of_war_open.png",
@@ -313,6 +352,7 @@
   {
     "type": "book",
     "guid": "300b710dad945174e9dadb247efa65fb",
+    "name": "BESTIARY",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">INVOKE</style>.",
     "imageFileName": "book_bestiary.png",
@@ -321,6 +361,7 @@
   {
     "type": "book",
     "guid": "f6c0f719df553114c8bba63e9af49195",
+    "name": "INVOKE",
     "corrupted": false,
     "description": "Conjure 2 summon dice.",
     "imageFileName": "book_bestiary_open.png",
@@ -329,6 +370,7 @@
   {
     "type": "book",
     "guid": "064e28eecc6b2f245b70518aa0855427",
+    "name": "B3$T‡4R¥",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">‡NVØK3</style>.",
     "imageFileName": "book_bestiary.png",
@@ -337,6 +379,7 @@
   {
     "type": "book",
     "guid": "ef37e6025eb7ee14c97bcde9742c1454",
+    "name": "‡NVØK3",
     "corrupted": true,
     "description": "Conjure 4 summon dice.",
     "imageFileName": "book_bestiary_open.png",
@@ -345,6 +388,7 @@
   {
     "type": "book",
     "guid": "30b9cf0243f23724d9f4331e2fc6a991",
+    "name": "BOMB MANUAL",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">TIME BOMB</style>.",
     "imageFileName": "book_bomb_manual.png",
@@ -353,6 +397,7 @@
   {
     "type": "book",
     "guid": "bd43178c9a716e341816530fc8568b05",
+    "name": "TIME BOMB",
     "corrupted": false,
     "description": "Apply a bomb to target enemy that will explode for 25 dmg in three turns.",
     "imageFileName": "book_bomb_manual_open.png",
@@ -361,6 +406,7 @@
   {
     "type": "book",
     "guid": "dff8a6a12fffc8749a68e794cc2125c3",
+    "name": "BØMB M4NÜ4L",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">T‡M3 BØMB</style>.",
     "imageFileName": "book_bomb_manual.png",
@@ -369,6 +415,7 @@
   {
     "type": "book",
     "guid": "197c7cfeafc8fe344ade6cd9f8cccfe5",
+    "name": "T‡M3 BØMB",
     "corrupted": true,
     "description": "Apply a bomb to target enemy that will explode for 50 dmg in three turns.",
     "imageFileName": "book_bomb_manual_open.png",
@@ -377,6 +424,7 @@
   {
     "type": "book",
     "guid": "42661f904b166c94abec35555deb1f46",
+    "name": "COMIC",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SUPER SIZE</style>.",
     "imageFileName": "book_comic.png",
@@ -385,6 +433,7 @@
   {
     "type": "book",
     "guid": "95110f4abd8b9264ba229e6db612911b",
+    "name": "SUPER SIZE",
     "corrupted": false,
     "description": "Target friend becomes <style=\"k>giant</style>.",
     "imageFileName": "book_comic_open.png",
@@ -393,6 +442,7 @@
   {
     "type": "book",
     "guid": "9ff38ffc324494b469615a3a6f3219bf",
+    "name": "¢ØM‡¢",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$ÜP3R $‡Z3</style>.",
     "imageFileName": "book_comic.png",
@@ -401,6 +451,7 @@
   {
     "type": "book",
     "guid": "18804804dc9c11542a301d97757abeeb",
+    "name": "$ÜP3R $‡Z3",
     "corrupted": true,
     "description": "Target friend becomes <style=\"k>colossal</style>.",
     "imageFileName": "book_comic_open.png",
@@ -409,6 +460,7 @@
   {
     "type": "book",
     "guid": "66bdd4817def37849a2b08bd0bd910de",
+    "name": "COOKBOOK",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">AIR FRY</style>.",
     "imageFileName": "book_cookbook.png",
@@ -417,6 +469,7 @@
   {
     "type": "book",
     "guid": "e27037fe26bb5894290c08b5f3d746b1",
+    "name": "AIR FRY",
     "corrupted": false,
     "description": "Heal a friendly for 3 life.",
     "imageFileName": "book_cookbook_open.png",
@@ -425,6 +478,7 @@
   {
     "type": "book",
     "guid": "fa414de8c65d44443aefcc133a7a012b",
+    "name": "¢ØØKBØØK",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">4‡R FR¥</style>.",
     "imageFileName": "book_cookbook.png",
@@ -433,6 +487,7 @@
   {
     "type": "book",
     "guid": "7056267e07286f9458b88b8dedd52dac",
+    "name": "4‡R FR¥",
     "corrupted": true,
     "description": "Deal 4 dmg to target enemy and you heal 4 life.",
     "imageFileName": "book_cookbook_open.png",
@@ -441,6 +496,7 @@
   {
     "type": "book",
     "guid": "6b39c88252153c948b4173102423cab6",
+    "name": "DIARY",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SPITE</style>.",
     "imageFileName": "book_diary.png",
@@ -449,6 +505,7 @@
   {
     "type": "book",
     "guid": "88951f86985b6e845bd00891a6c31f93",
+    "name": "SPITE",
     "corrupted": false,
     "description": "Deal 4 dmg to target enemy for each time you've cast spite this fight.",
     "imageFileName": "book_diary_open.png",
@@ -457,6 +514,7 @@
   {
     "type": "book",
     "guid": "f644f28a090371b42b815a23aaa3d2a6",
+    "name": "Ð‡4R¥",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$P‡T3</style>.",
     "imageFileName": "book_diary.png",
@@ -465,6 +523,7 @@
   {
     "type": "book",
     "guid": "626a54420c8629f4a9c3ce7dd9715fcc",
+    "name": "$P‡T3",
     "corrupted": true,
     "description": "Deal 2 dmg to target enemy for each time you've used your book this fight.",
     "imageFileName": "book_diary_open.png",
@@ -473,6 +532,7 @@
   {
     "type": "book",
     "guid": "643556db45216104d9d811c439b215bd",
+    "name": "BOOK OF LIFE",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">TOUCH OF LIFE</style>.",
     "imageFileName": "book_life.png",
@@ -481,6 +541,7 @@
   {
     "type": "book",
     "guid": "3403f4adadc18f743890e8e7d998227e",
+    "name": "TOUCH OF LIFE",
     "corrupted": false,
     "description": "Give target friend a second life.",
     "imageFileName": "book_life_open.png",
@@ -489,6 +550,7 @@
   {
     "type": "book",
     "guid": "c1d162bd3f3546f41928099065e2188a",
+    "name": "BØØK ØF L‡F3",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">TØÜ¢H ØF L‡F3</style>.",
     "imageFileName": "book_life.png",
@@ -497,6 +559,7 @@
   {
     "type": "book",
     "guid": "25300da082ad0a44887c259ae34c5115",
+    "name": "TØÜ¢H ØF L‡F3",
     "corrupted": true,
     "description": "Target yourself to gain 2 life and give your friends an extra life.",
     "imageFileName": "book_life_open.png",
@@ -505,6 +568,7 @@
   {
     "type": "book",
     "guid": "1fc786d14b3465c48bb3d64ef155f337",
+    "name": "LIVING BOOK",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">DEVOUR</style>.",
     "imageFileName": "book_living.png",
@@ -513,6 +577,7 @@
   {
     "type": "book",
     "guid": "57d1c18a4c89910499e10d5a03da6692",
+    "name": "DEVOUR",
     "corrupted": false,
     "description": "Devour target enemy with 1 or less <style=\"k\">strength</style>.",
     "imageFileName": "book_living_open.png",
@@ -521,6 +586,7 @@
   {
     "type": "book",
     "guid": "e5878b6a8367c5a498c680c8c4e028ed",
+    "name": "L‡V‡NG BØØK",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">Ð3VØÜR</style>.",
     "imageFileName": "book_living.png",
@@ -529,6 +595,7 @@
   {
     "type": "book",
     "guid": "800d1bc3fef3dcb4c863db9d57d7a452",
+    "name": "Ð3VØÜR",
     "corrupted": true,
     "description": "Devour target enemy with 3 or less <style=\"k\">strength</style>.",
     "imageFileName": "book_living_open.png",
@@ -537,6 +604,7 @@
   {
     "type": "book",
     "guid": "b8edd95864739bf4bad4a473e7cf005c",
+    "name": "BLACK MAGIC",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">PESTILENCE</style>.",
     "imageFileName": "book_pestilence.png",
@@ -545,6 +613,7 @@
   {
     "type": "book",
     "guid": "db8efea1f87faa942a9f5554a59fb62d",
+    "name": "PESTILENCE",
     "corrupted": false,
     "description": "All enemies get 3 <style=\"k\">poison</style>.",
     "imageFileName": "book_pestilence_open.png",
@@ -553,6 +622,7 @@
   {
     "type": "book",
     "guid": "64c54702fcd1acc4d8b4393882d68733",
+    "name": "BL4¢K M4G‡¢",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">P3$T‡L3N¢3</style>.",
     "imageFileName": "book_pestilence.png",
@@ -561,6 +631,7 @@
   {
     "type": "book",
     "guid": "ac9308308b32c69468fdfa3734292ea7",
+    "name": "P3$T‡L3N¢3",
     "corrupted": true,
     "description": "All enemies get 6 <style=\"k\">poison</style>.",
     "imageFileName": "book_pestilence_open.png",
@@ -569,6 +640,7 @@
   {
     "type": "book",
     "guid": "3d7bc73df17174b44a2c3105057eb0d0",
+    "name": "POWER TOME",
     "corrupted": false,
     "description": "Charge your wand.",
     "imageFileName": "book_power (default).png"
@@ -576,6 +648,7 @@
   {
     "type": "book",
     "guid": "d339903771930c14f9226e84db675c23",
+    "name": "ROMANCE NOVEL",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">LOVE TRANCE</style>.",
     "imageFileName": "book_romance.png",
@@ -584,6 +657,7 @@
   {
     "type": "book",
     "guid": "fc4e4350dc63e1a43aadf85bd2772177",
+    "name": "LOVE TRANCE",
     "corrupted": false,
     "description": "Heal target enemy for 7 life and then <style=\"k\">stun</style> it.",
     "imageFileName": "book_romance_open.png",
@@ -592,6 +666,7 @@
   {
     "type": "book",
     "guid": "21cf668e83517e54ea7cda21b6df6761",
+    "name": "RØM4N¢3 NØV3L",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">LØV3 TR4N¢3</style>.",
     "imageFileName": "book_romance.png",
@@ -600,6 +675,7 @@
   {
     "type": "book",
     "guid": "051142097c7100e4faf07b76dfbf40a6",
+    "name": "LØV3 TR4N¢3",
     "corrupted": true,
     "description": "Heal all enemies for 7 life and then <style=\"k\">stun</style> them. ",
     "imageFileName": "book_romance_open.png",
@@ -608,6 +684,7 @@
   {
     "type": "book",
     "guid": "c91f0593b2dffd446b53f0a506de6e2d",
+    "name": "SACRIFICE",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">EXPLODE SOUL</style>.",
     "imageFileName": "book_sacrifice.png",
@@ -616,6 +693,7 @@
   {
     "type": "book",
     "guid": "ed38e8007de2712478feb9a81ec3dbde",
+    "name": "EXPLODE SOUL",
     "corrupted": false,
     "description": "Sacrifice target friend to deal double its <style=\"strength\"><sprite=5 tint=1></style> to all enemies.",
     "imageFileName": "book_sacrifice_open.png",
@@ -624,6 +702,7 @@
   {
     "type": "book",
     "guid": "dfe54588807a69745b9bcf079f86a862",
+    "name": "$4¢R‡F‡¢3",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">3XPLØÐ3 $ØÜL</style>.",
     "imageFileName": "book_sacrifice.png",
@@ -632,6 +711,7 @@
   {
     "type": "book",
     "guid": "5e3788db5abfa244a9f995b560264905",
+    "name": "3XPLØÐ3 $ØÜL",
     "corrupted": true,
     "description": "Sacrifice target friend to deal triple its <style=\"strength\"><sprite=5 tint=1></style> to all enemies.",
     "imageFileName": "book_sacrifice_open.png",
@@ -640,6 +720,7 @@
   {
     "type": "book",
     "guid": "dbe422e4b93f93a4fb29c5100fe85aa2",
+    "name": "SCARY STORY",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SPOOKOUT</style>.",
     "imageFileName": "book_scary_story.png",
@@ -648,6 +729,7 @@
   {
     "type": "book",
     "guid": "8564a73673413f04d99c4760994d8ff9",
+    "name": "SPOOKOUT",
     "corrupted": false,
     "description": "Apply 2 <style=\"k\">weakness</style> to all enemies.",
     "imageFileName": "book_scary_story_open.png",
@@ -656,6 +738,7 @@
   {
     "type": "book",
     "guid": "22e4aeb8506ec5c4895817750b6d06ed",
+    "name": "$¢4R¥ $TØR¥",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$PØØKØÜT</style>.",
     "imageFileName": "book_scary_story.png",
@@ -664,6 +747,7 @@
   {
     "type": "book",
     "guid": "e0de5c8c74a7c0d479a0095113816d6d",
+    "name": "$PØØKØÜT",
     "corrupted": true,
     "description": "Apply 3 <style=\"k\">weakness</style> to all enemies and  and lower their <style=\"chance\">resist</style>.",
     "imageFileName": "book_scary_story_open.png",
@@ -672,6 +756,7 @@
   {
     "type": "book",
     "guid": "6cca2f08ad9cf7a41ad1d7b2b6d0be6f",
+    "name": "SHIELD TOME",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SHIELD BLAST</style>.",
     "imageFileName": "book_shield_tome.png",
@@ -680,6 +765,7 @@
   {
     "type": "book",
     "guid": "bf60e4f7ae4662e499e00e76a1557dff",
+    "name": "SHIELD BLAST",
     "corrupted": false,
     "description": "Deal dmg equal to twice your <style=\"k\">shield</style> to target enemy.",
     "imageFileName": "book_shield_tome_open.png"
@@ -687,6 +773,7 @@
   {
     "type": "book",
     "guid": "5ea8a305baba33c4bb45615289599eec",
+    "name": "$H‡3LÐ TØM3",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$H‡3LÐ BL4$T</style>.",
     "imageFileName": "book_shield_tome.png",
@@ -695,6 +782,7 @@
   {
     "type": "book",
     "guid": "648d6681d248a92459529d1188219cdd",
+    "name": "$H‡3LÐ BL4$T",
     "corrupted": true,
     "description": "Deal dmg equal to thrice your <style=\"k\">shield</style> to target enemy.",
     "imageFileName": "book_shield_tome_open.png",
@@ -703,6 +791,7 @@
   {
     "type": "book",
     "guid": "98088119e73dfa549b67d2ead541dcff",
+    "name": "STORYBOOK",
     "corrupted": false,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">BEDTIME</style>.",
     "imageFileName": "book_storybook.png",
@@ -711,6 +800,7 @@
   {
     "type": "book",
     "guid": "69ff5acea548d4941956d26b2f916e28",
+    "name": "BEDTIME",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> each enemy.",
     "imageFileName": "book_storybook_open.png",
@@ -719,6 +809,7 @@
   {
     "type": "book",
     "guid": "76da8101b7f4d314489ba1067b08838a",
+    "name": "$TØR¥BØØK",
     "corrupted": true,
     "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">B3ÐT‡M3</style>.",
     "imageFileName": "book_storybook.png",
@@ -727,6 +818,7 @@
   {
     "type": "book",
     "guid": "49238bd34b2dc124bbc2c0c6cc25fac4",
+    "name": "B3ÐT‡M3",
     "corrupted": true,
     "description": "Double <style=\"chance\">chance</style> to <style=\"k\">stun</style> each enemy.",
     "imageFileName": "book_storybook_open.png",
@@ -735,6 +827,7 @@
   {
     "type": "book",
     "guid": "e0e289063bbc0d94384625cdb17c88df",
+    "name": "WAND MANUAL",
     "corrupted": false,
     "description": "Charge your wand.\n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">FOCUS WAND</style>.",
     "imageFileName": "book_manual.png",
@@ -743,6 +836,7 @@
   {
     "type": "book",
     "guid": "a065be2fe0b52284f86f47e63931779b",
+    "name": "FOCUS WAND",
     "corrupted": false,
     "description": "Give your wand +2 dmg until the end of combat.",
     "imageFileName": "book_manual_open.png"
@@ -750,6 +844,7 @@
   {
     "type": "book",
     "guid": "d9285137ba397a744b81bc0df8c9a1f3",
+    "name": "W4NÐ M4NÜ4L",
     "corrupted": true,
     "description": "Charge your wand.\n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">W4NÐ FØ¢Ü$</style>.",
     "imageFileName": "book_manual.png",
@@ -758,6 +853,7 @@
   {
     "type": "book",
     "guid": "24f42b9b87f1ef548865814c74224e69",
+    "name": "FØ¢Ü$ W4NÐ",
     "corrupted": true,
     "description": "Give your wand +4 dmg until the end of combat.",
     "imageFileName": "book_manual_open.png",
@@ -766,6 +862,7 @@
   {
     "type": "curse",
     "guid": "648936cc329cee14e8245d285b3e6379",
+    "name": "BASALISK'S EYE",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to turn target enemy to <style=\"k\">stone</style> for two turns.",
     "imageFileName": "curse_basalisks_eye.png",
@@ -774,6 +871,7 @@
   {
     "type": "curse",
     "guid": "b07de33ed6fa01746b848f0f55a7cde9",
+    "name": "B4$4L‡$K'$ 3¥3",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to turn target enemy to <style=\"k\">stone</style> for two turns. If target is already <style=\"k\">stone</style>, %25 odds to destroy it.",
     "imageFileName": "curse_basalisks_eye.png",
@@ -782,6 +880,7 @@
   {
     "type": "curse",
     "guid": "68b01c99d167ebb43b7a10a20fa9ffb2",
+    "name": "CLAY BAT",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> and steal 1 life from target enemy.",
     "imageFileName": "curse_vampire.png",
@@ -790,6 +889,7 @@
   {
     "type": "curse",
     "guid": "90bbdc336cb77604ab0339f1d2645cad",
+    "name": "¢L4¥ B4T",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to steal life from target enemy until it dies or you are at max health.",
     "imageFileName": "curse_vampire.png",
@@ -798,6 +898,7 @@
   {
     "type": "curse",
     "guid": "0cb58ec41d6ecf347bb0c26d0464df6d",
+    "name": "DEAD TOAD",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to turn target enemy into a <style=\"k\">toad</style> for 2 turns.",
     "imageFileName": "curse_dead_toad.png",
@@ -806,6 +907,7 @@
   {
     "type": "curse",
     "guid": "10d5bddfbb291004eacdee2381431853",
+    "name": "Ð34Ð TØ4Ð",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to turn target enemy into a <style=\"k\">toad</style> for 3 turns.",
     "imageFileName": "curse_dead_toad.png",
@@ -814,6 +916,7 @@
   {
     "type": "curse",
     "guid": "a35144bba160fda4d882897060c4e04a",
+    "name": "JADE IDOL",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target and turn it to <style=k>gemform</style>.",
     "imageFileName": "curse_jade_idol.png",
@@ -822,6 +925,7 @@
   {
     "type": "curse",
     "guid": "cf6edbd5afd937648af2a046b2e820b0",
+    "name": "J4Ð3 ‡ÐØL",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target and turn all enemies to <style=k>gemform</style>. ",
     "imageFileName": "curse_jade_idol.png",
@@ -830,6 +934,7 @@
   {
     "type": "curse",
     "guid": "43c4830812f9b2444a1964d93e710a79",
+    "name": "MAGNIFIER",
     "corrupted": false,
     "description": "Deal 2 dmg and lower target enemy's <style=\"chance\">resist</style> or <style=\"k\">stun</style> if it has no <style=\"chance\">resist</style>.",
     "imageFileName": "curse_magnifying_glass.png",
@@ -838,6 +943,7 @@
   {
     "type": "curse",
     "guid": "6fda9c63205d0b049a23b1e8f42c8181",
+    "name": "M4GN‡F‡3R",
     "corrupted": true,
     "description": "Deal 2 dmg and lower target enemy's <style=\"chance\">resist</style> or <style=\"k\">stun</style> if it has no <style=\"chance\">resist</style>. Repeat.",
     "imageFileName": "curse_magnifying_glass.png",
@@ -846,6 +952,7 @@
   {
     "type": "curse",
     "guid": "6066a392472122e41865d7f27d6a390a",
+    "name": "MONKEY TOY",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy and apply <style=\"k\">headache</style>.",
     "imageFileName": "curse_monkey_toy.png",
@@ -854,6 +961,7 @@
   {
     "type": "curse",
     "guid": "671ce6fbe91a960469876d2983382314",
+    "name": "MØNK3¥ TØ¥",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy and apply <style=\"k\">migrane</style>.",
     "imageFileName": "curse_monkey_toy.png",
@@ -862,6 +970,7 @@
   {
     "type": "curse",
     "guid": "bad14be16e445b049b53f5eebbacf747",
+    "name": "POCKET WATCH",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy.",
     "imageFileName": "curse_watch (default).png"
@@ -869,6 +978,7 @@
   {
     "type": "curse",
     "guid": "d953412892b39354b965da9737a37d61",
+    "name": "RABBITS FOOT",
     "corrupted": false,
     "description": "Double <style=\"chance\">chance</style> to <style=\"k>stun</style> target enemy and apply 1 <style=\"k\">rage</style>.",
     "imageFileName": "curse_rabbits_foot.png",
@@ -877,6 +987,7 @@
   {
     "type": "curse",
     "guid": "7f3587bcbd778a94792e264b679db5c6",
+    "name": "R4BB‡T$ FØØT",
     "corrupted": true,
     "description": "Double <style=\"chance\">chance</style> to <style=\"k>stun</style> target enemy.",
     "imageFileName": "curse_rabbits_foot.png",
@@ -885,6 +996,7 @@
   {
     "type": "curse",
     "guid": "963e5cf2fa2e4cb4f9a8c4e31ea6186f",
+    "name": "RAMULET",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k>stun</style> target enemy and deal 1 dmg to it and adjacent enemies.",
     "imageFileName": "curse_ramulet.png",
@@ -893,6 +1005,7 @@
   {
     "type": "curse",
     "guid": "d2488fc63ef8ae84aa4dd8d6586020d2",
+    "name": "R4MÜL3T",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to <style=\"k>stun</style> target enemy and deal 4 dmg to it and adjacent enemies.",
     "imageFileName": "curse_ramulet.png",
@@ -901,6 +1014,7 @@
   {
     "type": "curse",
     "guid": "13b93f8d5b792fe4db4ca0ed2fc41ee3",
+    "name": "GOLD SCORPION",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> and  apply 2 <style=\"k>poison</style> to target enemy.",
     "imageFileName": "curse_scorpion.png",
@@ -909,6 +1023,7 @@
   {
     "type": "curse",
     "guid": "02e0ab50d9be13d4b87a24fbc82a839f",
+    "name": "GØLÐ $¢ØRP‡ØN",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> and  apply 4 <style=\"k>poison</style> to target enemy.",
     "imageFileName": "curse_scorpion.png",
@@ -917,6 +1032,7 @@
   {
     "type": "curse",
     "guid": "7a802b534fc2bdd45b9954f741a11481",
+    "name": "SHRUNKEN HEAD",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">shrink</style> target enemy for 3 turns.",
     "imageFileName": "curse_shrunken_head.png",
@@ -925,6 +1041,7 @@
   {
     "type": "curse",
     "guid": "790b2e74ffe3c834d8c9f1d8664bafb3",
+    "name": "$HRÜNK3N H34Ð",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">shrink</style> each enemy for 3 turns.",
     "imageFileName": "curse_shrunken_head.png",
@@ -933,6 +1050,7 @@
   {
     "type": "curse",
     "guid": "6fca7f014fea7ed43a2d1ba5c6655e6f",
+    "name": "SKELETON KEY",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy. Ignores <style=\"chance\">resist</style> of the first target each combat.",
     "imageFileName": "curse_skeleton_key.png",
@@ -941,6 +1059,7 @@
   {
     "type": "curse",
     "guid": "826888d15f0da7c4187beb31f71ad0e3",
+    "name": "$K3L3TØN K3¥",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy. Ignores <style=\"chance\">resist</style> of any target it hasn't cursed.",
     "imageFileName": "curse_skeleton_key.png",
@@ -949,6 +1068,7 @@
   {
     "type": "curse",
     "guid": "e62c8d9daee7d204bb4bbd86baba7478",
+    "name": "SPIRAL CHARM",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to make target enemy attack one of their friends at random.",
     "imageFileName": "curse_spiral_charm.png",
@@ -957,6 +1077,7 @@
   {
     "type": "curse",
     "guid": "2af6ed191c2095e429c7bd58d5265472",
+    "name": "$P‡R4L ¢H4RM",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to make target enemy attack each of their friends.",
     "imageFileName": "curse_spiral_charm.png",
@@ -965,6 +1086,7 @@
   {
     "type": "curse",
     "guid": "254ab0f63c9d19e46873a8e1d4e77018",
+    "name": "VOODOO DOLL",
     "corrupted": false,
     "description": "<style=\"chance\">Chance</style> to <style=\"k>stun</style> target enemy and deal it 2 dmg.",
     "imageFileName": "curse_voodoo_doll.png",
@@ -973,6 +1095,7 @@
   {
     "type": "curse",
     "guid": "6b263ff5dc8d4cd49bc2b78ec8e8f175",
+    "name": "VØØÐØØ ÐØLL",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to <style=\"k>stun</style> target enemy and apply <style=\"k\">voodoo</style> to it.",
     "imageFileName": "curse_voodoo_doll.png",
@@ -981,6 +1104,7 @@
   {
     "type": "curse",
     "guid": "de6a47371dd1b464a8217f22bdf66abf",
+    "name": "YO-YO",
     "corrupted": false,
     "description": "Target enemy stops what it's doing to <style=\"k\">wild</style> attack you. Ignores <style=\"chance\">resist</style>.",
     "imageFileName": "curse_yoyo.png",
@@ -989,6 +1113,7 @@
   {
     "type": "curse",
     "guid": "25318df7e27d0f842b2486851a8498fd",
+    "name": "¥Ø-¥Ø",
     "corrupted": true,
     "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy. If you miss, that enemy stops what it's doing to <style=\"k\">wild</style> attack you.",
     "imageFileName": "curse_yoyo.png",
@@ -997,6 +1122,7 @@
   {
     "type": "bracelet",
     "guid": "f5ec61ea22e0f484bad5acc1f85dcbf5",
+    "name": "AZURITE",
     "corrupted": false,
     "description": "If you fail a curse, gain 1 <style=\"k\">shield</style>.",
     "imageFileName": "bracelet_azurite.png",
@@ -1005,6 +1131,7 @@
   {
     "type": "bracelet",
     "guid": "7b43b81c21bc8234ebf02b984727a867",
+    "name": "4ZÜR‡T3",
     "corrupted": true,
     "description": "If you fail a curse, gain 1 mana.",
     "imageFileName": "bracelet_azurite.png",
@@ -1013,6 +1140,7 @@
   {
     "type": "bracelet",
     "guid": "413b2965224f1474ca08b8b5aa132bf1",
+    "name": "DEVIL'S",
     "corrupted": false,
     "description": "+2 to wand dmg. At the start of combat, you are <style=\"k\">bleeding</style>.",
     "imageFileName": "bracelet_devils.png",
@@ -1021,6 +1149,7 @@
   {
     "type": "bracelet",
     "guid": "6d8eedc70debf4e4b949aa87bd33fce3",
+    "name": "Ð3V‡L'$",
     "corrupted": true,
     "description": "+4 to wand dmg. At the start of combat, you are <style=\"k\">bleeding</style>.",
     "imageFileName": "bracelet_devils.png",
@@ -1029,6 +1158,7 @@
   {
     "type": "bracelet",
     "guid": "38b8b8cbb3be96148920d1643a86fc50",
+    "name": "FRIENDSHIP",
     "corrupted": false,
     "description": "When you summon a friend, give it +1 <style=\"k\">strength</style>.",
     "imageFileName": "bracelet_friendship.png",
@@ -1037,6 +1167,7 @@
   {
     "type": "bracelet",
     "guid": "be8b273f2a72f8949a315eadc3c2e9b4",
+    "name": "FR‡3NÐ$H‡P",
     "corrupted": true,
     "description": "When you summon a friend, give it +2 <style=\"k\">strength</style> and <style=\"k\">bleeding</style>.",
     "imageFileName": "bracelet_friendship.png",
@@ -1045,6 +1176,7 @@
   {
     "type": "bracelet",
     "guid": "87a73a0c7ebf3ea409e1da345f1e1891",
+    "name": "GEM",
     "corrupted": false,
     "description": "When you take dmg, gain 1 mana.",
     "imageFileName": "bracelet_gem.png",
@@ -1053,6 +1185,7 @@
   {
     "type": "bracelet",
     "guid": "dcb544def1ff94d4f96a3d00ce120098",
+    "name": "G3M",
     "corrupted": true,
     "description": "When you take dmg, gain 2 mana.",
     "imageFileName": "bracelet_gem.png",
@@ -1061,6 +1194,7 @@
   {
     "type": "bracelet",
     "guid": "551d2963c35ddab4685475d1b25431eb",
+    "name": "LIFE",
     "corrupted": false,
     "description": "At the start of combat, heal 2 life.",
     "imageFileName": "bracelet_life.png",
@@ -1069,6 +1203,7 @@
   {
     "type": "bracelet",
     "guid": "5165fcc10ef343345bf8a5f5268fb874",
+    "name": "L‡F3",
     "corrupted": true,
     "description": "Every third turn, gain 2 life.",
     "imageFileName": "bracelet_life.png",
@@ -1077,6 +1212,7 @@
   {
     "type": "bracelet",
     "guid": "22b53fc6681d8ae419eeede1fea56db1",
+    "name": "PHARAOH'S",
     "corrupted": false,
     "description": "At the end of your turn, if you didn't re-roll your dice, deal 1 dmg to a random enemy 4 times.",
     "imageFileName": "bracelet_pharaohs.png",
@@ -1085,6 +1221,7 @@
   {
     "type": "bracelet",
     "guid": "265e14b0501cafa4599483940a11cfa8",
+    "name": "PH4R4ØH'$",
     "corrupted": true,
     "description": "At the end of your turn, if you didn't re-roll your dice, deal 1 dmg to a random enemy 8 times.",
     "imageFileName": "bracelet_pharaohs.png",
@@ -1093,6 +1230,7 @@
   {
     "type": "bracelet",
     "guid": "a2b2d1318b338ff438cfb355c5dc6583",
+    "name": "POWER",
     "corrupted": false,
     "description": "Your wand doesn't lose charge when you take dmg.",
     "imageFileName": "bracelet_power.png",
@@ -1101,6 +1239,7 @@
   {
     "type": "bracelet",
     "guid": "fa6555d20729cc241ab299902cc8f506",
+    "name": "PØW3R",
     "corrupted": true,
     "description": "When you take dmg, charge your wand.",
     "imageFileName": "bracelet_power.png",
@@ -1109,6 +1248,7 @@
   {
     "type": "bracelet",
     "guid": "ebfc913da6cbb0645b8ce639693ad27f",
+    "name": "SHINY",
     "corrupted": false,
     "description": "At the start of combat, lower all enemy <style=\"chance\">resist</style>.",
     "imageFileName": "bracelet_shiny.png",
@@ -1117,6 +1257,7 @@
   {
     "type": "bracelet",
     "guid": "96c5d208d3f154a43a17fc26ec9214ba",
+    "name": "$H‡N¥",
     "corrupted": true,
     "description": "At the start of combat, reduce all enemy <style=\"chance\">resist</style> to zero.",
     "imageFileName": "bracelet_shiny.png",
@@ -1125,6 +1266,7 @@
   {
     "type": "bracelet",
     "guid": "ae9ab16ac4ee30d4eaf4daa787a150d8",
+    "name": "SILVER",
     "corrupted": false,
     "description": "At the start of your turn, if you used a bone last turn, gain 1 <style=\"k\">shield</style>.",
     "imageFileName": "bracelet_silver.png",
@@ -1133,6 +1275,7 @@
   {
     "type": "bracelet",
     "guid": "1fed7efb75dfe5643a085dd3a5a643de",
+    "name": "$‡LV3R",
     "corrupted": true,
     "description": "At the start of your turn, gain a <style=\"k\">shield</style> for each bone you used last turn.",
     "imageFileName": "bracelet_silver.png",
@@ -1141,6 +1284,7 @@
   {
     "type": "bracelet",
     "guid": "b332328e3444f1c48bf9df9cc48623d8",
+    "name": "SPIKED",
     "corrupted": false,
     "description": "When an enemy deals dmg to you, it takes 3 dmg.",
     "imageFileName": "bracelet_spiked.png",
@@ -1149,6 +1293,7 @@
   {
     "type": "bracelet",
     "guid": "4b4451958fb6b7b4685f8e7c07364fb0",
+    "name": "$P‡K3Ð",
     "corrupted": true,
     "description": "When an enemy deals dmg to you, deal 3 dmg to all enemies.",
     "imageFileName": "bracelet_spiked.png",
@@ -1157,6 +1302,7 @@
   {
     "type": "bracelet",
     "guid": "26e60cda60bc80f48ad8212c8ad35ef0",
+    "name": "SUNSHINE",
     "corrupted": false,
     "description": "At the start of the enemy turn, summon a <style=\"k\">FLOWER</style> if you have space.",
     "imageFileName": "bracelet_sun.png",
@@ -1165,6 +1311,7 @@
   {
     "type": "bracelet",
     "guid": "b1913c28196eda840bab6b37738a5d45",
+    "name": "$ÜN$H‡N3",
     "corrupted": true,
     "description": "At the start of the enemy turn, summon up to two corrupted <style=\"k\">FLOWERS</style>.",
     "imageFileName": "bracelet_sun.png",
@@ -1173,6 +1320,7 @@
   {
     "type": "bracelet",
     "guid": "b1370eea04a2c5d42afda3338af84b15",
+    "name": "SLOT FOR",
     "corrupted": false,
     "description": "",
     "imageFileName": "no_bracelet.png"
@@ -1180,6 +1328,7 @@
   {
     "type": "necklace",
     "guid": "d938dc24e88d08f468762326c1b14b32",
+    "name": "BINKY'S",
     "corrupted": false,
     "description": "At the end of your turn, use a random curse on a random enemy.",
     "imageFileName": "necklace_binkys.png",
@@ -1188,6 +1337,7 @@
   {
     "type": "necklace",
     "guid": "279bf53d75b09534fafaeb5c36366e27",
+    "name": "B‡NK¥'$",
     "corrupted": true,
     "description": "At the start of your turn, use a random corrupted curse on a random enemy.",
     "imageFileName": "necklace_binkys.png",
@@ -1196,6 +1346,7 @@
   {
     "type": "necklace",
     "guid": "2dd43b69a3b12504fb404d189b5ced0c",
+    "name": "BONE",
     "corrupted": false,
     "description": "At the start of your turn, conjure a bone. You get one less re-roll.",
     "imageFileName": "necklace_bone.png",
@@ -1204,6 +1355,7 @@
   {
     "type": "necklace",
     "guid": "2d8f16b49953f38438035c9676ded6d5",
+    "name": "BØN3",
     "corrupted": true,
     "description": "If you have no friends at the start of your turn, conjure a bone.",
     "imageFileName": "necklace_bone.png",
@@ -1212,6 +1364,7 @@
   {
     "type": "necklace",
     "guid": "24e0b4638202aef4eb4e99fe4882dab0",
+    "name": "FRIENDSHIP",
     "corrupted": false,
     "description": "When you summon a friend, give it +1 <style=\"k\">strength</style> and +1 health.",
     "imageFileName": "necklace_friendship.png",
@@ -1220,6 +1373,7 @@
   {
     "type": "necklace",
     "guid": "5dd8c6a01e6f45a4eb12479434665bc5",
+    "name": "FR‡3NÐ$H‡P",
     "corrupted": true,
     "description": "When you summon a friend, give it +2 <style=\"k\">strength</style> and +2 health.",
     "imageFileName": "necklace_friendship.png",
@@ -1228,6 +1382,7 @@
   {
     "type": "necklace",
     "guid": "42d757bab9204c84090fafe9588cc782",
+    "name": "GEM",
     "corrupted": false,
     "description": "When you summon a friend, make it <style=\"k\">gemform</style>.",
     "imageFileName": "necklace_gem.png",
@@ -1236,6 +1391,7 @@
   {
     "type": "necklace",
     "guid": "90ce8e00d40c5d444ad380abd97d63e2",
+    "name": "G3M",
     "corrupted": true,
     "description": "When you summon a friend make it <style=\"k\">gemform</style>. Gain 1 mana.",
     "imageFileName": "necklace_gem.png",
@@ -1244,6 +1400,7 @@
   {
     "type": "necklace",
     "guid": "72314baa2668c7d428eae7aec9eacab2",
+    "name": "PHARAOH'S",
     "corrupted": false,
     "description": "You roll an extra die. You get one fewer re-roll.",
     "imageFileName": "necklace_pharaohs.png",
@@ -1252,6 +1409,7 @@
   {
     "type": "necklace",
     "guid": "802c3443fcbc73340bbba17ec672e236",
+    "name": "PH4R4ØH'$",
     "corrupted": true,
     "description": "You roll an extra die.",
     "imageFileName": "necklace_pharaohs.png",
@@ -1260,6 +1418,7 @@
   {
     "type": "necklace",
     "guid": "b4f5e5b935ed5a442a969bad594fc989",
+    "name": "PONDERING ORB",
     "corrupted": false,
     "description": "You get an additional re-roll.",
     "imageFileName": "necklace_pondering_orb.png",
@@ -1268,6 +1427,7 @@
   {
     "type": "necklace",
     "guid": "517c2e89e9180bf4eafb60679766d398",
+    "name": "PØNÐ3R‡NG ØRB",
     "corrupted": true,
     "description": "You get two additional re-rolls.",
     "imageFileName": "necklace_pondering_orb.png",
@@ -1276,6 +1436,7 @@
   {
     "type": "necklace",
     "guid": "fc40c658ba46e5c42964d57c2112f12b",
+    "name": "POWER",
     "corrupted": false,
     "description": "+1 to wand dmg.",
     "imageFileName": "necklace_power.png",
@@ -1284,6 +1445,7 @@
   {
     "type": "necklace",
     "guid": "d426328693237b24b82245f0c30a4495",
+    "name": "PØW3R",
     "corrupted": true,
     "description": "+2 to wand dmg.",
     "imageFileName": "necklace_power.png",
@@ -1292,6 +1454,7 @@
   {
     "type": "necklace",
     "guid": "9e535482bebfcb741b3eb2c800a8358d",
+    "name": "RAINBOW",
     "corrupted": false,
     "description": "When a friend dies, randomly gain 1 mana or charge your wand or heal 1 life.",
     "imageFileName": "necklace_rainbow.png",
@@ -1300,6 +1463,7 @@
   {
     "type": "necklace",
     "guid": "6a6426efe0dd2934c988282408b315c5",
+    "name": "R4‡NBØW",
     "corrupted": true,
     "description": "When a friend dies, gain 1 mana, charge your wand and heal 1 life.",
     "imageFileName": "necklace_rainbow.png",
@@ -1308,6 +1472,7 @@
   {
     "type": "necklace",
     "guid": "bee09b7a85fcf964f858596629df1e33",
+    "name": "SILVER",
     "corrupted": false,
     "description": "For each shield that survives the enemy turn, give a random friend +1 <style=\"k\">shield</style>.",
     "imageFileName": "necklace_silver.png",
@@ -1316,6 +1481,7 @@
   {
     "type": "necklace",
     "guid": "12993c016ddbe8c4c9d62ed5af48b79c",
+    "name": "$‡LV3R",
     "corrupted": true,
     "description": "For each shield that survives the enemy turn, give a random friend +1 <style=\"k\">strength</style> and +1 <style=\"k\">shield</style>.",
     "imageFileName": "necklace_silver.png",
@@ -1324,6 +1490,7 @@
   {
     "type": "necklace",
     "guid": "7943c753631828f46b0af6cfdf49cfba",
+    "name": "SPHYNX HEAD",
     "corrupted": false,
     "description": "Everytime you roll your dice, deal 1 dmg to a random enemy.",
     "imageFileName": "necklace_sphynx_head.png",
@@ -1332,6 +1499,7 @@
   {
     "type": "necklace",
     "guid": "272700a66334cb9438ceab450c1297a4",
+    "name": "$PH¥NX H34Ð",
     "corrupted": true,
     "description": "Everytime you roll your dice, deal 1 dmg to a random enemy twice.",
     "imageFileName": "necklace_sphynx_head.png",
@@ -1340,6 +1508,7 @@
   {
     "type": "necklace",
     "guid": "c1a44e615dccaaa4b876ba51e7eb3f9b",
+    "name": "SPIKED",
     "corrupted": false,
     "description": "When an enemy deals dmg to you, it takes 4 dmg.",
     "imageFileName": "necklace_spiked.png",
@@ -1348,6 +1517,7 @@
   {
     "type": "necklace",
     "guid": "508132de09a8a094b869238921d3c324",
+    "name": "$P‡K3Ð",
     "corrupted": true,
     "description": "When an enemy deals dmg to you, deal 4 dmg to all enemies.",
     "imageFileName": "necklace_spiked.png",
@@ -1356,6 +1526,7 @@
   {
     "type": "necklace",
     "guid": "22f0a78bd567cc34a8b0a74ae09570fe",
+    "name": "VINE",
     "corrupted": false,
     "description": "If you would take dmg, your mana will be used to block it.",
     "imageFileName": "necklace_vine.png",
@@ -1364,6 +1535,7 @@
   {
     "type": "necklace",
     "guid": "728564ffc008fcf49bb321783cd983f9",
+    "name": "V‡N3",
     "corrupted": true,
     "description": "If you would take dmg, use mana to reflect it to all enemies.",
     "imageFileName": "necklace_vine.png",
@@ -1372,6 +1544,7 @@
   {
     "type": "necklace",
     "guid": "36be16f7ffa333548ae64f5cd20f4502",
+    "name": "SLOT FOR",
     "corrupted": false,
     "description": "",
     "imageFileName": "no_necklace.png"
@@ -1379,6 +1552,7 @@
   {
     "type": "ring",
     "guid": "ac9a9717a63aa64479c6df76b2f4e634",
+    "name": "SLOT FOR",
     "corrupted": false,
     "description": "",
     "imageFileName": "ring_no_ring.png"
@@ -1386,6 +1560,7 @@
   {
     "type": "ring",
     "guid": "54b5fbcabb655334aa4486914ddf4c6a",
+    "name": "BEAST",
     "corrupted": false,
     "description": "When you power up your wand, give a random friend +1 <style=\"k\">strength</style>.",
     "imageFileName": "ring_monster_face.png",
@@ -1394,6 +1569,7 @@
   {
     "type": "ring",
     "guid": "0316abb604c88954993823824d0307ba",
+    "name": "B34$T",
     "corrupted": true,
     "description": "When you power up your wand, give a random friend +1 <style=\"k\">strength</style> and +1 health.",
     "imageFileName": "ring_monster_face.png",
@@ -1402,6 +1578,7 @@
   {
     "type": "ring",
     "guid": "a2e72d8b7f4b0d84db7b1c2f5c429567",
+    "name": "FRIENDSHIP",
     "corrupted": false,
     "description": "When you summon a friend, give it +1 health.",
     "imageFileName": "ring_friendship.png",
@@ -1410,6 +1587,7 @@
   {
     "type": "ring",
     "guid": "98e4fc9d91a8b1042ba2ed6c98814dc4",
+    "name": "FR‡3NÐ$H‡P",
     "corrupted": true,
     "description": "When you summon a friend, steal 1 life from it and give it +1 <style=\"k\">strength</style>. ",
     "imageFileName": "ring_friendship.png",
@@ -1418,6 +1596,7 @@
   {
     "type": "ring",
     "guid": "1df3746e9e124c040bcd4b3c7535a30d",
+    "name": "MANA BATTERY",
     "corrupted": false,
     "description": "Your mana does not reset at the end of combat.",
     "imageFileName": "ring_mana_battery.png",
@@ -1426,6 +1605,7 @@
   {
     "type": "ring",
     "guid": "8aec4cd1cb58d3948b8f3eb9c3069d9d",
+    "name": "M4N4 B4TT3R¥",
     "corrupted": true,
     "description": "Your mana does not reset at the end of combat. When you use your spell, gain 1 mana.",
     "imageFileName": "ring_mana_battery.png",
@@ -1434,6 +1614,7 @@
   {
     "type": "ring",
     "guid": "6d901f85623d29c4cbadc93e59d8f1ae",
+    "name": "PHARAOH'S",
     "corrupted": false,
     "description": "You roll an extra die on the first turn of each combat.",
     "imageFileName": "ring_pharaohs.png",
@@ -1442,6 +1623,7 @@
   {
     "type": "ring",
     "guid": "59c57fffd900d214fa0ebdeec4a41f38",
+    "name": "PH4R4ØH'$",
     "corrupted": true,
     "description": "You roll an extra die on every other turn.",
     "imageFileName": "ring_pharaohs.png",
@@ -1450,6 +1632,7 @@
   {
     "type": "ring",
     "guid": "01f9da8340166754fb919b183a931d8a",
+    "name": "POWER",
     "corrupted": false,
     "description": "At the start of combat, charge your wand.",
     "imageFileName": "ring_power.png",
@@ -1458,6 +1641,7 @@
   {
     "type": "ring",
     "guid": "32769a72387b763458ff422788199b4e",
+    "name": "PØW3R",
     "corrupted": true,
     "description": "At the start of combat, charge your wand twice.",
     "imageFileName": "ring_power.png",
@@ -1466,6 +1650,7 @@
   {
     "type": "ring",
     "guid": "286ab2b5ae2f22741958157616754002",
+    "name": "PRISM",
     "corrupted": false,
     "description": "Your die rolls never contain duplicates.",
     "imageFileName": "ring_prism.png",
@@ -1474,6 +1659,7 @@
   {
     "type": "ring",
     "guid": "a70a29d05af7eaf4e8a75886b0f38114",
+    "name": "PR‡$M",
     "corrupted": true,
     "description": "Your rolls always contain duplicates.",
     "imageFileName": "ring_prism.png",
@@ -1482,6 +1668,7 @@
   {
     "type": "ring",
     "guid": "403937d70f35795478a04e49900d4133",
+    "name": "RAGE",
     "corrupted": false,
     "description": "At the end of your turn, a random friend gets <style=\"k\">rage</style> equal to your wand dmg. Your wand loses all charge.",
     "imageFileName": "ring_rage.png",
@@ -1490,6 +1677,7 @@
   {
     "type": "ring",
     "guid": "e23dae286a705bf468023b60f505fea7",
+    "name": "R4G3",
     "corrupted": true,
     "description": "At the end of your turn, your friends get <style=\"k\">rage</style> equal to your wand dmg. Your wand loses all charge.",
     "imageFileName": "ring_rage.png",
@@ -1498,6 +1686,7 @@
   {
     "type": "ring",
     "guid": "a3cfb1310492b9243aef1dbd18c238ad",
+    "name": "SILVER",
     "corrupted": false,
     "description": "At the start of combat, gain 4 <style=\"k\">shield</style>.",
     "imageFileName": "ring_silver.png",
@@ -1506,6 +1695,7 @@
   {
     "type": "ring",
     "guid": "2da2049ab52c342449ca357ed1ef065f",
+    "name": "$‡LV3R",
     "corrupted": true,
     "description": "At the start of combat, gain 12 <style=\"k\">shield</style>.",
     "imageFileName": "ring_silver.png",
@@ -1514,6 +1704,7 @@
   {
     "type": "ring",
     "guid": "7febdf4290312444e984b2734310f8f3",
+    "name": "SPIKED",
     "corrupted": false,
     "description": "When an enemy deals dmg to you, it takes 2 dmg.",
     "imageFileName": "ring_spiked.png",
@@ -1522,6 +1713,7 @@
   {
     "type": "ring",
     "guid": "3c535e37d858b92498aad5492d1e155b",
+    "name": "$P‡K3Ð",
     "corrupted": true,
     "description": "When an enemy deals dmg to you, deal 2 dmg to all enemies.",
     "imageFileName": "ring_spiked.png",
@@ -1530,6 +1722,7 @@
   {
     "type": "ring",
     "guid": "6ca180054edc8784e93dda0a76fb2ac6",
+    "name": "SUMMONER'S",
     "corrupted": false,
     "description": "At the start of combat, summon a friend.",
     "imageFileName": "ring_summoners.png",
@@ -1538,6 +1731,7 @@
   {
     "type": "ring",
     "guid": "d5e13ce8564677b438071ff062544d02",
+    "name": "$ÜMMØN3R'$",
     "corrupted": true,
     "description": "At the start of combat, summon two friends.",
     "imageFileName": "ring_summoners.png",
@@ -1546,6 +1740,7 @@
   {
     "type": "ring",
     "guid": "3966de48f2d10be4fb43f5368cceb6a0",
+    "name": "ZEEK'S",
     "corrupted": false,
     "description": "Summons will not roll when you have no open space.",
     "imageFileName": "ring_zeeks.png",
@@ -1554,6 +1749,7 @@
   {
     "type": "ring",
     "guid": "5e7134075fa0bec4dbf610b750fb60c4",
+    "name": "Z33K'$",
     "corrupted": true,
     "description": "Dice will always roll to items with valid targets.",
     "imageFileName": "ring_zeeks.png",
@@ -1562,6 +1758,7 @@
   {
     "type": "spell",
     "guid": "58d778e1b23f04c4685d49858d99f79b",
+    "name": "ACID RAIN",
     "corrupted": false,
     "description": "Deal 1 dmg and apply 1 <style=\"k\">weakness</style> to all enemies.",
     "imageFileName": "spell_rain.png",
@@ -1570,6 +1767,7 @@
   {
     "type": "spell",
     "guid": "dcf162258bdd12b44875fb986851d0ac",
+    "name": "4¢‡Ð R4‡N",
     "corrupted": true,
     "description": "Deal 1 dmg, apply 1 <style=\"k\">weakness</style> and 1 <style=\"k\">poison</style> to all enemies.",
     "imageFileName": "spell_rain.png",
@@ -1578,6 +1776,7 @@
   {
     "type": "spell",
     "guid": "cac297e2916e4eb4aa4d796c20bec503",
+    "name": "AVALANCHE ORB",
     "corrupted": false,
     "description": "Deal 1 dmg to all enemies for each time you've cast orb during this fight.",
     "imageFileName": "spell_avalanche_orb.png",
@@ -1586,6 +1785,7 @@
   {
     "type": "spell",
     "guid": "60c9a9ff0000b3c4e9d9a1f06cabc666",
+    "name": "4V4L4N¢H3 ØRB",
     "corrupted": true,
     "description": "Deal 1 dmg to all enemies for each time you've used your wand during this fight.",
     "imageFileName": "spell_avalanche_orb.png",
@@ -1594,6 +1794,7 @@
   {
     "type": "spell",
     "guid": "95d5e5fde64bf9e428908cc281a90a95",
+    "name": "BAG OF TRICKS",
     "corrupted": false,
     "description": "Cast a random spell.",
     "imageFileName": "spell_bag_of_tricks.png",
@@ -1602,6 +1803,7 @@
   {
     "type": "spell",
     "guid": "76f3690e25844a346a2eafcf400264a9",
+    "name": "B4G ØF TR‡¢K$",
     "corrupted": true,
     "description": "Cast a random corrupted spell.",
     "imageFileName": "spell_bag_of_tricks.png",
@@ -1610,6 +1812,7 @@
   {
     "type": "spell",
     "guid": "e46460fc8ae68834c9dc284ebbc3116b",
+    "name": "CHANNEL",
     "corrupted": false,
     "description": "Use your wand 2 times on random enemies.",
     "imageFileName": "spell_channel.png",
@@ -1618,6 +1821,7 @@
   {
     "type": "spell",
     "guid": "5e910e5a1d19bdc4884012d9647480f9",
+    "name": "¢H4NN3L",
     "corrupted": true,
     "description": "Use your wand 3 times on random enemies.",
     "imageFileName": "spell_channel.png",
@@ -1626,6 +1830,7 @@
   {
     "type": "spell",
     "guid": "69eca1ca2d77dd340a72cf1bef556ef2",
+    "name": "MANA DAGGERS",
     "corrupted": false,
     "description": "Deal 2 dmg to all enemies.",
     "imageFileName": "spell_dagger_3.png",
@@ -1634,6 +1839,7 @@
   {
     "type": "spell",
     "guid": "a551449896238824a93cf56c70368c9a",
+    "name": "M4N4 Ð4GG3R$",
     "corrupted": true,
     "description": "Deal 2 dmg to all enemies.",
     "imageFileName": "spell_dagger_3.png",
@@ -1642,6 +1848,7 @@
   {
     "type": "spell",
     "guid": "b85f76ae6151e4c4b9baedf3955aaa95",
+    "name": "FIRING SQUAD",
     "corrupted": false,
     "description": "Give each of your friends 1 <style=\"k\">missile</style>.",
     "imageFileName": "spell_firing_squad.png",
@@ -1650,6 +1857,7 @@
   {
     "type": "spell",
     "guid": "38557df2cc45a3d4983099bd8bbdc900",
+    "name": "F‡R‡NG $QÜ4Ð",
     "corrupted": true,
     "description": "You and your friends get 2 <style=\"k\">missiles</style>.",
     "imageFileName": "spell_firing_squad.png",
@@ -1658,6 +1866,7 @@
   {
     "type": "spell",
     "guid": "f9999fe7da6587d4a9cddff4bd1b5d27",
+    "name": "FRESH DICE",
     "corrupted": false,
     "description": "Refresh and re-roll all of your dice. Reset spellcasting.",
     "imageFileName": "spell_dice.png",
@@ -1666,6 +1875,7 @@
   {
     "type": "spell",
     "guid": "10770c7e2a61a46479e00f716e8a49cb",
+    "name": "FR3$H Ð‡¢3",
     "corrupted": true,
     "description": "Take another turn after this one.",
     "imageFileName": "spell_dice.png",
@@ -1674,6 +1884,7 @@
   {
     "type": "spell",
     "guid": "0999eca8a0f0a58458ddba1149d6f518",
+    "name": "GEMARANG",
     "corrupted": false,
     "description": "Deal 3-5 dmg to each enemy.",
     "imageFileName": "spell_gemarang.png",
@@ -1682,6 +1893,7 @@
   {
     "type": "spell",
     "guid": "998495c90c2128f47a14896894640a06",
+    "name": "G3M4R4NG",
     "corrupted": true,
     "description": "Deal 3 dmg and apply 1 <style=\"k\">weakness</style> to each enemy. Then each enemy takes 1 dmg per <style=\"k\">weakness</style>.",
     "imageFileName": "spell_gemarang.png",
@@ -1690,6 +1902,7 @@
   {
     "type": "spell",
     "guid": "c3f37fea1a316254a8884d34d0d1c1b9",
+    "name": "MAGIC ARROWS",
     "corrupted": false,
     "description": "Deal 2 dmg to a random enemy twice.",
     "imageFileName": "spell_arrow_x2 (default).png"
@@ -1697,6 +1910,7 @@
   {
     "type": "spell",
     "guid": "20b676dccf3979b4c8c7b83908256d0f",
+    "name": "GEM GHOST",
     "corrupted": false,
     "description": "Deal 10 dmg to the enemy with the highest health and <style=k>stun</style> it.",
     "imageFileName": "spell_ghost.png",
@@ -1705,6 +1919,7 @@
   {
     "type": "spell",
     "guid": "1494a7771b8e21440aeeb4b123fda55d",
+    "name": "G3M GHØ$T",
     "corrupted": true,
     "description": "Deal 10 dmg to the enemy with the highest health and <style=k>stun</style> it. Repeat.",
     "imageFileName": "spell_ghost.png",
@@ -1713,6 +1928,7 @@
   {
     "type": "spell",
     "guid": "f577e22572b077341996324384710fbe",
+    "name": "MANA SHIELD",
     "corrupted": false,
     "description": "You and your friends gain +2 <style=\"k\">shield</style>.",
     "imageFileName": "spell_shieldup.png",
@@ -1721,6 +1937,7 @@
   {
     "type": "spell",
     "guid": "21dd60850f9d82a4abf27ebb31155acb",
+    "name": "M4N4 $H‡3LÐ",
     "corrupted": true,
     "description": "You and your friends gain +3 <style=\"k\">shield</style>.",
     "imageFileName": "spell_shieldup.png",
@@ -1729,6 +1946,7 @@
   {
     "type": "spell",
     "guid": "07fa7c8ea1dc94b44868283b4a3144e4",
+    "name": "POWER BUFF",
     "corrupted": false,
     "description": "Give your friends +1 <style=\"k\">strength</style>.",
     "imageFileName": "spell_powerup.png",
@@ -1737,6 +1955,7 @@
   {
     "type": "spell",
     "guid": "a5c31b0d733d98d438f91a4e7d989bfe",
+    "name": "PØW3R BÜFF",
     "corrupted": true,
     "description": "Give your friends +1 <style=\"k\">strength</style> and +1 health.",
     "imageFileName": "spell_powerup.png",
@@ -1745,6 +1964,7 @@
   {
     "type": "spell",
     "guid": "60a58cc1900b5e9408a0e9c57a9f3692",
+    "name": "MANA WIND",
     "corrupted": false,
     "description": "Deal 1 dmg to a random enemy 7 times.",
     "imageFileName": "spell_wind.png",
@@ -1753,6 +1973,7 @@
   {
     "type": "spell",
     "guid": "0d0bec626683f584bacf829f9a8aa2dc",
+    "name": "M4N4 W‡NÐ",
     "corrupted": true,
     "description": "Apply 1 <style=\"k\">poison</style> to a random enemy 7 times.",
     "imageFileName": "spell_wind.png",
@@ -1761,6 +1982,7 @@
   {
     "type": "spell",
     "guid": "c9ed564a5cfddfe4f9ea798e8063cc50",
+    "name": "WRECKING BALL",
     "corrupted": false,
     "description": "Deal 3 dmg to all enemies. If one dies, repeat.",
     "imageFileName": "spell_wrecking_ball.png",
@@ -1769,6 +1991,7 @@
   {
     "type": "spell",
     "guid": "622ebf720dc626e449d06f9cf39a7126",
+    "name": "WR3¢K‡NG B4LL",
     "corrupted": true,
     "description": "Deal 4 dmg to all enemies. If one dies, repeat.",
     "imageFileName": "spell_wrecking_ball.png",
@@ -1777,6 +2000,7 @@
   {
     "type": "spell",
     "guid": "b5ae45b42ef4b7d459fcdefeccd8288f",
+    "name": "GIANT BEE",
     "corrupted": false,
     "description": "Deal 20 dmg to the enemy with the highest health.",
     "imageFileName": "spell_giant_bee.png",
@@ -1785,6 +2009,7 @@
   {
     "type": "spell",
     "guid": "a2fdd9184d2bdd64d81ad65ceb54421d",
+    "name": "G‡4NT B33",
     "corrupted": true,
     "description": "Deal 20 dmg to the enemy with the highest health and 10 dmg to its adjacent friends.",
     "imageFileName": "spell_giant_bee.png",
@@ -1793,6 +2018,7 @@
   {
     "type": "spell",
     "guid": "b3649e9949818944e87c600d642c17b7",
+    "name": "MANA HAMMERS",
     "corrupted": false,
     "description": "Throw two hammers at random enemies that deal 3 dmg and lower <style=\"chance\">resist</style>.",
     "imageFileName": "spell_hammers.png",
@@ -1801,6 +2027,7 @@
   {
     "type": "spell",
     "guid": "4e06e05fe35b7144aa390001d97e48f6",
+    "name": "M4N4 H4MM3R$",
     "corrupted": true,
     "description": "Throw two hammers at random enemies that deal 3 dmg and have a <style=\"chance\">chance</style> to stun.",
     "imageFileName": "spell_hammers.png",
@@ -1809,6 +2036,7 @@
   {
     "type": "summon",
     "guid": "b9bcd74d30d055848820b661fa98ac16",
+    "name": "BEEKEEPERS",
     "corrupted": false,
     "description": "Deals dmg split randomly.",
     "imageFileName": "summon_beekeepers.png",
@@ -1817,6 +2045,7 @@
   {
     "type": "summon",
     "guid": "65c779efaf1988949876bafb3ad571e0",
+    "name": "B33K33P3R$",
     "corrupted": true,
     "description": "Deals dmg split randomly.",
     "imageFileName": "summon_beekeepers.png",
@@ -1825,6 +2054,7 @@
   {
     "type": "summon",
     "guid": "4797791d1a544814db01f847a85ac88c",
+    "name": "BIG BEES",
     "corrupted": false,
     "description": "Summon up to 3.",
     "imageFileName": "summon_big_bees.png",
@@ -1833,6 +2063,7 @@
   {
     "type": "summon",
     "guid": "3a14bf8569ee86a4d97386851e6c653a",
+    "name": "B‡G B33$",
     "corrupted": true,
     "description": "Summon up to 4.",
     "imageFileName": "summon_big_bees.png",
@@ -1841,6 +2072,7 @@
   {
     "type": "summon",
     "guid": "995f4a319954fcc4482c510fe2ba07ac",
+    "name": "BITBOYS",
     "corrupted": false,
     "description": "",
     "imageFileName": "summon_bitboys.png",
@@ -1849,6 +2081,7 @@
   {
     "type": "summon",
     "guid": "c2198e0f0be621447beaaef228eec834",
+    "name": "B‡TBØ¥$",
     "corrupted": true,
     "description": "Attack gains <style=\"k\">shield</style>.",
     "imageFileName": "summon_bitboys.png",
@@ -1857,6 +2090,7 @@
   {
     "type": "summon",
     "guid": "22820657aa9164d4caf9ae43aef477d4",
+    "name": "BLOOD IMPS",
     "corrupted": false,
     "description": "Gain 1 life when this dies.",
     "imageFileName": "summon_blood_imps.png",
@@ -1865,6 +2099,7 @@
   {
     "type": "summon",
     "guid": "ac56d5bed14ab5047b05dce0fe37d261",
+    "name": "BLØØÐ ‡MP$",
     "corrupted": true,
     "description": "Heal 1 life when this attacks.",
     "imageFileName": "summon_blood_imps.png",
@@ -1873,6 +2108,7 @@
   {
     "type": "summon",
     "guid": "00a4e46e449d358468f01e00d01f81eb",
+    "name": "FLOWERS",
     "corrupted": false,
     "description": "<sprite name=\"death_rattle\">: Lower all enemy <style=\"chance\">resist</style>.",
     "imageFileName": "summon_flowers.png"
@@ -1880,6 +2116,7 @@
   {
     "type": "summon",
     "guid": "b2b67cb90b526d34396fbf1874debf61",
+    "name": "FLØW3R$",
     "corrupted": true,
     "description": "<sprite name=\"death_rattle\">: Lower all enemy <style=\"chance\">resist</style> and apply 1 <style=\"k\">poison</style>.",
     "imageFileName": "summon_flowers.png",
@@ -1888,6 +2125,7 @@
   {
     "type": "summon",
     "guid": "40c68a1b8594ee544be18fefd0bb89b4",
+    "name": "GUBBINS",
     "corrupted": false,
     "description": "",
     "imageFileName": "summon_gubbins (default).png"
@@ -1895,6 +2133,7 @@
   {
     "type": "summon",
     "guid": "028087519efaf0949ade912c2e588392",
+    "name": "GREMLONS",
     "corrupted": false,
     "description": "",
     "imageFileName": "summon_gubbins (default).png"
@@ -1902,6 +2141,7 @@
   {
     "type": "summon",
     "guid": "a71d6c14de2dc0942a2251fcb3e169e1",
+    "name": "GUN RATS",
     "corrupted": false,
     "description": "First attack deals dmg to all enemies.",
     "imageFileName": "summon_gun_rats.png",
@@ -1910,6 +2150,7 @@
   {
     "type": "summon",
     "guid": "fee62f7694c9455479200a867a6ec151",
+    "name": "GÜN R4T$",
     "corrupted": true,
     "description": "Scurries away after attacking.",
     "imageFileName": "summon_gun_rats.png",
@@ -1918,6 +2159,7 @@
   {
     "type": "summon",
     "guid": "5b357eb1fff99564493da1ac94b437bc",
+    "name": "LASER PONIES",
     "corrupted": false,
     "description": "Deals dmg to all enemies, then loses strength.",
     "imageFileName": "summon_laser_ponies.png",
@@ -1926,6 +2168,7 @@
   {
     "type": "summon",
     "guid": "101d836522704b546b05665ed0f363df",
+    "name": "L4$3R PØN‡3$",
     "corrupted": true,
     "description": "Deals dmg and inflicts <style=\"k\">weakness</style> on all enemies, then dies.",
     "imageFileName": "summon_laser_ponies.png",
@@ -1934,6 +2177,7 @@
   {
     "type": "summon",
     "guid": "ccd496b89c7436b4882fecd3f7cb1963",
+    "name": "LIL BEASTIES",
     "corrupted": false,
     "description": "Gains +1 <style=\"k\">strength</style> after attacking.",
     "imageFileName": "summon_lil_beasties.png",
@@ -1942,6 +2186,7 @@
   {
     "type": "summon",
     "guid": "a4f58a403ee7049469c1c58eff2132c1",
+    "name": "L‡L B34$T‡3$",
     "corrupted": true,
     "description": "Gains +1 <style=\"k\">strength</style> and +1 health after attacking.",
     "imageFileName": "summon_lil_beasties.png",
@@ -1950,6 +2195,7 @@
   {
     "type": "summon",
     "guid": "ee486e78108c96d4ea6cf7b5e06dcc4a",
+    "name": "POISON SPIDERS",
     "corrupted": false,
     "description": "Inflicts 2 <style=\"k\">poison</style>.",
     "imageFileName": "summon_poisonspiders.png",
@@ -1958,6 +2204,7 @@
   {
     "type": "summon",
     "guid": "10a6ecf67a27d4a4f865957cf3cc46d8",
+    "name": "PØ‡$ØN $P‡Ð3R$",
     "corrupted": true,
     "description": "Inflicts 4 <style=\"k\">poison</style>.",
     "imageFileName": "summon_poisonspiders.png",
@@ -1966,6 +2213,7 @@
   {
     "type": "summon",
     "guid": "a179338024c0d824eb129b4fec9867db",
+    "name": "SHAPESHIFTERS",
     "corrupted": false,
     "description": "Shapeshifts into a random summon.",
     "imageFileName": "summon_shapeshifter.png",
@@ -1974,6 +2222,7 @@
   {
     "type": "summon",
     "guid": "fbe158793bda39e429488587c9557910",
+    "name": "$H4P3$H‡FT3R$",
     "corrupted": true,
     "description": "Shapeshifts into a random corrupted summon.",
     "imageFileName": "summon_shapeshifter.png",
@@ -1982,6 +2231,7 @@
   {
     "type": "summon",
     "guid": "217d0e4431355c84b83d7e4c2d019601",
+    "name": "SKELETONS",
     "corrupted": false,
     "description": "Has an extra life.",
     "imageFileName": "summon_skeletons.png",
@@ -1990,6 +2240,7 @@
   {
     "type": "summon",
     "guid": "bd8a4a1032cc7ca4caf2026a35f18f4c",
+    "name": "$K3L3TØN$",
     "corrupted": true,
     "description": "Has an extra life. Summon two skeletons at a time.",
     "imageFileName": "summon_skeletons.png",
@@ -1998,6 +2249,7 @@
   {
     "type": "summon",
     "guid": "bfa12a7d215c47a41b0ecb905c0081a4",
+    "name": "SKILLED GOBLINS",
     "corrupted": false,
     "description": "50% odds to deal double dmg.",
     "imageFileName": "summon_skilled_goblins.png",
@@ -2006,6 +2258,7 @@
   {
     "type": "summon",
     "guid": "0ec97d765b34e1143b5534ff5915923c",
+    "name": "$K‡LL3Ð GØBL‡N$",
     "corrupted": true,
     "description": "50% odds to deal tripple dmg.",
     "imageFileName": "summon_skilled_goblins.png",
@@ -2014,6 +2267,7 @@
   {
     "type": "summon",
     "guid": "37899b04c7f821f4d81532b9ab7bb814",
+    "name": "SPIDERS",
     "corrupted": false,
     "description": "",
     "imageFileName": "summon_spiders.png",
@@ -2022,6 +2276,7 @@
   {
     "type": "summon",
     "guid": "af80213bd117f4740b959c1a55c870a0",
+    "name": "$P‡Ð3R$",
     "corrupted": true,
     "description": "",
     "imageFileName": "summon_spiders.png",
@@ -2030,6 +2285,7 @@
   {
     "type": "summon",
     "guid": "04d53a4e2e5377a43859b0f8bac64fa6",
+    "name": "STONE TOTEMS",
     "corrupted": false,
     "description": "<style=\"k\">Stone</style>. Attackers get 1 <style=\"k\">weakness</style>.",
     "imageFileName": "summon_stone_totems.png",
@@ -2038,6 +2294,7 @@
   {
     "type": "summon",
     "guid": "364c1327a27d0564cb908061c2737a56",
+    "name": "$TØN3 TØT3M$",
     "corrupted": true,
     "description": "<style=\"k\">Stone</style>. Attackers get 1 <style=\"k\">weakness</style>. Has 2 <style=\"k\">missiles</style>.",
     "imageFileName": "summon_stone_totems.png",
@@ -2046,6 +2303,7 @@
   {
     "type": "summon",
     "guid": "1fadf37c8f2007740bf9134750a4ffda",
+    "name": "TROLLS",
     "corrupted": false,
     "description": "",
     "imageFileName": "summon_troll.png",
@@ -2054,6 +2312,7 @@
   {
     "type": "summon",
     "guid": "7253f488e25c0854ba94d93a2a7046cf",
+    "name": "TRØLL$",
     "corrupted": true,
     "description": "",
     "imageFileName": "summon_troll.png",
@@ -2062,6 +2321,7 @@
   {
     "type": "wand",
     "guid": "bf33138da2b083b479a1959f32c35090",
+    "name": "BENT BAPPER",
     "corrupted": false,
     "description": "50% odds to hit the wrong enemy.",
     "imageFileName": "wand_bent_bapper.png",
@@ -2071,6 +2331,7 @@
   {
     "type": "wand",
     "guid": "7e3d7ea083768f54c91050889c01370d",
+    "name": "B3NT B4PP3R",
     "corrupted": true,
     "description": "50% odds to hit the wrong enemy.",
     "imageFileName": "wand_bent_bapper.png",
@@ -2080,6 +2341,7 @@
   {
     "type": "wand",
     "guid": "86226ccfd6b5a5e4fadf7a0826b05b06",
+    "name": "CRAZY",
     "corrupted": false,
     "description": "Deals <style=k>wild</style> dmg.",
     "imageFileName": "wand_crazy.png",
@@ -2089,6 +2351,7 @@
   {
     "type": "wand",
     "guid": "4e7f33e32b6a90d4ca590cfff0f5cfef",
+    "name": "¢R4Z¥",
     "corrupted": true,
     "description": "Targets enemies at random.",
     "imageFileName": "wand_crazy.png",
@@ -2098,6 +2361,7 @@
   {
     "type": "wand",
     "guid": "f05f19d6bcb4dd14fa273179da711318",
+    "name": "DEAD SNAKE",
     "corrupted": false,
     "description": "Inflicts <style=\"k\">poison</style>.",
     "imageFileName": "wand_dead_snake.png",
@@ -2107,6 +2371,7 @@
   {
     "type": "wand",
     "guid": "7c65abe14d3c20d4fa0ea8ecc532c2fe",
+    "name": "Ð34Ð $N4K3",
     "corrupted": true,
     "description": "Inflicts <style=\"k\">poison</style>. Spends all <style=\"gem_icon\"> to apply that much <style=\"k\">poison</style> to all enemies.",
     "imageFileName": "wand_dead_snake.png",
@@ -2116,6 +2381,7 @@
   {
     "type": "wand",
     "guid": "f1fe4a53d0478d245ac94ea91017a530",
+    "name": "ELF TWIG",
     "corrupted": false,
     "description": "Target becomes <style=\"k\">marked</style>.",
     "imageFileName": "wand_elf_twig.png",
@@ -2125,6 +2391,7 @@
   {
     "type": "wand",
     "guid": "0b765ea3036dc934f898715a8baf95a2",
+    "name": "3LF TW‡G",
     "corrupted": true,
     "description": "Target becomes <style=\"k\">marked</style>. If it is already <style=\"k\">marked</style>, your friends attack.",
     "imageFileName": "wand_elf_twig.png",
@@ -2134,6 +2401,7 @@
   {
     "type": "wand",
     "guid": "af84e7ffaae5a3440b1ecc3c987e9b73",
+    "name": "FIRE STICK",
     "corrupted": false,
     "description": "<style=\"k\">Overkill</style>: Dmg all enemies equal to overkill dmg.",
     "imageFileName": "wand_bent_fire_stick.png",
@@ -2143,6 +2411,7 @@
   {
     "type": "wand",
     "guid": "6d1498aa7d07dd3479189d19fb8d2f18",
+    "name": "F‡R3 $T‡¢K",
     "corrupted": true,
     "description": "Double <style=\"k\">overkill</style>: Dmg all enemies equal to double overkill dmg.",
     "imageFileName": "wand_bent_fire_stick.png",
@@ -2152,6 +2421,7 @@
   {
     "type": "wand",
     "guid": "431a097db292ece43ac69128ddc8fd88",
+    "name": "GREAT BAPPER",
     "corrupted": false,
     "description": "",
     "imageFileName": "wand_bapper.png",
@@ -2161,6 +2431,7 @@
   {
     "type": "wand",
     "guid": "ea13e0440fdc1a746b87226a80a8e02d",
+    "name": "GR34T B4PP3R",
     "corrupted": true,
     "description": "Deals dmg twice.",
     "imageFileName": "wand_bapper.png",
@@ -2170,6 +2441,7 @@
   {
     "type": "wand",
     "guid": "f0b0dcbaf9641fd4a955ad1575c476c0",
+    "name": "HOLY",
     "corrupted": false,
     "description": "Inflicts 1 <style=\"k\">weakness</style>. Reset your wand power at the end of your turn.",
     "imageFileName": "wand_holy.png",
@@ -2179,6 +2451,7 @@
   {
     "type": "wand",
     "guid": "026d9642bc7efe145882332156632aac",
+    "name": "HØL¥",
     "corrupted": true,
     "description": "Inflicts 2 <style=\"k\">weakness</style>. Reset your wand power at the end of your turn.",
     "imageFileName": "wand_holy.png",
@@ -2188,6 +2461,7 @@
   {
     "type": "wand",
     "guid": "ea63b03e6dfc8fa4eb0a674a7ee8dce5",
+    "name": "HONEY DIPPER",
     "corrupted": false,
     "description": "Inflicts <style=\"k\">bees</style>.",
     "imageFileName": "wand_honey_dipper.png",
@@ -2197,6 +2471,7 @@
   {
     "type": "wand",
     "guid": "e06d11032c741f64985749e0e268600d",
+    "name": "HØN3¥ Ð‡PP3R",
     "corrupted": true,
     "description": "Inflicts <style=\"k\">killer bees</style>.",
     "imageFileName": "wand_honey_dipper.png",
@@ -2206,6 +2481,7 @@
   {
     "type": "wand",
     "guid": "e16dbb90f3d476540863edebb7ebb177",
+    "name": "LIGHTNING ROD",
     "corrupted": false,
     "description": "Resets after each use.",
     "imageFileName": "wand_lightning_rod.png",
@@ -2215,6 +2491,7 @@
   {
     "type": "wand",
     "guid": "7ce265e793e43434bb81038e93fe878e",
+    "name": "L‡GHTN‡NG RØÐ",
     "corrupted": true,
     "description": "At full power, <style=\"k\">stun</style> target. Resets after each use.",
     "imageFileName": "wand_lightning_rod.png",
@@ -2224,6 +2501,7 @@
   {
     "type": "wand",
     "guid": "112825b21e002904182d874a38f404ee",
+    "name": "MAGICIANS WAND",
     "corrupted": false,
     "description": "Use three times in a turn to do a <style=\"k\">card trick</style>.",
     "imageFileName": "wand_magicians.png",
@@ -2233,6 +2511,7 @@
   {
     "type": "wand",
     "guid": "0a003c4c323e2ca439cff4c8965be492",
+    "name": "M4G‡¢‡4N$ W4NÐ",
     "corrupted": true,
     "description": "Use three times in a turn to do a corrupted <style=\"k\">card trick</style>.",
     "imageFileName": "wand_magicians.png",
@@ -2242,6 +2521,7 @@
   {
     "type": "wand",
     "guid": "d485276f33489ed4291a97a31367fa05",
+    "name": "PAIN",
     "corrupted": false,
     "description": "Target friends to deal dmg to all enemies.",
     "imageFileName": "wand_deathwind.png",
@@ -2251,6 +2531,7 @@
   {
     "type": "wand",
     "guid": "3704467d8d0ca214782c6e3e78846411",
+    "name": "P4‡N",
     "corrupted": true,
     "description": "Target yourself to deal 4x dmg to all enemies.",
     "imageFileName": "wand_deathwind.png",
@@ -2260,6 +2541,7 @@
   {
     "type": "wand",
     "guid": "23ac8c6d0c5e52b4bb2d664fa94b5d7e",
+    "name": "PARROT WAND",
     "corrupted": false,
     "description": "Deals an additional (2) <style=\"k\">wild</style> dmg to a random enemy.",
     "imageFileName": "wand_parrot.png",
@@ -2269,6 +2551,7 @@
   {
     "type": "wand",
     "guid": "15c2104b91e9dd847ae102c22948d95e",
+    "name": "P4RRØT W4NÐ",
     "corrupted": true,
     "description": "Deals an additional (2) <style=\"k\">wild</style> dmg to each enemy.",
     "imageFileName": "wand_parrot.png",
@@ -2278,6 +2561,7 @@
   {
     "type": "wand",
     "guid": "011f66ba81f34e141a8bd6719b1f7b20",
+    "name": "PITCHFORK",
     "corrupted": false,
     "description": "Deals (1) dmg to adjacent enemies.",
     "imageFileName": "wand_pitchfork.png",
@@ -2287,6 +2571,7 @@
   {
     "type": "wand",
     "guid": "1e27a1fdf1deb284db83e2da20d900a2",
+    "name": "P‡T¢HFØRK",
     "corrupted": true,
     "description": "Deals wand dmg to adjacent enemies.",
     "imageFileName": "wand_pitchfork.png",
@@ -2296,6 +2581,7 @@
   {
     "type": "wand",
     "guid": "a551a1c3f37b4224dac537bb5a906110",
+    "name": "UNICORN HORN",
     "corrupted": false,
     "description": "Re-roll your remaining dice after each use.",
     "imageFileName": "wand_unicorn_horn.png",
@@ -2305,6 +2591,7 @@
   {
     "type": "wand",
     "guid": "b00f34bc1cba14b4cb4db0c557c93904",
+    "name": "ÜN‡¢ØRN HØRN",
     "corrupted": true,
     "description": "If a wand is rolled, <style=\"k\">BARK</style> to re-roll your remaining dice.",
     "imageFileName": "wand_unicorn_horn.png",
@@ -2314,6 +2601,7 @@
   {
     "type": "wand",
     "guid": "aca62dcbe11189e4cb3552168ac33556",
+    "name": "WRENCH",
     "corrupted": false,
     "description": "",
     "imageFileName": "wand_wrench.png",
@@ -2323,6 +2611,7 @@
   {
     "type": "wand",
     "guid": "9a795fb60829a3546935fe2c6a610b4a",
+    "name": "WR3N¢H",
     "corrupted": true,
     "description": "Charges itself after each use.",
     "imageFileName": "wand_wrench.png",
@@ -2332,6 +2621,7 @@
   {
     "type": "wand",
     "guid": "6bc9dea8b39ddef4a8c6b30184c281e0",
+    "name": "ZAPPER WAND",
     "corrupted": false,
     "description": "<style=\"hint\">Deals dmg based on wand charge. Charge with book.",
     "imageFileName": "wand_zapper (default).png",
