@@ -24,7 +24,7 @@ import {
   EQUIPMENT_TYPE_TO_DIRECTORY_NAME,
   PROJECT_ROOT,
 } from "./constants.js";
-import type { AllEquipment } from "./equipment.js";
+import type { Equipment } from "./equipment.js";
 import { EQUIPMENT_TYPES, EquipmentType } from "./equipment.js";
 
 await main();
@@ -53,7 +53,7 @@ async function main() {
 
 async function makeEquipmentJSON(
   extractedFilesPath: string,
-): Promise<AllEquipment> {
+): Promise<readonly Equipment[]> {
   const equipmentDirectory = path.join(
     extractedFilesPath,
     "ExportedProject",
@@ -68,7 +68,7 @@ async function makeEquipmentJSON(
     );
   }
 
-  const allEquipment: Partial<AllEquipment> = {};
+  const allEquipment: Equipment[] = [];
 
   for (const equipmentType of EQUIPMENT_TYPES) {
     const directoryName = EQUIPMENT_TYPE_TO_DIRECTORY_NAME[equipmentType];
@@ -187,15 +187,9 @@ async function makeEquipmentJSON(
 
       const corrupted = IsCorrupted === 1;
 
-      let allEquipmentOfType = allEquipment[equipmentType];
-      if (allEquipmentOfType === undefined) {
-        allEquipmentOfType = {};
-        allEquipment[equipmentType] = allEquipmentOfType as never;
-      }
-
       switch (equipmentType) {
         case EquipmentType.wand: {
-          allEquipmentOfType[equipmentName] = {
+          allEquipment.push({
             type: equipmentType,
             guid,
             corrupted,
@@ -203,19 +197,19 @@ async function makeEquipmentJSON(
             imageFileName,
             counterpartGUID,
             damage: [1, 2, 3],
-          };
+          });
           break;
         }
 
         default: {
-          allEquipmentOfType[equipmentName] = {
+          allEquipment.push({
             type: equipmentType,
             guid,
             corrupted,
             description: description ?? "",
             imageFileName,
             counterpartGUID,
-          };
+          });
           break;
         }
       }
@@ -233,7 +227,7 @@ async function makeEquipmentJSON(
 
   console.log(`Wrote file: ${equipmentPath}`);
 
-  return allEquipment as AllEquipment;
+  return allEquipment;
 }
 
 function getEquipmentGUIDFromMeta(filePath: string): string {
@@ -321,13 +315,11 @@ function getImageFileName(
   return `${baseFileName}.png`;
 }
 
-async function copyEquipmentImages(allEquipment: AllEquipment) {
+async function copyEquipmentImages(allEquipment: readonly Equipment[]) {
   const imageFileNamesSet = new Set<string>();
-  for (const equipmentType of Object.values(allEquipment)) {
-    for (const equipment of Object.values(equipmentType)) {
-      const { imageFileName } = equipment;
-      imageFileNamesSet.add(imageFileName);
-    }
+  for (const equipment of allEquipment) {
+    const { imageFileName } = equipment;
+    imageFileNamesSet.add(imageFileName);
   }
 
   const imageFileNames = [...imageFileNamesSet];

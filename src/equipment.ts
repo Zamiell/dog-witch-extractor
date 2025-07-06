@@ -59,7 +59,7 @@ interface Summon extends BaseEquipment {
   type: EquipmentType.summon;
 }
 
-export interface Wand extends BaseEquipment {
+interface Wand extends BaseEquipment {
   type: EquipmentType.wand;
   damage: [level1Damage: number, level2Damage: number, level3Damage: number];
 }
@@ -75,9 +75,3 @@ export type Equipment =
   | Spell
   | Summon
   | Wand;
-
-export type AllEquipment = {
-  [K in EquipmentType]: K extends "wand"
-    ? Record<string, Wand>
-    : Record<string, Equipment>;
-};
