@@ -85,12 +85,14 @@ async function main() {
         );
       }
 
-      const hash1 = getFileSHA1(downloadedFilePath);
-      const hash2 = getFileSHA1(imageFilePath);
+      // eslint-disable-next-line no-await-in-loop
+      const hash1 = await getFileSHA1(downloadedFilePath);
+      // eslint-disable-next-line no-await-in-loop
+      const hash2 = await getFileSHA1(imageFilePath);
 
       if (hash1 !== hash2) {
         throw new Error(
-          `The file of "${fileName}" exists on the wiki but it is outdated.`,
+          `The file of "${fileName}" exists on the wiki but it is outdated. (wiki: ${hash1}, local: ${hash2})`,
         );
       }
     } else {

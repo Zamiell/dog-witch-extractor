@@ -88,6 +88,9 @@ class BasicBot(
             # Get the original filename
             filename = file_page.title(with_ns=False)
 
+            # MediaWiki converts underscores to spaces, so we have to convert them back
+            filename = filename.replace(" ", "_")
+
             # Create a safe filename
             safe_filename = re.sub(r'[<>:"/\\|?*]', '_', filename)
 
