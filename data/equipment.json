@@ -2066,7 +2066,7 @@
     "description": "50% odds to hit the wrong enemy.",
     "imageFileName": "wand_bent_bapper.png",
     "counterpartGUID": "7e3d7ea083768f54c91050889c01370d",
-    "damage": [1, 2, 3]
+    "damage": [2, 4, 6]
   },
   {
     "type": "wand",
@@ -2075,7 +2075,7 @@
     "description": "50% odds to hit the wrong enemy.",
     "imageFileName": "wand_bent_bapper.png",
     "counterpartGUID": "bf33138da2b083b479a1959f32c35090",
-    "damage": [1, 2, 3]
+    "damage": [4, 6, 10]
   },
   {
     "type": "wand",
@@ -2084,7 +2084,7 @@
     "description": "Deals <style=k>wild</style> dmg.",
     "imageFileName": "wand_crazy.png",
     "counterpartGUID": "4e7f33e32b6a90d4ca590cfff0f5cfef",
-    "damage": [1, 2, 3]
+    "damage": [4, 6, 8]
   },
   {
     "type": "wand",
@@ -2093,7 +2093,7 @@
     "description": "Targets enemies at random.",
     "imageFileName": "wand_crazy.png",
     "counterpartGUID": "86226ccfd6b5a5e4fadf7a0826b05b06",
-    "damage": [1, 2, 3]
+    "damage": [4, 6, 8]
   },
   {
     "type": "wand",
@@ -2138,7 +2138,7 @@
     "description": "<style=\"k\">Overkill</style>: Dmg all enemies equal to overkill dmg.",
     "imageFileName": "wand_bent_fire_stick.png",
     "counterpartGUID": "6d1498aa7d07dd3479189d19fb8d2f18",
-    "damage": [1, 2, 3]
+    "damage": [1, 2, 5]
   },
   {
     "type": "wand",
@@ -2147,7 +2147,7 @@
     "description": "Double <style=\"k\">overkill</style>: Dmg all enemies equal to double overkill dmg.",
     "imageFileName": "wand_bent_fire_stick.png",
     "counterpartGUID": "af84e7ffaae5a3440b1ecc3c987e9b73",
-    "damage": [1, 2, 3]
+    "damage": [1, 2, 5]
   },
   {
     "type": "wand",
@@ -2156,7 +2156,7 @@
     "description": "",
     "imageFileName": "wand_bapper.png",
     "counterpartGUID": "ea13e0440fdc1a746b87226a80a8e02d",
-    "damage": [1, 2, 3]
+    "damage": [2, 3, 4]
   },
   {
     "type": "wand",
@@ -2174,7 +2174,7 @@
     "description": "Inflicts 1 <style=\"k\">weakness</style>. Reset your wand power at the end of your turn.",
     "imageFileName": "wand_holy.png",
     "counterpartGUID": "026d9642bc7efe145882332156632aac",
-    "damage": [1, 2, 3]
+    "damage": [0, 3, 7]
   },
   {
     "type": "wand",
@@ -2183,7 +2183,7 @@
     "description": "Inflicts 2 <style=\"k\">weakness</style>. Reset your wand power at the end of your turn.",
     "imageFileName": "wand_holy.png",
     "counterpartGUID": "f0b0dcbaf9641fd4a955ad1575c476c0",
-    "damage": [1, 2, 3]
+    "damage": [0, 5, 14]
   },
   {
     "type": "wand",
@@ -2192,7 +2192,7 @@
     "description": "Inflicts <style=\"k\">bees</style>.",
     "imageFileName": "wand_honey_dipper.png",
     "counterpartGUID": "e06d11032c741f64985749e0e268600d",
-    "damage": [1, 2, 3]
+    "damage": [0, 2, 3]
   },
   {
     "type": "wand",
@@ -2201,7 +2201,7 @@
     "description": "Inflicts <style=\"k\">killer bees</style>.",
     "imageFileName": "wand_honey_dipper.png",
     "counterpartGUID": "ea63b03e6dfc8fa4eb0a674a7ee8dce5",
-    "damage": [1, 2, 3]
+    "damage": [0, 2, 3]
   },
   {
     "type": "wand",
@@ -2210,7 +2210,7 @@
     "description": "Resets after each use.",
     "imageFileName": "wand_lightning_rod.png",
     "counterpartGUID": "7ce265e793e43434bb81038e93fe878e",
-    "damage": [1, 2, 3]
+    "damage": [1, 5, 10]
   },
   {
     "type": "wand",
@@ -2219,7 +2219,7 @@
     "description": "At full power, <style=\"k\">stun</style> target. Resets after each use.",
     "imageFileName": "wand_lightning_rod.png",
     "counterpartGUID": "e16dbb90f3d476540863edebb7ebb177",
-    "damage": [1, 2, 3]
+    "damage": [1, 5, 15]
   },
   {
     "type": "wand",
@@ -2300,7 +2300,7 @@
     "description": "Re-roll your remaining dice after each use.",
     "imageFileName": "wand_unicorn_horn.png",
     "counterpartGUID": "b00f34bc1cba14b4cb4db0c557c93904",
-    "damage": [1, 2, 3]
+    "damage": [1, 2, 5]
   },
   {
     "type": "wand",
@@ -2309,7 +2309,7 @@
     "description": "If a wand is rolled, <style=\"k\">BARK</style> to re-roll your remaining dice.",
     "imageFileName": "wand_unicorn_horn.png",
     "counterpartGUID": "a551a1c3f37b4224dac537bb5a906110",
-    "damage": [1, 2, 3]
+    "damage": [1, 2, 5]
   },
   {
     "type": "wand",
@@ -2318,7 +2318,7 @@
     "description": "",
     "imageFileName": "wand_wrench.png",
     "counterpartGUID": "9a795fb60829a3546935fe2c6a610b4a",
-    "damage": [1, 2, 3]
+    "damage": [3, 2, 1]
   },
   {
     "type": "wand",
@@ -2327,7 +2327,7 @@
     "description": "Charges itself after each use.",
     "imageFileName": "wand_wrench.png",
     "counterpartGUID": "aca62dcbe11189e4cb3552168ac33556",
-    "damage": [1, 2, 3]
+    "damage": [3, 2, 1]
   },
   {
     "type": "wand",

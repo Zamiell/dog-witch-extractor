@@ -85,7 +85,7 @@ async function makeEquipmentJSON(
     );
 
     for (const filePath of assetFilePaths) {
-      const equipment = getEquipmentFromFile(
+      const equipment = getEquipmentDataFromFile(
         equipmentType,
         equipmentTypeDirectory,
         filePath,
@@ -108,12 +108,12 @@ async function makeEquipmentJSON(
   return allEquipment;
 }
 
-function getEquipmentFromFile(
+function getEquipmentDataFromFile(
   equipmentType: EquipmentType,
   equipmentTypeDirectory: string,
   filePath: string,
 ): Equipment {
-  const guid = getEquipmentGUIDFromMeta(filePath);
+  const guid = getEquipmentGUIDFromMetaFile(filePath);
 
   const fileContents = readFile(filePath);
 
@@ -127,7 +127,11 @@ function getEquipmentFromFile(
   });
   const yamlContents = lines.join("\n");
 
-  const file = yaml.parse(yamlContents) as unknown;
+  const file = yaml.parse(yamlContents, {
+    // We need to parse numbers as strings in order to properly preserve values like:
+    // 00000000020000000400000006000000
+    schema: "failsafe",
+  }) as unknown;
   if (!isObject(file)) {
     throw new Error(
       `Failed to parse the "${filePath}" file as an object: ${file}`,
@@ -148,6 +152,7 @@ function getEquipmentFromFile(
     description,
     linkedCorruptionCounterpart,
     IsCorrupted,
+    damageRamp,
   } = MonoBehaviour;
 
   if (typeof equipmentName !== "string") {
@@ -198,22 +203,41 @@ function getEquipmentFromFile(
     );
   }
 
-  if (typeof IsCorrupted !== "number") {
+  if (typeof IsCorrupted !== "string") {
     throw new TypeError(
       `Failed to parse the "IsCorrupted" field of the "${filePath}" file: ${iconSpriteGUID}`,
     );
   }
 
-  if (IsCorrupted !== 0 && IsCorrupted !== 1) {
+  if (IsCorrupted !== "0" && IsCorrupted !== "1") {
     throw new TypeError(
       `The "IsCorrupted" field of the "${filePath}" file has an unknown value: ${iconSpriteGUID}`,
     );
   }
 
-  const corrupted = IsCorrupted === 1;
+  const corrupted = IsCorrupted === "1";
 
   switch (equipmentType) {
     case EquipmentType.wand: {
+      if (typeof damageRamp !== "string") {
+        throw new TypeError(
+          `Failed to parse the "damageRamp" field of the "${filePath}" file: ${damageRamp}`,
+        );
+      }
+
+      const [level1Damage, level2Damage, level3Damage] =
+        parseHexString(damageRamp);
+
+      if (
+        level1Damage === undefined
+        || level2Damage === undefined
+        || level3Damage === undefined
+      ) {
+        throw new Error(
+          `Failed to parse the wand damage values for "${equipmentName}" from the hex string of: ${damageRamp}`,
+        );
+      }
+
       return {
         type: equipmentType,
         guid,
@@ -221,7 +245,7 @@ function getEquipmentFromFile(
         description: description ?? "",
         imageFileName,
         counterpartGUID,
-        damage: [1, 2, 3],
+        damage: [level1Damage, level2Damage, level3Damage],
       };
     }
 
@@ -238,7 +262,7 @@ function getEquipmentFromFile(
   }
 }
 
-function getEquipmentGUIDFromMeta(filePath: string): string {
+function getEquipmentGUIDFromMetaFile(filePath: string): string {
   const metaFilePath = `${filePath}.meta`;
   const fileContents = readFile(metaFilePath);
 
@@ -321,6 +345,38 @@ function getImageFileName(
   const baseFileName = trimSuffix(fileName, ".asset.meta");
 
   return `${baseFileName}.png`;
+}
+
+/**
+ * The game uses a hex string to represent wand damage. For example, the Zapper Wand has the
+ * following "damageRamp" value:
+ *
+ * 00000000010000000200000003000000
+ */
+function parseHexString(input: string): readonly number[] {
+  const result: number[] = [];
+
+  // Process every 8 characters (4 bytes).
+  for (let i = 0; i < input.length; i += 8) {
+    const hexChunk = input.slice(i, i + 8);
+
+    // Convert from little-endian hex to number.
+    const byte1 = Number.parseInt(hexChunk.slice(0, 2), 16);
+    const byte2 = Number.parseInt(hexChunk.slice(2, 4), 16);
+    const byte3 = Number.parseInt(hexChunk.slice(4, 6), 16);
+    const byte4 = Number.parseInt(hexChunk.slice(6, 8), 16);
+
+    // Combine bytes in little-endian order.
+    // eslint-disable-next-line no-bitwise
+    const value = byte1 | (byte2 << 8) | (byte3 << 16) | (byte4 << 24);
+
+    result.push(value);
+  }
+
+  // The first value is always zero, so we can discard it.
+  result.shift();
+
+  return result;
 }
 
 async function copyEquipmentImages(allEquipment: readonly Equipment[]) {
