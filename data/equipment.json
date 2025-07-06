@@ -1,12 +1,14 @@
 {
-  "bones": {
+  "bone": {
     "BONE": {
+      "type": "bone",
       "guid": "87901d47c4ecf3447876dd3f00e6686a",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.",
       "imageFileName": "bone (default).png"
     },
     "BIG BONE": {
+      "type": "bone",
       "guid": "646b3310adf51b54287d38b96c658f7d",
       "corrupted": false,
       "description": "Gain 5 <style=\"k\">shield</style>. You cannot use bones on your next turn.",
@@ -14,6 +16,7 @@
       "counterpartGUID": "fc5edc73269a1be41b7adaa65f9eb929"
     },
     "B‡G BØN3": {
+      "type": "bone",
       "guid": "fc5edc73269a1be41b7adaa65f9eb929",
       "corrupted": true,
       "description": "Gain 10 <style=\"k\">shield</style>. You cannot use bones on your next turn.",
@@ -21,6 +24,7 @@
       "counterpartGUID": "646b3310adf51b54287d38b96c658f7d"
     },
     "BLASTER BONE": {
+      "type": "bone",
       "guid": "e5b8cfa1d1503e24eb150af5e10d610f",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to gain 3 <style=\"k\">missiles</style>.",
@@ -28,6 +32,7 @@
       "counterpartGUID": "1faee2dc9da551f4484861476e919ebc"
     },
     "BL4$T3R BØN3": {
+      "type": "bone",
       "guid": "1faee2dc9da551f4484861476e919ebc",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to give yourself and each of your friends 3 <style=\"k\">missiles</style>.",
@@ -35,6 +40,7 @@
       "counterpartGUID": "e5b8cfa1d1503e24eb150af5e10d610f"
     },
     "STRANGE BONE": {
+      "type": "bone",
       "guid": "d3570e626154cc24787597af4e6b5755",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.",
@@ -42,6 +48,7 @@
       "counterpartGUID": "f66ae170443941d48806480897752600"
     },
     "$TR4NG3 BØN3": {
+      "type": "bone",
       "guid": "f66ae170443941d48806480897752600",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to turn this into <style=\"k\">EVIL BONE</style> until the end of combat.",
@@ -49,6 +56,7 @@
       "counterpartGUID": "d3570e626154cc24787597af4e6b5755"
     },
     "EVIL BONE": {
+      "type": "bone",
       "guid": "8f36e91d9311fe141bcf32caa01a3a52",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.",
@@ -56,6 +64,7 @@
       "counterpartGUID": "915cce4ee01e65b458219e34fad0f931"
     },
     "3V‡L BØN3": {
+      "type": "bone",
       "guid": "915cce4ee01e65b458219e34fad0f931",
       "corrupted": true,
       "description": "Gain 2 shield.\n\nUse 3 in a turn to turn this into <style=\"k\">HELLFIRE BONE</style> until the end of combat.",
@@ -63,6 +72,7 @@
       "counterpartGUID": "8f36e91d9311fe141bcf32caa01a3a52"
     },
     "H3LLF‡R3 BØN3": {
+      "type": "bone",
       "guid": "911c915946602b044a30017fc5f971b2",
       "corrupted": true,
       "description": "Gain 2 shield.\n\nUse 3 in a turn to deal 666 dmg to all enemies.",
@@ -70,6 +80,7 @@
       "counterpartGUID": "b063e3c2ccdcc0646b4a77fc46bae3b9"
     },
     "LIFE BONE": {
+      "type": "bone",
       "guid": "eee53d04404bbac4c8a7dd460e51fdb9",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to heal 1 life.",
@@ -77,6 +88,7 @@
       "counterpartGUID": "11f36597dd95f7d4f8ae73b2d09c29f3"
     },
     "L‡F3 BØN3": {
+      "type": "bone",
       "guid": "11f36597dd95f7d4f8ae73b2d09c29f3",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to heal your party 2 life.",
@@ -84,6 +96,7 @@
       "counterpartGUID": "eee53d04404bbac4c8a7dd460e51fdb9"
     },
     "MAGIC BONE": {
+      "type": "bone",
       "guid": "f97bcccbab14573449444bf569ec60c6",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to cast a random spell for free.",
@@ -91,6 +104,7 @@
       "counterpartGUID": "2b4ce966ec798214fb5b8937091a3035"
     },
     "M4G‡¢ BØN3": {
+      "type": "bone",
       "guid": "2b4ce966ec798214fb5b8937091a3035",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to cast your spell for free.",
@@ -98,6 +112,7 @@
       "counterpartGUID": "f97bcccbab14573449444bf569ec60c6"
     },
     "POWER BONE": {
+      "type": "bone",
       "guid": "eec437c570c07da43b8e0db931227cce",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to give your friends +1 <style=k>strength</style> and +1 health.",
@@ -105,6 +120,7 @@
       "counterpartGUID": "56ad1d70664beda418a2edb7982bd2cd"
     },
     "PØW3R BØN3": {
+      "type": "bone",
       "guid": "56ad1d70664beda418a2edb7982bd2cd",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to give your friends +3 <style=k>strength</style> and +3 health.",
@@ -112,6 +128,7 @@
       "counterpartGUID": "eec437c570c07da43b8e0db931227cce"
     },
     "PUTRID BONE": {
+      "type": "bone",
       "guid": "ba393839479a5ae45b56ebd1751f7fb7",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to apply 2 <style=\"k\">poison</style> to all enemies.",
@@ -119,6 +136,7 @@
       "counterpartGUID": "6e0325818d678e04b8be2de05f194801"
     },
     "PÜTR‡Ð BØN3": {
+      "type": "bone",
       "guid": "6e0325818d678e04b8be2de05f194801",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to apply 4 <style=\"k\">poison</style> to all enemies.",
@@ -126,6 +144,7 @@
       "counterpartGUID": "ba393839479a5ae45b56ebd1751f7fb7"
     },
     "RAINBONE": {
+      "type": "bone",
       "guid": "da1a5eba7514cf44fad869e46825dfc9",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to randomly charge your wand or gain 1 mana or gain 1 life.",
@@ -133,6 +152,7 @@
       "counterpartGUID": "b588a4afa38e80c459f2a2fe9469edb6"
     },
     "R4‡NBØN3": {
+      "type": "bone",
       "guid": "b588a4afa38e80c459f2a2fe9469edb6",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to charge your wand, gain 1 mana and heal 1 life.",
@@ -140,6 +160,7 @@
       "counterpartGUID": "da1a5eba7514cf44fad869e46825dfc9"
     },
     "SHOCKY BONE": {
+      "type": "bone",
       "guid": "cc6c8458f740163478e0f4b98248c784",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to activate <style=\"k\">electric shield</style>.",
@@ -147,6 +168,7 @@
       "counterpartGUID": "cbb2003e4b1463547ace9d820ddb28de"
     },
     "$HØ¢K¥ BØN3": {
+      "type": "bone",
       "guid": "cbb2003e4b1463547ace9d820ddb28de",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to shield your friends and activate <style=\"k\">electric shield</style> on your party.",
@@ -154,6 +176,7 @@
       "counterpartGUID": "cc6c8458f740163478e0f4b98248c784"
     },
     "SPICY BONE": {
+      "type": "bone",
       "guid": "ceff21e1635cd8e4993fbc78f0666696",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to deal 3 dmg to all enemies.",
@@ -161,6 +184,7 @@
       "counterpartGUID": "bab3c020a73f3dc46a18afbd5f1cd6ae"
     },
     "$P‡¢¥ BØN3": {
+      "type": "bone",
       "guid": "bab3c020a73f3dc46a18afbd5f1cd6ae",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to deal 6 dmg to all enemies.",
@@ -168,6 +192,7 @@
       "counterpartGUID": "ceff21e1635cd8e4993fbc78f0666696"
     },
     "SPOOKY BONE": {
+      "type": "bone",
       "guid": "3f039d08693c5df499dd6c128197a958",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to lower all enemies <style=\"chance\">resist</style>.",
@@ -175,6 +200,7 @@
       "counterpartGUID": "3b3b04d1e881b4b4288c12af13e619fe"
     },
     "$PØØK¥ BØN3": {
+      "type": "bone",
       "guid": "3b3b04d1e881b4b4288c12af13e619fe",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to lower all enemies <style=\"chance\">resist</style> by 3.",
@@ -182,6 +208,7 @@
       "counterpartGUID": "3f039d08693c5df499dd6c128197a958"
     },
     "SQUEAKY BONE": {
+      "type": "bone",
       "guid": "ec8dcfff2517e404eb4944b84d93e3b7",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse three in a turn to make your friends attack.",
@@ -189,6 +216,7 @@
       "counterpartGUID": "d6a8c4c29fd20ab4ead611a31ef42771"
     },
     "$QÜ34K¥ BØN3": {
+      "type": "bone",
       "guid": "d6a8c4c29fd20ab4ead611a31ef42771",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse three in a turn to make your friends attack twice.",
@@ -196,6 +224,7 @@
       "counterpartGUID": "ec8dcfff2517e404eb4944b84d93e3b7"
     },
     "STEEL BONE": {
+      "type": "bone",
       "guid": "2af565df7f658d84ebacb89b1a74bdb6",
       "corrupted": false,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to make your shield last an extra turn.",
@@ -203,6 +232,7 @@
       "counterpartGUID": "7c634acd20e988d4c890dd63c35d9205"
     },
     "$T33L BØN3": {
+      "type": "bone",
       "guid": "7c634acd20e988d4c890dd63c35d9205",
       "corrupted": true,
       "description": "Gain 2 <style=\"k\">shield</style>.\n\nUse 3 in a turn to gain 8 <style=\"k\">shield</style> at the start of your next turn.",
@@ -210,8 +240,9 @@
       "counterpartGUID": "2af565df7f658d84ebacb89b1a74bdb6"
     }
   },
-  "books": {
+  "book": {
     "ALCHEMY BOOK": {
+      "type": "book",
       "guid": "602ceac90c8df034b8b04aa5fe4fc236",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">CONJURE JEWELRY</style>.",
@@ -219,6 +250,7 @@
       "counterpartGUID": "255de30b61cca8c4182e16c70ffdbde2"
     },
     "CONJURE JEWELRY": {
+      "type": "book",
       "guid": "aa5e8101b7ece334c856ecabd1694988",
       "corrupted": false,
       "description": "Target yourself to morph your jewelry into pieces from a random powerful set.",
@@ -226,6 +258,7 @@
       "counterpartGUID": "a2a74ac6404b52946b42309f6b792a08"
     },
     "4L¢H3M¥ BØØK": {
+      "type": "book",
       "guid": "255de30b61cca8c4182e16c70ffdbde2",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">¢ØNJÜR3 J3W3LR¥</style>.",
@@ -233,6 +266,7 @@
       "counterpartGUID": "602ceac90c8df034b8b04aa5fe4fc236"
     },
     "¢ØNJÜR3 J3W3LR¥": {
+      "type": "book",
       "guid": "a2a74ac6404b52946b42309f6b792a08",
       "corrupted": true,
       "description": "Target yourself to morph your jewelry into pieces from a random powerful set.",
@@ -240,6 +274,7 @@
       "counterpartGUID": "aa5e8101b7ece334c856ecabd1694988"
     },
     "ART OF WAR": {
+      "type": "book",
       "guid": "274cdc5709677c14282031134dc06158",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SUPRISE</style>.",
@@ -247,6 +282,7 @@
       "counterpartGUID": "a025f5dfa1a6b2e438cabb08f37452e2"
     },
     "SUPRISE": {
+      "type": "book",
       "guid": "9048922de7bd0744287030ad1477cf73",
       "corrupted": false,
       "description": "Target enemy becomes <style=\"k\">marked</style> and your friends attack it.",
@@ -254,6 +290,7 @@
       "counterpartGUID": "f722687ff6246f84d9a61d336b106280"
     },
     "4RT ØF W4R": {
+      "type": "book",
       "guid": "a025f5dfa1a6b2e438cabb08f37452e2",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$ÜPR‡$3</style>.",
@@ -261,6 +298,7 @@
       "counterpartGUID": "274cdc5709677c14282031134dc06158"
     },
     "$ÜPR‡$3": {
+      "type": "book",
       "guid": "f722687ff6246f84d9a61d336b106280",
       "corrupted": true,
       "description": "Target enemy becomes <style=\"k\">marked</style>. Target enemy becomes <style=\"k\">marked</style> and your friends attack it, twice.",
@@ -268,6 +306,7 @@
       "counterpartGUID": "9048922de7bd0744287030ad1477cf73"
     },
     "BESTIARY": {
+      "type": "book",
       "guid": "300b710dad945174e9dadb247efa65fb",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">INVOKE</style>.",
@@ -275,6 +314,7 @@
       "counterpartGUID": "064e28eecc6b2f245b70518aa0855427"
     },
     "INVOKE": {
+      "type": "book",
       "guid": "f6c0f719df553114c8bba63e9af49195",
       "corrupted": false,
       "description": "Conjure 2 summon dice.",
@@ -282,6 +322,7 @@
       "counterpartGUID": "ef37e6025eb7ee14c97bcde9742c1454"
     },
     "B3$T‡4R¥": {
+      "type": "book",
       "guid": "064e28eecc6b2f245b70518aa0855427",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">‡NVØK3</style>.",
@@ -289,6 +330,7 @@
       "counterpartGUID": "300b710dad945174e9dadb247efa65fb"
     },
     "‡NVØK3": {
+      "type": "book",
       "guid": "ef37e6025eb7ee14c97bcde9742c1454",
       "corrupted": true,
       "description": "Conjure 4 summon dice.",
@@ -296,6 +338,7 @@
       "counterpartGUID": "f6c0f719df553114c8bba63e9af49195"
     },
     "BOMB MANUAL": {
+      "type": "book",
       "guid": "30b9cf0243f23724d9f4331e2fc6a991",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">TIME BOMB</style>.",
@@ -303,6 +346,7 @@
       "counterpartGUID": "dff8a6a12fffc8749a68e794cc2125c3"
     },
     "TIME BOMB": {
+      "type": "book",
       "guid": "bd43178c9a716e341816530fc8568b05",
       "corrupted": false,
       "description": "Apply a bomb to target enemy that will explode for 25 dmg in three turns.",
@@ -310,6 +354,7 @@
       "counterpartGUID": "197c7cfeafc8fe344ade6cd9f8cccfe5"
     },
     "BØMB M4NÜ4L": {
+      "type": "book",
       "guid": "dff8a6a12fffc8749a68e794cc2125c3",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">T‡M3 BØMB</style>.",
@@ -317,6 +362,7 @@
       "counterpartGUID": "30b9cf0243f23724d9f4331e2fc6a991"
     },
     "T‡M3 BØMB": {
+      "type": "book",
       "guid": "197c7cfeafc8fe344ade6cd9f8cccfe5",
       "corrupted": true,
       "description": "Apply a bomb to target enemy that will explode for 50 dmg in three turns.",
@@ -324,6 +370,7 @@
       "counterpartGUID": "bd43178c9a716e341816530fc8568b05"
     },
     "COMIC": {
+      "type": "book",
       "guid": "42661f904b166c94abec35555deb1f46",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SUPER SIZE</style>.",
@@ -331,6 +378,7 @@
       "counterpartGUID": "9ff38ffc324494b469615a3a6f3219bf"
     },
     "SUPER SIZE": {
+      "type": "book",
       "guid": "95110f4abd8b9264ba229e6db612911b",
       "corrupted": false,
       "description": "Target friend becomes <style=\"k>giant</style>.",
@@ -338,6 +386,7 @@
       "counterpartGUID": "18804804dc9c11542a301d97757abeeb"
     },
     "¢ØM‡¢": {
+      "type": "book",
       "guid": "9ff38ffc324494b469615a3a6f3219bf",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$ÜP3R $‡Z3</style>.",
@@ -345,6 +394,7 @@
       "counterpartGUID": "42661f904b166c94abec35555deb1f46"
     },
     "$ÜP3R $‡Z3": {
+      "type": "book",
       "guid": "18804804dc9c11542a301d97757abeeb",
       "corrupted": true,
       "description": "Target friend becomes <style=\"k>colossal</style>.",
@@ -352,6 +402,7 @@
       "counterpartGUID": "95110f4abd8b9264ba229e6db612911b"
     },
     "COOKBOOK": {
+      "type": "book",
       "guid": "66bdd4817def37849a2b08bd0bd910de",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">AIR FRY</style>.",
@@ -359,6 +410,7 @@
       "counterpartGUID": "fa414de8c65d44443aefcc133a7a012b"
     },
     "AIR FRY": {
+      "type": "book",
       "guid": "e27037fe26bb5894290c08b5f3d746b1",
       "corrupted": false,
       "description": "Heal a friendly for 3 life.",
@@ -366,6 +418,7 @@
       "counterpartGUID": "7056267e07286f9458b88b8dedd52dac"
     },
     "¢ØØKBØØK": {
+      "type": "book",
       "guid": "fa414de8c65d44443aefcc133a7a012b",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">4‡R FR¥</style>.",
@@ -373,6 +426,7 @@
       "counterpartGUID": "66bdd4817def37849a2b08bd0bd910de"
     },
     "4‡R FR¥": {
+      "type": "book",
       "guid": "7056267e07286f9458b88b8dedd52dac",
       "corrupted": true,
       "description": "Deal 4 dmg to target enemy and you heal 4 life.",
@@ -380,6 +434,7 @@
       "counterpartGUID": "e27037fe26bb5894290c08b5f3d746b1"
     },
     "DIARY": {
+      "type": "book",
       "guid": "6b39c88252153c948b4173102423cab6",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SPITE</style>.",
@@ -387,6 +442,7 @@
       "counterpartGUID": "f644f28a090371b42b815a23aaa3d2a6"
     },
     "SPITE": {
+      "type": "book",
       "guid": "88951f86985b6e845bd00891a6c31f93",
       "corrupted": false,
       "description": "Deal 4 dmg to target enemy for each time you've cast spite this fight.",
@@ -394,6 +450,7 @@
       "counterpartGUID": "626a54420c8629f4a9c3ce7dd9715fcc"
     },
     "Ð‡4R¥": {
+      "type": "book",
       "guid": "f644f28a090371b42b815a23aaa3d2a6",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$P‡T3</style>.",
@@ -401,6 +458,7 @@
       "counterpartGUID": "6b39c88252153c948b4173102423cab6"
     },
     "$P‡T3": {
+      "type": "book",
       "guid": "626a54420c8629f4a9c3ce7dd9715fcc",
       "corrupted": true,
       "description": "Deal 2 dmg to target enemy for each time you've used your book this fight.",
@@ -408,6 +466,7 @@
       "counterpartGUID": "88951f86985b6e845bd00891a6c31f93"
     },
     "BOOK OF LIFE": {
+      "type": "book",
       "guid": "643556db45216104d9d811c439b215bd",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">TOUCH OF LIFE</style>.",
@@ -415,6 +474,7 @@
       "counterpartGUID": "c1d162bd3f3546f41928099065e2188a"
     },
     "TOUCH OF LIFE": {
+      "type": "book",
       "guid": "3403f4adadc18f743890e8e7d998227e",
       "corrupted": false,
       "description": "Give target friend a second life.",
@@ -422,6 +482,7 @@
       "counterpartGUID": "25300da082ad0a44887c259ae34c5115"
     },
     "BØØK ØF L‡F3": {
+      "type": "book",
       "guid": "c1d162bd3f3546f41928099065e2188a",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">TØÜ¢H ØF L‡F3</style>.",
@@ -429,6 +490,7 @@
       "counterpartGUID": "643556db45216104d9d811c439b215bd"
     },
     "TØÜ¢H ØF L‡F3": {
+      "type": "book",
       "guid": "25300da082ad0a44887c259ae34c5115",
       "corrupted": true,
       "description": "Target yourself to gain 2 life and give your friends an extra life.",
@@ -436,6 +498,7 @@
       "counterpartGUID": "3403f4adadc18f743890e8e7d998227e"
     },
     "LIVING BOOK": {
+      "type": "book",
       "guid": "1fc786d14b3465c48bb3d64ef155f337",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">DEVOUR</style>.",
@@ -443,6 +506,7 @@
       "counterpartGUID": "e5878b6a8367c5a498c680c8c4e028ed"
     },
     "DEVOUR": {
+      "type": "book",
       "guid": "57d1c18a4c89910499e10d5a03da6692",
       "corrupted": false,
       "description": "Devour target enemy with 1 or less <style=\"k\">strength</style>.",
@@ -450,6 +514,7 @@
       "counterpartGUID": "800d1bc3fef3dcb4c863db9d57d7a452"
     },
     "L‡V‡NG BØØK": {
+      "type": "book",
       "guid": "e5878b6a8367c5a498c680c8c4e028ed",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">Ð3VØÜR</style>.",
@@ -457,6 +522,7 @@
       "counterpartGUID": "1fc786d14b3465c48bb3d64ef155f337"
     },
     "Ð3VØÜR": {
+      "type": "book",
       "guid": "800d1bc3fef3dcb4c863db9d57d7a452",
       "corrupted": true,
       "description": "Devour target enemy with 3 or less <style=\"k\">strength</style>.",
@@ -464,6 +530,7 @@
       "counterpartGUID": "57d1c18a4c89910499e10d5a03da6692"
     },
     "BLACK MAGIC": {
+      "type": "book",
       "guid": "b8edd95864739bf4bad4a473e7cf005c",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">PESTILENCE</style>.",
@@ -471,6 +538,7 @@
       "counterpartGUID": "64c54702fcd1acc4d8b4393882d68733"
     },
     "PESTILENCE": {
+      "type": "book",
       "guid": "db8efea1f87faa942a9f5554a59fb62d",
       "corrupted": false,
       "description": "All enemies get 3 <style=\"k\">poison</style>.",
@@ -478,6 +546,7 @@
       "counterpartGUID": "ac9308308b32c69468fdfa3734292ea7"
     },
     "BL4¢K M4G‡¢": {
+      "type": "book",
       "guid": "64c54702fcd1acc4d8b4393882d68733",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">P3$T‡L3N¢3</style>.",
@@ -485,6 +554,7 @@
       "counterpartGUID": "b8edd95864739bf4bad4a473e7cf005c"
     },
     "P3$T‡L3N¢3": {
+      "type": "book",
       "guid": "ac9308308b32c69468fdfa3734292ea7",
       "corrupted": true,
       "description": "All enemies get 6 <style=\"k\">poison</style>.",
@@ -492,12 +562,14 @@
       "counterpartGUID": "db8efea1f87faa942a9f5554a59fb62d"
     },
     "POWER TOME": {
+      "type": "book",
       "guid": "3d7bc73df17174b44a2c3105057eb0d0",
       "corrupted": false,
       "description": "Charge your wand.",
       "imageFileName": "book_power (default).png"
     },
     "ROMANCE NOVEL": {
+      "type": "book",
       "guid": "d339903771930c14f9226e84db675c23",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">LOVE TRANCE</style>.",
@@ -505,6 +577,7 @@
       "counterpartGUID": "21cf668e83517e54ea7cda21b6df6761"
     },
     "LOVE TRANCE": {
+      "type": "book",
       "guid": "fc4e4350dc63e1a43aadf85bd2772177",
       "corrupted": false,
       "description": "Heal target enemy for 7 life and then <style=\"k\">stun</style> it.",
@@ -512,6 +585,7 @@
       "counterpartGUID": "051142097c7100e4faf07b76dfbf40a6"
     },
     "RØM4N¢3 NØV3L": {
+      "type": "book",
       "guid": "21cf668e83517e54ea7cda21b6df6761",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">LØV3 TR4N¢3</style>.",
@@ -519,6 +593,7 @@
       "counterpartGUID": "d339903771930c14f9226e84db675c23"
     },
     "LØV3 TR4N¢3": {
+      "type": "book",
       "guid": "051142097c7100e4faf07b76dfbf40a6",
       "corrupted": true,
       "description": "Heal all enemies for 7 life and then <style=\"k\">stun</style> them. ",
@@ -526,6 +601,7 @@
       "counterpartGUID": "fc4e4350dc63e1a43aadf85bd2772177"
     },
     "SACRIFICE": {
+      "type": "book",
       "guid": "c91f0593b2dffd446b53f0a506de6e2d",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">EXPLODE SOUL</style>.",
@@ -533,6 +609,7 @@
       "counterpartGUID": "dfe54588807a69745b9bcf079f86a862"
     },
     "EXPLODE SOUL": {
+      "type": "book",
       "guid": "ed38e8007de2712478feb9a81ec3dbde",
       "corrupted": false,
       "description": "Sacrifice target friend to deal double its <style=\"strength\"><sprite=5 tint=1></style> to all enemies.",
@@ -540,6 +617,7 @@
       "counterpartGUID": "5e3788db5abfa244a9f995b560264905"
     },
     "$4¢R‡F‡¢3": {
+      "type": "book",
       "guid": "dfe54588807a69745b9bcf079f86a862",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">3XPLØÐ3 $ØÜL</style>.",
@@ -547,6 +625,7 @@
       "counterpartGUID": "c91f0593b2dffd446b53f0a506de6e2d"
     },
     "3XPLØÐ3 $ØÜL": {
+      "type": "book",
       "guid": "5e3788db5abfa244a9f995b560264905",
       "corrupted": true,
       "description": "Sacrifice target friend to deal triple its <style=\"strength\"><sprite=5 tint=1></style> to all enemies.",
@@ -554,6 +633,7 @@
       "counterpartGUID": "ed38e8007de2712478feb9a81ec3dbde"
     },
     "SCARY STORY": {
+      "type": "book",
       "guid": "dbe422e4b93f93a4fb29c5100fe85aa2",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SPOOKOUT</style>.",
@@ -561,6 +641,7 @@
       "counterpartGUID": "22e4aeb8506ec5c4895817750b6d06ed"
     },
     "SPOOKOUT": {
+      "type": "book",
       "guid": "8564a73673413f04d99c4760994d8ff9",
       "corrupted": false,
       "description": "Apply 2 <style=\"k\">weakness</style> to all enemies.",
@@ -568,6 +649,7 @@
       "counterpartGUID": "e0de5c8c74a7c0d479a0095113816d6d"
     },
     "$¢4R¥ $TØR¥": {
+      "type": "book",
       "guid": "22e4aeb8506ec5c4895817750b6d06ed",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$PØØKØÜT</style>.",
@@ -575,6 +657,7 @@
       "counterpartGUID": "dbe422e4b93f93a4fb29c5100fe85aa2"
     },
     "$PØØKØÜT": {
+      "type": "book",
       "guid": "e0de5c8c74a7c0d479a0095113816d6d",
       "corrupted": true,
       "description": "Apply 3 <style=\"k\">weakness</style> to all enemies and  and lower their <style=\"chance\">resist</style>.",
@@ -582,6 +665,7 @@
       "counterpartGUID": "8564a73673413f04d99c4760994d8ff9"
     },
     "SHIELD TOME": {
+      "type": "book",
       "guid": "6cca2f08ad9cf7a41ad1d7b2b6d0be6f",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">SHIELD BLAST</style>.",
@@ -589,12 +673,14 @@
       "counterpartGUID": "5ea8a305baba33c4bb45615289599eec"
     },
     "SHIELD BLAST": {
+      "type": "book",
       "guid": "bf60e4f7ae4662e499e00e76a1557dff",
       "corrupted": false,
       "description": "Deal dmg equal to twice your <style=\"k\">shield</style> to target enemy.",
       "imageFileName": "book_shield_tome_open.png"
     },
     "$H‡3LÐ TØM3": {
+      "type": "book",
       "guid": "5ea8a305baba33c4bb45615289599eec",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">$H‡3LÐ BL4$T</style>.",
@@ -602,6 +688,7 @@
       "counterpartGUID": "6cca2f08ad9cf7a41ad1d7b2b6d0be6f"
     },
     "$H‡3LÐ BL4$T": {
+      "type": "book",
       "guid": "648d6681d248a92459529d1188219cdd",
       "corrupted": true,
       "description": "Deal dmg equal to thrice your <style=\"k\">shield</style> to target enemy.",
@@ -609,6 +696,7 @@
       "counterpartGUID": "bf60e4f7ae4662e499e00e76a1557dff"
     },
     "STORYBOOK": {
+      "type": "book",
       "guid": "98088119e73dfa549b67d2ead541dcff",
       "corrupted": false,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">BEDTIME</style>.",
@@ -616,6 +704,7 @@
       "counterpartGUID": "76da8101b7f4d314489ba1067b08838a"
     },
     "BEDTIME": {
+      "type": "book",
       "guid": "69ff5acea548d4941956d26b2f916e28",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> each enemy.",
@@ -623,6 +712,7 @@
       "counterpartGUID": "49238bd34b2dc124bbc2c0c6cc25fac4"
     },
     "$TØR¥BØØK": {
+      "type": "book",
       "guid": "76da8101b7f4d314489ba1067b08838a",
       "corrupted": true,
       "description": "Charge your wand. \n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">B3ÐT‡M3</style>.",
@@ -630,6 +720,7 @@
       "counterpartGUID": "98088119e73dfa549b67d2ead541dcff"
     },
     "B3ÐT‡M3": {
+      "type": "book",
       "guid": "49238bd34b2dc124bbc2c0c6cc25fac4",
       "corrupted": true,
       "description": "Double <style=\"chance\">chance</style> to <style=\"k\">stun</style> each enemy.",
@@ -637,6 +728,7 @@
       "counterpartGUID": "69ff5acea548d4941956d26b2f916e28"
     },
     "WAND MANUAL": {
+      "type": "book",
       "guid": "e0e289063bbc0d94384625cdb17c88df",
       "corrupted": false,
       "description": "Charge your wand.\n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">FOCUS WAND</style>.",
@@ -644,12 +736,14 @@
       "counterpartGUID": "d9285137ba397a744b81bc0df8c9a1f3"
     },
     "FOCUS WAND": {
+      "type": "book",
       "guid": "a065be2fe0b52284f86f47e63931779b",
       "corrupted": false,
       "description": "Give your wand +2 dmg until the end of combat.",
       "imageFileName": "book_manual_open.png"
     },
     "W4NÐ M4NÜ4L": {
+      "type": "book",
       "guid": "d9285137ba397a744b81bc0df8c9a1f3",
       "corrupted": true,
       "description": "Charge your wand.\n\nIf your wand is fully charged, spend all wand charge to cast <style=\"k\">W4NÐ FØ¢Ü$</style>.",
@@ -657,6 +751,7 @@
       "counterpartGUID": "e0e289063bbc0d94384625cdb17c88df"
     },
     "FØ¢Ü$ W4NÐ": {
+      "type": "book",
       "guid": "24f42b9b87f1ef548865814c74224e69",
       "corrupted": true,
       "description": "Give your wand +4 dmg until the end of combat.",
@@ -664,8 +759,9 @@
       "counterpartGUID": "a065be2fe0b52284f86f47e63931779b"
     }
   },
-  "curses": {
+  "curse": {
     "BASALISK'S EYE": {
+      "type": "curse",
       "guid": "648936cc329cee14e8245d285b3e6379",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to turn target enemy to <style=\"k\">stone</style> for two turns.",
@@ -673,6 +769,7 @@
       "counterpartGUID": "b07de33ed6fa01746b848f0f55a7cde9"
     },
     "B4$4L‡$K'$ 3¥3": {
+      "type": "curse",
       "guid": "b07de33ed6fa01746b848f0f55a7cde9",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to turn target enemy to <style=\"k\">stone</style> for two turns. If target is already <style=\"k\">stone</style>, %25 odds to destroy it.",
@@ -680,6 +777,7 @@
       "counterpartGUID": "648936cc329cee14e8245d285b3e6379"
     },
     "CLAY BAT": {
+      "type": "curse",
       "guid": "68b01c99d167ebb43b7a10a20fa9ffb2",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> and steal 1 life from target enemy.",
@@ -687,6 +785,7 @@
       "counterpartGUID": "90bbdc336cb77604ab0339f1d2645cad"
     },
     "¢L4¥ B4T": {
+      "type": "curse",
       "guid": "90bbdc336cb77604ab0339f1d2645cad",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to steal life from target enemy until it dies or you are at max health.",
@@ -694,6 +793,7 @@
       "counterpartGUID": "68b01c99d167ebb43b7a10a20fa9ffb2"
     },
     "DEAD TOAD": {
+      "type": "curse",
       "guid": "0cb58ec41d6ecf347bb0c26d0464df6d",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to turn target enemy into a <style=\"k\">toad</style> for 2 turns.",
@@ -701,6 +801,7 @@
       "counterpartGUID": "10d5bddfbb291004eacdee2381431853"
     },
     "Ð34Ð TØ4Ð": {
+      "type": "curse",
       "guid": "10d5bddfbb291004eacdee2381431853",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to turn target enemy into a <style=\"k\">toad</style> for 3 turns.",
@@ -708,6 +809,7 @@
       "counterpartGUID": "0cb58ec41d6ecf347bb0c26d0464df6d"
     },
     "JADE IDOL": {
+      "type": "curse",
       "guid": "a35144bba160fda4d882897060c4e04a",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target and turn it to <style=k>gemform</style>.",
@@ -715,6 +817,7 @@
       "counterpartGUID": "cf6edbd5afd937648af2a046b2e820b0"
     },
     "J4Ð3 ‡ÐØL": {
+      "type": "curse",
       "guid": "cf6edbd5afd937648af2a046b2e820b0",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target and turn all enemies to <style=k>gemform</style>. ",
@@ -722,6 +825,7 @@
       "counterpartGUID": "a35144bba160fda4d882897060c4e04a"
     },
     "MAGNIFIER": {
+      "type": "curse",
       "guid": "43c4830812f9b2444a1964d93e710a79",
       "corrupted": false,
       "description": "Deal 2 dmg and lower target enemy's <style=\"chance\">resist</style> or <style=\"k\">stun</style> if it has no <style=\"chance\">resist</style>.",
@@ -729,6 +833,7 @@
       "counterpartGUID": "6fda9c63205d0b049a23b1e8f42c8181"
     },
     "M4GN‡F‡3R": {
+      "type": "curse",
       "guid": "6fda9c63205d0b049a23b1e8f42c8181",
       "corrupted": true,
       "description": "Deal 2 dmg and lower target enemy's <style=\"chance\">resist</style> or <style=\"k\">stun</style> if it has no <style=\"chance\">resist</style>. Repeat.",
@@ -736,6 +841,7 @@
       "counterpartGUID": "43c4830812f9b2444a1964d93e710a79"
     },
     "MONKEY TOY": {
+      "type": "curse",
       "guid": "6066a392472122e41865d7f27d6a390a",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy and apply <style=\"k\">headache</style>.",
@@ -743,6 +849,7 @@
       "counterpartGUID": "671ce6fbe91a960469876d2983382314"
     },
     "MØNK3¥ TØ¥": {
+      "type": "curse",
       "guid": "671ce6fbe91a960469876d2983382314",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy and apply <style=\"k\">migrane</style>.",
@@ -750,12 +857,14 @@
       "counterpartGUID": "6066a392472122e41865d7f27d6a390a"
     },
     "POCKET WATCH": {
+      "type": "curse",
       "guid": "bad14be16e445b049b53f5eebbacf747",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy.",
       "imageFileName": "curse_watch (default).png"
     },
     "RABBITS FOOT": {
+      "type": "curse",
       "guid": "d953412892b39354b965da9737a37d61",
       "corrupted": false,
       "description": "Double <style=\"chance\">chance</style> to <style=\"k>stun</style> target enemy and apply 1 <style=\"k\">rage</style>.",
@@ -763,6 +872,7 @@
       "counterpartGUID": "7f3587bcbd778a94792e264b679db5c6"
     },
     "R4BB‡T$ FØØT": {
+      "type": "curse",
       "guid": "7f3587bcbd778a94792e264b679db5c6",
       "corrupted": true,
       "description": "Double <style=\"chance\">chance</style> to <style=\"k>stun</style> target enemy.",
@@ -770,6 +880,7 @@
       "counterpartGUID": "d953412892b39354b965da9737a37d61"
     },
     "RAMULET": {
+      "type": "curse",
       "guid": "963e5cf2fa2e4cb4f9a8c4e31ea6186f",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k>stun</style> target enemy and deal 1 dmg to it and adjacent enemies.",
@@ -777,6 +888,7 @@
       "counterpartGUID": "d2488fc63ef8ae84aa4dd8d6586020d2"
     },
     "R4MÜL3T": {
+      "type": "curse",
       "guid": "d2488fc63ef8ae84aa4dd8d6586020d2",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to <style=\"k>stun</style> target enemy and deal 4 dmg to it and adjacent enemies.",
@@ -784,6 +896,7 @@
       "counterpartGUID": "963e5cf2fa2e4cb4f9a8c4e31ea6186f"
     },
     "GOLD SCORPION": {
+      "type": "curse",
       "guid": "13b93f8d5b792fe4db4ca0ed2fc41ee3",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> and  apply 2 <style=\"k>poison</style> to target enemy.",
@@ -791,6 +904,7 @@
       "counterpartGUID": "02e0ab50d9be13d4b87a24fbc82a839f"
     },
     "GØLÐ $¢ØRP‡ØN": {
+      "type": "curse",
       "guid": "02e0ab50d9be13d4b87a24fbc82a839f",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> and  apply 4 <style=\"k>poison</style> to target enemy.",
@@ -798,6 +912,7 @@
       "counterpartGUID": "13b93f8d5b792fe4db4ca0ed2fc41ee3"
     },
     "SHRUNKEN HEAD": {
+      "type": "curse",
       "guid": "7a802b534fc2bdd45b9954f741a11481",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">shrink</style> target enemy for 3 turns.",
@@ -805,6 +920,7 @@
       "counterpartGUID": "790b2e74ffe3c834d8c9f1d8664bafb3"
     },
     "$HRÜNK3N H34Ð": {
+      "type": "curse",
       "guid": "790b2e74ffe3c834d8c9f1d8664bafb3",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">shrink</style> each enemy for 3 turns.",
@@ -812,6 +928,7 @@
       "counterpartGUID": "7a802b534fc2bdd45b9954f741a11481"
     },
     "SKELETON KEY": {
+      "type": "curse",
       "guid": "6fca7f014fea7ed43a2d1ba5c6655e6f",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy. Ignores <style=\"chance\">resist</style> of the first target each combat.",
@@ -819,6 +936,7 @@
       "counterpartGUID": "826888d15f0da7c4187beb31f71ad0e3"
     },
     "$K3L3TØN K3¥": {
+      "type": "curse",
       "guid": "826888d15f0da7c4187beb31f71ad0e3",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy. Ignores <style=\"chance\">resist</style> of any target it hasn't cursed.",
@@ -826,6 +944,7 @@
       "counterpartGUID": "6fca7f014fea7ed43a2d1ba5c6655e6f"
     },
     "SPIRAL CHARM": {
+      "type": "curse",
       "guid": "e62c8d9daee7d204bb4bbd86baba7478",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to make target enemy attack one of their friends at random.",
@@ -833,6 +952,7 @@
       "counterpartGUID": "2af6ed191c2095e429c7bd58d5265472"
     },
     "$P‡R4L ¢H4RM": {
+      "type": "curse",
       "guid": "2af6ed191c2095e429c7bd58d5265472",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to make target enemy attack each of their friends.",
@@ -840,6 +960,7 @@
       "counterpartGUID": "e62c8d9daee7d204bb4bbd86baba7478"
     },
     "VOODOO DOLL": {
+      "type": "curse",
       "guid": "254ab0f63c9d19e46873a8e1d4e77018",
       "corrupted": false,
       "description": "<style=\"chance\">Chance</style> to <style=\"k>stun</style> target enemy and deal it 2 dmg.",
@@ -847,6 +968,7 @@
       "counterpartGUID": "6b263ff5dc8d4cd49bc2b78ec8e8f175"
     },
     "VØØÐØØ ÐØLL": {
+      "type": "curse",
       "guid": "6b263ff5dc8d4cd49bc2b78ec8e8f175",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to <style=\"k>stun</style> target enemy and apply <style=\"k\">voodoo</style> to it.",
@@ -854,6 +976,7 @@
       "counterpartGUID": "254ab0f63c9d19e46873a8e1d4e77018"
     },
     "YO-YO": {
+      "type": "curse",
       "guid": "de6a47371dd1b464a8217f22bdf66abf",
       "corrupted": false,
       "description": "Target enemy stops what it's doing to <style=\"k\">wild</style> attack you. Ignores <style=\"chance\">resist</style>.",
@@ -861,6 +984,7 @@
       "counterpartGUID": "25318df7e27d0f842b2486851a8498fd"
     },
     "¥Ø-¥Ø": {
+      "type": "curse",
       "guid": "25318df7e27d0f842b2486851a8498fd",
       "corrupted": true,
       "description": "<style=\"chance\">Chance</style> to <style=\"k\">stun</style> target enemy. If you miss, that enemy stops what it's doing to <style=\"k\">wild</style> attack you.",
@@ -868,8 +992,9 @@
       "counterpartGUID": "de6a47371dd1b464a8217f22bdf66abf"
     }
   },
-  "jewelry-bracelets": {
+  "bracelet": {
     "AZURITE": {
+      "type": "bracelet",
       "guid": "f5ec61ea22e0f484bad5acc1f85dcbf5",
       "corrupted": false,
       "description": "If you fail a curse, gain 1 <style=\"k\">shield</style>.",
@@ -877,6 +1002,7 @@
       "counterpartGUID": "7b43b81c21bc8234ebf02b984727a867"
     },
     "4ZÜR‡T3": {
+      "type": "bracelet",
       "guid": "7b43b81c21bc8234ebf02b984727a867",
       "corrupted": true,
       "description": "If you fail a curse, gain 1 mana.",
@@ -884,6 +1010,7 @@
       "counterpartGUID": "f5ec61ea22e0f484bad5acc1f85dcbf5"
     },
     "DEVIL'S": {
+      "type": "bracelet",
       "guid": "413b2965224f1474ca08b8b5aa132bf1",
       "corrupted": false,
       "description": "+2 to wand dmg. At the start of combat, you are <style=\"k\">bleeding</style>.",
@@ -891,6 +1018,7 @@
       "counterpartGUID": "6d8eedc70debf4e4b949aa87bd33fce3"
     },
     "Ð3V‡L'$": {
+      "type": "bracelet",
       "guid": "6d8eedc70debf4e4b949aa87bd33fce3",
       "corrupted": true,
       "description": "+4 to wand dmg. At the start of combat, you are <style=\"k\">bleeding</style>.",
@@ -898,6 +1026,7 @@
       "counterpartGUID": "413b2965224f1474ca08b8b5aa132bf1"
     },
     "FRIENDSHIP": {
+      "type": "bracelet",
       "guid": "38b8b8cbb3be96148920d1643a86fc50",
       "corrupted": false,
       "description": "When you summon a friend, give it +1 <style=\"k\">strength</style>.",
@@ -905,6 +1034,7 @@
       "counterpartGUID": "be8b273f2a72f8949a315eadc3c2e9b4"
     },
     "FR‡3NÐ$H‡P": {
+      "type": "bracelet",
       "guid": "be8b273f2a72f8949a315eadc3c2e9b4",
       "corrupted": true,
       "description": "When you summon a friend, give it +2 <style=\"k\">strength</style> and <style=\"k\">bleeding</style>.",
@@ -912,6 +1042,7 @@
       "counterpartGUID": "38b8b8cbb3be96148920d1643a86fc50"
     },
     "GEM": {
+      "type": "bracelet",
       "guid": "87a73a0c7ebf3ea409e1da345f1e1891",
       "corrupted": false,
       "description": "When you take dmg, gain 1 mana.",
@@ -919,6 +1050,7 @@
       "counterpartGUID": "dcb544def1ff94d4f96a3d00ce120098"
     },
     "G3M": {
+      "type": "bracelet",
       "guid": "dcb544def1ff94d4f96a3d00ce120098",
       "corrupted": true,
       "description": "When you take dmg, gain 2 mana.",
@@ -926,6 +1058,7 @@
       "counterpartGUID": "87a73a0c7ebf3ea409e1da345f1e1891"
     },
     "LIFE": {
+      "type": "bracelet",
       "guid": "551d2963c35ddab4685475d1b25431eb",
       "corrupted": false,
       "description": "At the start of combat, heal 2 life.",
@@ -933,6 +1066,7 @@
       "counterpartGUID": "5165fcc10ef343345bf8a5f5268fb874"
     },
     "L‡F3": {
+      "type": "bracelet",
       "guid": "5165fcc10ef343345bf8a5f5268fb874",
       "corrupted": true,
       "description": "Every third turn, gain 2 life.",
@@ -940,6 +1074,7 @@
       "counterpartGUID": "551d2963c35ddab4685475d1b25431eb"
     },
     "PHARAOH'S": {
+      "type": "bracelet",
       "guid": "22b53fc6681d8ae419eeede1fea56db1",
       "corrupted": false,
       "description": "At the end of your turn, if you didn't re-roll your dice, deal 1 dmg to a random enemy 4 times.",
@@ -947,6 +1082,7 @@
       "counterpartGUID": "265e14b0501cafa4599483940a11cfa8"
     },
     "PH4R4ØH'$": {
+      "type": "bracelet",
       "guid": "265e14b0501cafa4599483940a11cfa8",
       "corrupted": true,
       "description": "At the end of your turn, if you didn't re-roll your dice, deal 1 dmg to a random enemy 8 times.",
@@ -954,6 +1090,7 @@
       "counterpartGUID": "22b53fc6681d8ae419eeede1fea56db1"
     },
     "POWER": {
+      "type": "bracelet",
       "guid": "a2b2d1318b338ff438cfb355c5dc6583",
       "corrupted": false,
       "description": "Your wand doesn't lose charge when you take dmg.",
@@ -961,6 +1098,7 @@
       "counterpartGUID": "fa6555d20729cc241ab299902cc8f506"
     },
     "PØW3R": {
+      "type": "bracelet",
       "guid": "fa6555d20729cc241ab299902cc8f506",
       "corrupted": true,
       "description": "When you take dmg, charge your wand.",
@@ -968,6 +1106,7 @@
       "counterpartGUID": "a2b2d1318b338ff438cfb355c5dc6583"
     },
     "SHINY": {
+      "type": "bracelet",
       "guid": "ebfc913da6cbb0645b8ce639693ad27f",
       "corrupted": false,
       "description": "At the start of combat, lower all enemy <style=\"chance\">resist</style>.",
@@ -975,6 +1114,7 @@
       "counterpartGUID": "96c5d208d3f154a43a17fc26ec9214ba"
     },
     "$H‡N¥": {
+      "type": "bracelet",
       "guid": "96c5d208d3f154a43a17fc26ec9214ba",
       "corrupted": true,
       "description": "At the start of combat, reduce all enemy <style=\"chance\">resist</style> to zero.",
@@ -982,6 +1122,7 @@
       "counterpartGUID": "ebfc913da6cbb0645b8ce639693ad27f"
     },
     "SILVER": {
+      "type": "bracelet",
       "guid": "ae9ab16ac4ee30d4eaf4daa787a150d8",
       "corrupted": false,
       "description": "At the start of your turn, if you used a bone last turn, gain 1 <style=\"k\">shield</style>.",
@@ -989,6 +1130,7 @@
       "counterpartGUID": "1fed7efb75dfe5643a085dd3a5a643de"
     },
     "$‡LV3R": {
+      "type": "bracelet",
       "guid": "1fed7efb75dfe5643a085dd3a5a643de",
       "corrupted": true,
       "description": "At the start of your turn, gain a <style=\"k\">shield</style> for each bone you used last turn.",
@@ -996,6 +1138,7 @@
       "counterpartGUID": "ae9ab16ac4ee30d4eaf4daa787a150d8"
     },
     "SPIKED": {
+      "type": "bracelet",
       "guid": "b332328e3444f1c48bf9df9cc48623d8",
       "corrupted": false,
       "description": "When an enemy deals dmg to you, it takes 3 dmg.",
@@ -1003,6 +1146,7 @@
       "counterpartGUID": "4b4451958fb6b7b4685f8e7c07364fb0"
     },
     "$P‡K3Ð": {
+      "type": "bracelet",
       "guid": "4b4451958fb6b7b4685f8e7c07364fb0",
       "corrupted": true,
       "description": "When an enemy deals dmg to you, deal 3 dmg to all enemies.",
@@ -1010,6 +1154,7 @@
       "counterpartGUID": "b332328e3444f1c48bf9df9cc48623d8"
     },
     "SUNSHINE": {
+      "type": "bracelet",
       "guid": "26e60cda60bc80f48ad8212c8ad35ef0",
       "corrupted": false,
       "description": "At the start of the enemy turn, summon a <style=\"k\">FLOWER</style> if you have space.",
@@ -1017,6 +1162,7 @@
       "counterpartGUID": "b1913c28196eda840bab6b37738a5d45"
     },
     "$ÜN$H‡N3": {
+      "type": "bracelet",
       "guid": "b1913c28196eda840bab6b37738a5d45",
       "corrupted": true,
       "description": "At the start of the enemy turn, summon up to two corrupted <style=\"k\">FLOWERS</style>.",
@@ -1024,14 +1170,16 @@
       "counterpartGUID": "26e60cda60bc80f48ad8212c8ad35ef0"
     },
     "SLOT FOR": {
+      "type": "bracelet",
       "guid": "b1370eea04a2c5d42afda3338af84b15",
       "corrupted": false,
       "description": "",
       "imageFileName": "no_bracelet.png"
     }
   },
-  "jewelry-necklaces": {
+  "necklace": {
     "BINKY'S": {
+      "type": "necklace",
       "guid": "d938dc24e88d08f468762326c1b14b32",
       "corrupted": false,
       "description": "At the end of your turn, use a random curse on a random enemy.",
@@ -1039,6 +1187,7 @@
       "counterpartGUID": "279bf53d75b09534fafaeb5c36366e27"
     },
     "B‡NK¥'$": {
+      "type": "necklace",
       "guid": "279bf53d75b09534fafaeb5c36366e27",
       "corrupted": true,
       "description": "At the start of your turn, use a random corrupted curse on a random enemy.",
@@ -1046,6 +1195,7 @@
       "counterpartGUID": "d938dc24e88d08f468762326c1b14b32"
     },
     "BONE": {
+      "type": "necklace",
       "guid": "2dd43b69a3b12504fb404d189b5ced0c",
       "corrupted": false,
       "description": "At the start of your turn, conjure a bone. You get one less re-roll.",
@@ -1053,6 +1203,7 @@
       "counterpartGUID": "2d8f16b49953f38438035c9676ded6d5"
     },
     "BØN3": {
+      "type": "necklace",
       "guid": "2d8f16b49953f38438035c9676ded6d5",
       "corrupted": true,
       "description": "If you have no friends at the start of your turn, conjure a bone.",
@@ -1060,6 +1211,7 @@
       "counterpartGUID": "2dd43b69a3b12504fb404d189b5ced0c"
     },
     "FRIENDSHIP": {
+      "type": "necklace",
       "guid": "24e0b4638202aef4eb4e99fe4882dab0",
       "corrupted": false,
       "description": "When you summon a friend, give it +1 <style=\"k\">strength</style> and +1 health.",
@@ -1067,6 +1219,7 @@
       "counterpartGUID": "5dd8c6a01e6f45a4eb12479434665bc5"
     },
     "FR‡3NÐ$H‡P": {
+      "type": "necklace",
       "guid": "5dd8c6a01e6f45a4eb12479434665bc5",
       "corrupted": true,
       "description": "When you summon a friend, give it +2 <style=\"k\">strength</style> and +2 health.",
@@ -1074,6 +1227,7 @@
       "counterpartGUID": "24e0b4638202aef4eb4e99fe4882dab0"
     },
     "GEM": {
+      "type": "necklace",
       "guid": "42d757bab9204c84090fafe9588cc782",
       "corrupted": false,
       "description": "When you summon a friend, make it <style=\"k\">gemform</style>.",
@@ -1081,6 +1235,7 @@
       "counterpartGUID": "90ce8e00d40c5d444ad380abd97d63e2"
     },
     "G3M": {
+      "type": "necklace",
       "guid": "90ce8e00d40c5d444ad380abd97d63e2",
       "corrupted": true,
       "description": "When you summon a friend make it <style=\"k\">gemform</style>. Gain 1 mana.",
@@ -1088,6 +1243,7 @@
       "counterpartGUID": "42d757bab9204c84090fafe9588cc782"
     },
     "PHARAOH'S": {
+      "type": "necklace",
       "guid": "72314baa2668c7d428eae7aec9eacab2",
       "corrupted": false,
       "description": "You roll an extra die. You get one fewer re-roll.",
@@ -1095,6 +1251,7 @@
       "counterpartGUID": "802c3443fcbc73340bbba17ec672e236"
     },
     "PH4R4ØH'$": {
+      "type": "necklace",
       "guid": "802c3443fcbc73340bbba17ec672e236",
       "corrupted": true,
       "description": "You roll an extra die.",
@@ -1102,6 +1259,7 @@
       "counterpartGUID": "72314baa2668c7d428eae7aec9eacab2"
     },
     "PONDERING ORB": {
+      "type": "necklace",
       "guid": "b4f5e5b935ed5a442a969bad594fc989",
       "corrupted": false,
       "description": "You get an additional re-roll.",
@@ -1109,6 +1267,7 @@
       "counterpartGUID": "517c2e89e9180bf4eafb60679766d398"
     },
     "PØNÐ3R‡NG ØRB": {
+      "type": "necklace",
       "guid": "517c2e89e9180bf4eafb60679766d398",
       "corrupted": true,
       "description": "You get two additional re-rolls.",
@@ -1116,6 +1275,7 @@
       "counterpartGUID": "b4f5e5b935ed5a442a969bad594fc989"
     },
     "POWER": {
+      "type": "necklace",
       "guid": "fc40c658ba46e5c42964d57c2112f12b",
       "corrupted": false,
       "description": "+1 to wand dmg.",
@@ -1123,6 +1283,7 @@
       "counterpartGUID": "d426328693237b24b82245f0c30a4495"
     },
     "PØW3R": {
+      "type": "necklace",
       "guid": "d426328693237b24b82245f0c30a4495",
       "corrupted": true,
       "description": "+2 to wand dmg.",
@@ -1130,6 +1291,7 @@
       "counterpartGUID": "fc40c658ba46e5c42964d57c2112f12b"
     },
     "RAINBOW": {
+      "type": "necklace",
       "guid": "9e535482bebfcb741b3eb2c800a8358d",
       "corrupted": false,
       "description": "When a friend dies, randomly gain 1 mana or charge your wand or heal 1 life.",
@@ -1137,6 +1299,7 @@
       "counterpartGUID": "6a6426efe0dd2934c988282408b315c5"
     },
     "R4‡NBØW": {
+      "type": "necklace",
       "guid": "6a6426efe0dd2934c988282408b315c5",
       "corrupted": true,
       "description": "When a friend dies, gain 1 mana, charge your wand and heal 1 life.",
@@ -1144,6 +1307,7 @@
       "counterpartGUID": "9e535482bebfcb741b3eb2c800a8358d"
     },
     "SILVER": {
+      "type": "necklace",
       "guid": "bee09b7a85fcf964f858596629df1e33",
       "corrupted": false,
       "description": "For each shield that survives the enemy turn, give a random friend +1 <style=\"k\">shield</style>.",
@@ -1151,6 +1315,7 @@
       "counterpartGUID": "12993c016ddbe8c4c9d62ed5af48b79c"
     },
     "$‡LV3R": {
+      "type": "necklace",
       "guid": "12993c016ddbe8c4c9d62ed5af48b79c",
       "corrupted": true,
       "description": "For each shield that survives the enemy turn, give a random friend +1 <style=\"k\">strength</style> and +1 <style=\"k\">shield</style>.",
@@ -1158,6 +1323,7 @@
       "counterpartGUID": "bee09b7a85fcf964f858596629df1e33"
     },
     "SPHYNX HEAD": {
+      "type": "necklace",
       "guid": "7943c753631828f46b0af6cfdf49cfba",
       "corrupted": false,
       "description": "Everytime you roll your dice, deal 1 dmg to a random enemy.",
@@ -1165,6 +1331,7 @@
       "counterpartGUID": "272700a66334cb9438ceab450c1297a4"
     },
     "$PH¥NX H34Ð": {
+      "type": "necklace",
       "guid": "272700a66334cb9438ceab450c1297a4",
       "corrupted": true,
       "description": "Everytime you roll your dice, deal 1 dmg to a random enemy twice.",
@@ -1172,6 +1339,7 @@
       "counterpartGUID": "7943c753631828f46b0af6cfdf49cfba"
     },
     "SPIKED": {
+      "type": "necklace",
       "guid": "c1a44e615dccaaa4b876ba51e7eb3f9b",
       "corrupted": false,
       "description": "When an enemy deals dmg to you, it takes 4 dmg.",
@@ -1179,6 +1347,7 @@
       "counterpartGUID": "508132de09a8a094b869238921d3c324"
     },
     "$P‡K3Ð": {
+      "type": "necklace",
       "guid": "508132de09a8a094b869238921d3c324",
       "corrupted": true,
       "description": "When an enemy deals dmg to you, deal 4 dmg to all enemies.",
@@ -1186,6 +1355,7 @@
       "counterpartGUID": "c1a44e615dccaaa4b876ba51e7eb3f9b"
     },
     "VINE": {
+      "type": "necklace",
       "guid": "22f0a78bd567cc34a8b0a74ae09570fe",
       "corrupted": false,
       "description": "If you would take dmg, your mana will be used to block it.",
@@ -1193,6 +1363,7 @@
       "counterpartGUID": "728564ffc008fcf49bb321783cd983f9"
     },
     "V‡N3": {
+      "type": "necklace",
       "guid": "728564ffc008fcf49bb321783cd983f9",
       "corrupted": true,
       "description": "If you would take dmg, use mana to reflect it to all enemies.",
@@ -1200,20 +1371,23 @@
       "counterpartGUID": "22f0a78bd567cc34a8b0a74ae09570fe"
     },
     "SLOT FOR": {
+      "type": "necklace",
       "guid": "36be16f7ffa333548ae64f5cd20f4502",
       "corrupted": false,
       "description": "",
       "imageFileName": "no_necklace.png"
     }
   },
-  "jewelry-rings": {
+  "ring": {
     "SLOT FOR": {
+      "type": "ring",
       "guid": "ac9a9717a63aa64479c6df76b2f4e634",
       "corrupted": false,
       "description": "",
       "imageFileName": "ring_no_ring.png"
     },
     "BEAST": {
+      "type": "ring",
       "guid": "54b5fbcabb655334aa4486914ddf4c6a",
       "corrupted": false,
       "description": "When you power up your wand, give a random friend +1 <style=\"k\">strength</style>.",
@@ -1221,6 +1395,7 @@
       "counterpartGUID": "0316abb604c88954993823824d0307ba"
     },
     "B34$T": {
+      "type": "ring",
       "guid": "0316abb604c88954993823824d0307ba",
       "corrupted": true,
       "description": "When you power up your wand, give a random friend +1 <style=\"k\">strength</style> and +1 health.",
@@ -1228,6 +1403,7 @@
       "counterpartGUID": "54b5fbcabb655334aa4486914ddf4c6a"
     },
     "FRIENDSHIP": {
+      "type": "ring",
       "guid": "a2e72d8b7f4b0d84db7b1c2f5c429567",
       "corrupted": false,
       "description": "When you summon a friend, give it +1 health.",
@@ -1235,6 +1411,7 @@
       "counterpartGUID": "98e4fc9d91a8b1042ba2ed6c98814dc4"
     },
     "FR‡3NÐ$H‡P": {
+      "type": "ring",
       "guid": "98e4fc9d91a8b1042ba2ed6c98814dc4",
       "corrupted": true,
       "description": "When you summon a friend, steal 1 life from it and give it +1 <style=\"k\">strength</style>. ",
@@ -1242,6 +1419,7 @@
       "counterpartGUID": "a2e72d8b7f4b0d84db7b1c2f5c429567"
     },
     "MANA BATTERY": {
+      "type": "ring",
       "guid": "1df3746e9e124c040bcd4b3c7535a30d",
       "corrupted": false,
       "description": "Your mana does not reset at the end of combat.",
@@ -1249,6 +1427,7 @@
       "counterpartGUID": "8aec4cd1cb58d3948b8f3eb9c3069d9d"
     },
     "M4N4 B4TT3R¥": {
+      "type": "ring",
       "guid": "8aec4cd1cb58d3948b8f3eb9c3069d9d",
       "corrupted": true,
       "description": "Your mana does not reset at the end of combat. When you use your spell, gain 1 mana.",
@@ -1256,6 +1435,7 @@
       "counterpartGUID": "1df3746e9e124c040bcd4b3c7535a30d"
     },
     "PHARAOH'S": {
+      "type": "ring",
       "guid": "6d901f85623d29c4cbadc93e59d8f1ae",
       "corrupted": false,
       "description": "You roll an extra die on the first turn of each combat.",
@@ -1263,6 +1443,7 @@
       "counterpartGUID": "59c57fffd900d214fa0ebdeec4a41f38"
     },
     "PH4R4ØH'$": {
+      "type": "ring",
       "guid": "59c57fffd900d214fa0ebdeec4a41f38",
       "corrupted": true,
       "description": "You roll an extra die on every other turn.",
@@ -1270,6 +1451,7 @@
       "counterpartGUID": "6d901f85623d29c4cbadc93e59d8f1ae"
     },
     "POWER": {
+      "type": "ring",
       "guid": "01f9da8340166754fb919b183a931d8a",
       "corrupted": false,
       "description": "At the start of combat, charge your wand.",
@@ -1277,6 +1459,7 @@
       "counterpartGUID": "32769a72387b763458ff422788199b4e"
     },
     "PØW3R": {
+      "type": "ring",
       "guid": "32769a72387b763458ff422788199b4e",
       "corrupted": true,
       "description": "At the start of combat, charge your wand twice.",
@@ -1284,6 +1467,7 @@
       "counterpartGUID": "01f9da8340166754fb919b183a931d8a"
     },
     "PRISM": {
+      "type": "ring",
       "guid": "286ab2b5ae2f22741958157616754002",
       "corrupted": false,
       "description": "Your die rolls never contain duplicates.",
@@ -1291,6 +1475,7 @@
       "counterpartGUID": "a70a29d05af7eaf4e8a75886b0f38114"
     },
     "PR‡$M": {
+      "type": "ring",
       "guid": "a70a29d05af7eaf4e8a75886b0f38114",
       "corrupted": true,
       "description": "Your rolls always contain duplicates.",
@@ -1298,6 +1483,7 @@
       "counterpartGUID": "286ab2b5ae2f22741958157616754002"
     },
     "RAGE": {
+      "type": "ring",
       "guid": "403937d70f35795478a04e49900d4133",
       "corrupted": false,
       "description": "At the end of your turn, a random friend gets <style=\"k\">rage</style> equal to your wand dmg. Your wand loses all charge.",
@@ -1305,6 +1491,7 @@
       "counterpartGUID": "e23dae286a705bf468023b60f505fea7"
     },
     "R4G3": {
+      "type": "ring",
       "guid": "e23dae286a705bf468023b60f505fea7",
       "corrupted": true,
       "description": "At the end of your turn, your friends get <style=\"k\">rage</style> equal to your wand dmg. Your wand loses all charge.",
@@ -1312,6 +1499,7 @@
       "counterpartGUID": "403937d70f35795478a04e49900d4133"
     },
     "SILVER": {
+      "type": "ring",
       "guid": "a3cfb1310492b9243aef1dbd18c238ad",
       "corrupted": false,
       "description": "At the start of combat, gain 4 <style=\"k\">shield</style>.",
@@ -1319,6 +1507,7 @@
       "counterpartGUID": "2da2049ab52c342449ca357ed1ef065f"
     },
     "$‡LV3R": {
+      "type": "ring",
       "guid": "2da2049ab52c342449ca357ed1ef065f",
       "corrupted": true,
       "description": "At the start of combat, gain 12 <style=\"k\">shield</style>.",
@@ -1326,6 +1515,7 @@
       "counterpartGUID": "a3cfb1310492b9243aef1dbd18c238ad"
     },
     "SPIKED": {
+      "type": "ring",
       "guid": "7febdf4290312444e984b2734310f8f3",
       "corrupted": false,
       "description": "When an enemy deals dmg to you, it takes 2 dmg.",
@@ -1333,6 +1523,7 @@
       "counterpartGUID": "3c535e37d858b92498aad5492d1e155b"
     },
     "$P‡K3Ð": {
+      "type": "ring",
       "guid": "3c535e37d858b92498aad5492d1e155b",
       "corrupted": true,
       "description": "When an enemy deals dmg to you, deal 2 dmg to all enemies.",
@@ -1340,6 +1531,7 @@
       "counterpartGUID": "7febdf4290312444e984b2734310f8f3"
     },
     "SUMMONER'S": {
+      "type": "ring",
       "guid": "6ca180054edc8784e93dda0a76fb2ac6",
       "corrupted": false,
       "description": "At the start of combat, summon a friend.",
@@ -1347,6 +1539,7 @@
       "counterpartGUID": "d5e13ce8564677b438071ff062544d02"
     },
     "$ÜMMØN3R'$": {
+      "type": "ring",
       "guid": "d5e13ce8564677b438071ff062544d02",
       "corrupted": true,
       "description": "At the start of combat, summon two friends.",
@@ -1354,6 +1547,7 @@
       "counterpartGUID": "6ca180054edc8784e93dda0a76fb2ac6"
     },
     "ZEEK'S": {
+      "type": "ring",
       "guid": "3966de48f2d10be4fb43f5368cceb6a0",
       "corrupted": false,
       "description": "Summons will not roll when you have no open space.",
@@ -1361,6 +1555,7 @@
       "counterpartGUID": "5e7134075fa0bec4dbf610b750fb60c4"
     },
     "Z33K'$": {
+      "type": "ring",
       "guid": "5e7134075fa0bec4dbf610b750fb60c4",
       "corrupted": true,
       "description": "Dice will always roll to items with valid targets.",
@@ -1368,8 +1563,9 @@
       "counterpartGUID": "3966de48f2d10be4fb43f5368cceb6a0"
     }
   },
-  "spells": {
+  "spell": {
     "ACID RAIN": {
+      "type": "spell",
       "guid": "58d778e1b23f04c4685d49858d99f79b",
       "corrupted": false,
       "description": "Deal 1 dmg and apply 1 <style=\"k\">weakness</style> to all enemies.",
@@ -1377,6 +1573,7 @@
       "counterpartGUID": "dcf162258bdd12b44875fb986851d0ac"
     },
     "4¢‡Ð R4‡N": {
+      "type": "spell",
       "guid": "dcf162258bdd12b44875fb986851d0ac",
       "corrupted": true,
       "description": "Deal 1 dmg, apply 1 <style=\"k\">weakness</style> and 1 <style=\"k\">poison</style> to all enemies.",
@@ -1384,6 +1581,7 @@
       "counterpartGUID": "58d778e1b23f04c4685d49858d99f79b"
     },
     "AVALANCHE ORB": {
+      "type": "spell",
       "guid": "cac297e2916e4eb4aa4d796c20bec503",
       "corrupted": false,
       "description": "Deal 1 dmg to all enemies for each time you've cast orb during this fight.",
@@ -1391,6 +1589,7 @@
       "counterpartGUID": "60c9a9ff0000b3c4e9d9a1f06cabc666"
     },
     "4V4L4N¢H3 ØRB": {
+      "type": "spell",
       "guid": "60c9a9ff0000b3c4e9d9a1f06cabc666",
       "corrupted": true,
       "description": "Deal 1 dmg to all enemies for each time you've used your wand during this fight.",
@@ -1398,6 +1597,7 @@
       "counterpartGUID": "cac297e2916e4eb4aa4d796c20bec503"
     },
     "BAG OF TRICKS": {
+      "type": "spell",
       "guid": "95d5e5fde64bf9e428908cc281a90a95",
       "corrupted": false,
       "description": "Cast a random spell.",
@@ -1405,6 +1605,7 @@
       "counterpartGUID": "76f3690e25844a346a2eafcf400264a9"
     },
     "B4G ØF TR‡¢K$": {
+      "type": "spell",
       "guid": "76f3690e25844a346a2eafcf400264a9",
       "corrupted": true,
       "description": "Cast a random corrupted spell.",
@@ -1412,6 +1613,7 @@
       "counterpartGUID": "95d5e5fde64bf9e428908cc281a90a95"
     },
     "CHANNEL": {
+      "type": "spell",
       "guid": "e46460fc8ae68834c9dc284ebbc3116b",
       "corrupted": false,
       "description": "Use your wand 2 times on random enemies.",
@@ -1419,6 +1621,7 @@
       "counterpartGUID": "5e910e5a1d19bdc4884012d9647480f9"
     },
     "¢H4NN3L": {
+      "type": "spell",
       "guid": "5e910e5a1d19bdc4884012d9647480f9",
       "corrupted": true,
       "description": "Use your wand 3 times on random enemies.",
@@ -1426,6 +1629,7 @@
       "counterpartGUID": "e46460fc8ae68834c9dc284ebbc3116b"
     },
     "MANA DAGGERS": {
+      "type": "spell",
       "guid": "69eca1ca2d77dd340a72cf1bef556ef2",
       "corrupted": false,
       "description": "Deal 2 dmg to all enemies.",
@@ -1433,6 +1637,7 @@
       "counterpartGUID": "a551449896238824a93cf56c70368c9a"
     },
     "M4N4 Ð4GG3R$": {
+      "type": "spell",
       "guid": "a551449896238824a93cf56c70368c9a",
       "corrupted": true,
       "description": "Deal 2 dmg to all enemies.",
@@ -1440,6 +1645,7 @@
       "counterpartGUID": "69eca1ca2d77dd340a72cf1bef556ef2"
     },
     "FIRING SQUAD": {
+      "type": "spell",
       "guid": "b85f76ae6151e4c4b9baedf3955aaa95",
       "corrupted": false,
       "description": "Give each of your friends 1 <style=\"k\">missile</style>.",
@@ -1447,6 +1653,7 @@
       "counterpartGUID": "38557df2cc45a3d4983099bd8bbdc900"
     },
     "F‡R‡NG $QÜ4Ð": {
+      "type": "spell",
       "guid": "38557df2cc45a3d4983099bd8bbdc900",
       "corrupted": true,
       "description": "You and your friends get 2 <style=\"k\">missiles</style>.",
@@ -1454,6 +1661,7 @@
       "counterpartGUID": "b85f76ae6151e4c4b9baedf3955aaa95"
     },
     "FRESH DICE": {
+      "type": "spell",
       "guid": "f9999fe7da6587d4a9cddff4bd1b5d27",
       "corrupted": false,
       "description": "Refresh and re-roll all of your dice. Reset spellcasting.",
@@ -1461,6 +1669,7 @@
       "counterpartGUID": "10770c7e2a61a46479e00f716e8a49cb"
     },
     "FR3$H Ð‡¢3": {
+      "type": "spell",
       "guid": "10770c7e2a61a46479e00f716e8a49cb",
       "corrupted": true,
       "description": "Take another turn after this one.",
@@ -1468,6 +1677,7 @@
       "counterpartGUID": "f9999fe7da6587d4a9cddff4bd1b5d27"
     },
     "GEMARANG": {
+      "type": "spell",
       "guid": "0999eca8a0f0a58458ddba1149d6f518",
       "corrupted": false,
       "description": "Deal 3-5 dmg to each enemy.",
@@ -1475,6 +1685,7 @@
       "counterpartGUID": "998495c90c2128f47a14896894640a06"
     },
     "G3M4R4NG": {
+      "type": "spell",
       "guid": "998495c90c2128f47a14896894640a06",
       "corrupted": true,
       "description": "Deal 3 dmg and apply 1 <style=\"k\">weakness</style> to each enemy. Then each enemy takes 1 dmg per <style=\"k\">weakness</style>.",
@@ -1482,12 +1693,14 @@
       "counterpartGUID": "0999eca8a0f0a58458ddba1149d6f518"
     },
     "MAGIC ARROWS": {
+      "type": "spell",
       "guid": "c3f37fea1a316254a8884d34d0d1c1b9",
       "corrupted": false,
       "description": "Deal 2 dmg to a random enemy twice.",
       "imageFileName": "spell_arrow_x2 (default).png"
     },
     "GEM GHOST": {
+      "type": "spell",
       "guid": "20b676dccf3979b4c8c7b83908256d0f",
       "corrupted": false,
       "description": "Deal 10 dmg to the enemy with the highest health and <style=k>stun</style> it.",
@@ -1495,6 +1708,7 @@
       "counterpartGUID": "1494a7771b8e21440aeeb4b123fda55d"
     },
     "G3M GHØ$T": {
+      "type": "spell",
       "guid": "1494a7771b8e21440aeeb4b123fda55d",
       "corrupted": true,
       "description": "Deal 10 dmg to the enemy with the highest health and <style=k>stun</style> it. Repeat.",
@@ -1502,6 +1716,7 @@
       "counterpartGUID": "20b676dccf3979b4c8c7b83908256d0f"
     },
     "MANA SHIELD": {
+      "type": "spell",
       "guid": "f577e22572b077341996324384710fbe",
       "corrupted": false,
       "description": "You and your friends gain +2 <style=\"k\">shield</style>.",
@@ -1509,6 +1724,7 @@
       "counterpartGUID": "21dd60850f9d82a4abf27ebb31155acb"
     },
     "M4N4 $H‡3LÐ": {
+      "type": "spell",
       "guid": "21dd60850f9d82a4abf27ebb31155acb",
       "corrupted": true,
       "description": "You and your friends gain +3 <style=\"k\">shield</style>.",
@@ -1516,6 +1732,7 @@
       "counterpartGUID": "f577e22572b077341996324384710fbe"
     },
     "POWER BUFF": {
+      "type": "spell",
       "guid": "07fa7c8ea1dc94b44868283b4a3144e4",
       "corrupted": false,
       "description": "Give your friends +1 <style=\"k\">strength</style>.",
@@ -1523,6 +1740,7 @@
       "counterpartGUID": "a5c31b0d733d98d438f91a4e7d989bfe"
     },
     "PØW3R BÜFF": {
+      "type": "spell",
       "guid": "a5c31b0d733d98d438f91a4e7d989bfe",
       "corrupted": true,
       "description": "Give your friends +1 <style=\"k\">strength</style> and +1 health.",
@@ -1530,6 +1748,7 @@
       "counterpartGUID": "07fa7c8ea1dc94b44868283b4a3144e4"
     },
     "MANA WIND": {
+      "type": "spell",
       "guid": "60a58cc1900b5e9408a0e9c57a9f3692",
       "corrupted": false,
       "description": "Deal 1 dmg to a random enemy 7 times.",
@@ -1537,6 +1756,7 @@
       "counterpartGUID": "0d0bec626683f584bacf829f9a8aa2dc"
     },
     "M4N4 W‡NÐ": {
+      "type": "spell",
       "guid": "0d0bec626683f584bacf829f9a8aa2dc",
       "corrupted": true,
       "description": "Apply 1 <style=\"k\">poison</style> to a random enemy 7 times.",
@@ -1544,6 +1764,7 @@
       "counterpartGUID": "60a58cc1900b5e9408a0e9c57a9f3692"
     },
     "WRECKING BALL": {
+      "type": "spell",
       "guid": "c9ed564a5cfddfe4f9ea798e8063cc50",
       "corrupted": false,
       "description": "Deal 3 dmg to all enemies. If one dies, repeat.",
@@ -1551,6 +1772,7 @@
       "counterpartGUID": "622ebf720dc626e449d06f9cf39a7126"
     },
     "WR3¢K‡NG B4LL": {
+      "type": "spell",
       "guid": "622ebf720dc626e449d06f9cf39a7126",
       "corrupted": true,
       "description": "Deal 4 dmg to all enemies. If one dies, repeat.",
@@ -1558,6 +1780,7 @@
       "counterpartGUID": "c9ed564a5cfddfe4f9ea798e8063cc50"
     },
     "GIANT BEE": {
+      "type": "spell",
       "guid": "b5ae45b42ef4b7d459fcdefeccd8288f",
       "corrupted": false,
       "description": "Deal 20 dmg to the enemy with the highest health.",
@@ -1565,6 +1788,7 @@
       "counterpartGUID": "a2fdd9184d2bdd64d81ad65ceb54421d"
     },
     "G‡4NT B33": {
+      "type": "spell",
       "guid": "a2fdd9184d2bdd64d81ad65ceb54421d",
       "corrupted": true,
       "description": "Deal 20 dmg to the enemy with the highest health and 10 dmg to its adjacent friends.",
@@ -1572,6 +1796,7 @@
       "counterpartGUID": "b5ae45b42ef4b7d459fcdefeccd8288f"
     },
     "MANA HAMMERS": {
+      "type": "spell",
       "guid": "b3649e9949818944e87c600d642c17b7",
       "corrupted": false,
       "description": "Throw two hammers at random enemies that deal 3 dmg and lower <style=\"chance\">resist</style>.",
@@ -1579,6 +1804,7 @@
       "counterpartGUID": "4e06e05fe35b7144aa390001d97e48f6"
     },
     "M4N4 H4MM3R$": {
+      "type": "spell",
       "guid": "4e06e05fe35b7144aa390001d97e48f6",
       "corrupted": true,
       "description": "Throw two hammers at random enemies that deal 3 dmg and have a <style=\"chance\">chance</style> to stun.",
@@ -1586,8 +1812,9 @@
       "counterpartGUID": "b3649e9949818944e87c600d642c17b7"
     }
   },
-  "summons": {
+  "summon": {
     "BEEKEEPERS": {
+      "type": "summon",
       "guid": "b9bcd74d30d055848820b661fa98ac16",
       "corrupted": false,
       "description": "Deals dmg split randomly.",
@@ -1595,6 +1822,7 @@
       "counterpartGUID": "65c779efaf1988949876bafb3ad571e0"
     },
     "B33K33P3R$": {
+      "type": "summon",
       "guid": "65c779efaf1988949876bafb3ad571e0",
       "corrupted": true,
       "description": "Deals dmg split randomly.",
@@ -1602,6 +1830,7 @@
       "counterpartGUID": "b9bcd74d30d055848820b661fa98ac16"
     },
     "BIG BEES": {
+      "type": "summon",
       "guid": "4797791d1a544814db01f847a85ac88c",
       "corrupted": false,
       "description": "Summon up to 3.",
@@ -1609,6 +1838,7 @@
       "counterpartGUID": "3a14bf8569ee86a4d97386851e6c653a"
     },
     "B‡G B33$": {
+      "type": "summon",
       "guid": "3a14bf8569ee86a4d97386851e6c653a",
       "corrupted": true,
       "description": "Summon up to 4.",
@@ -1616,6 +1846,7 @@
       "counterpartGUID": "4797791d1a544814db01f847a85ac88c"
     },
     "BITBOYS": {
+      "type": "summon",
       "guid": "995f4a319954fcc4482c510fe2ba07ac",
       "corrupted": false,
       "description": "",
@@ -1623,6 +1854,7 @@
       "counterpartGUID": "c2198e0f0be621447beaaef228eec834"
     },
     "B‡TBØ¥$": {
+      "type": "summon",
       "guid": "c2198e0f0be621447beaaef228eec834",
       "corrupted": true,
       "description": "Attack gains <style=\"k\">shield</style>.",
@@ -1630,6 +1862,7 @@
       "counterpartGUID": "995f4a319954fcc4482c510fe2ba07ac"
     },
     "BLOOD IMPS": {
+      "type": "summon",
       "guid": "22820657aa9164d4caf9ae43aef477d4",
       "corrupted": false,
       "description": "Gain 1 life when this dies.",
@@ -1637,6 +1870,7 @@
       "counterpartGUID": "ac56d5bed14ab5047b05dce0fe37d261"
     },
     "BLØØÐ ‡MP$": {
+      "type": "summon",
       "guid": "ac56d5bed14ab5047b05dce0fe37d261",
       "corrupted": true,
       "description": "Heal 1 life when this attacks.",
@@ -1644,12 +1878,14 @@
       "counterpartGUID": "22820657aa9164d4caf9ae43aef477d4"
     },
     "FLOWERS": {
+      "type": "summon",
       "guid": "00a4e46e449d358468f01e00d01f81eb",
       "corrupted": false,
       "description": "<sprite name=\"death_rattle\">: Lower all enemy <style=\"chance\">resist</style>.",
       "imageFileName": "summon_flowers.png"
     },
     "FLØW3R$": {
+      "type": "summon",
       "guid": "b2b67cb90b526d34396fbf1874debf61",
       "corrupted": true,
       "description": "<sprite name=\"death_rattle\">: Lower all enemy <style=\"chance\">resist</style> and apply 1 <style=\"k\">poison</style>.",
@@ -1657,18 +1893,21 @@
       "counterpartGUID": "00a4e46e449d358468f01e00d01f81eb"
     },
     "GUBBINS": {
+      "type": "summon",
       "guid": "40c68a1b8594ee544be18fefd0bb89b4",
       "corrupted": false,
       "description": "",
       "imageFileName": "summon_gubbins (default).png"
     },
     "GREMLONS": {
+      "type": "summon",
       "guid": "028087519efaf0949ade912c2e588392",
       "corrupted": false,
       "description": "",
       "imageFileName": "summon_gubbins (default).png"
     },
     "GUN RATS": {
+      "type": "summon",
       "guid": "a71d6c14de2dc0942a2251fcb3e169e1",
       "corrupted": false,
       "description": "First attack deals dmg to all enemies.",
@@ -1676,6 +1915,7 @@
       "counterpartGUID": "fee62f7694c9455479200a867a6ec151"
     },
     "GÜN R4T$": {
+      "type": "summon",
       "guid": "fee62f7694c9455479200a867a6ec151",
       "corrupted": true,
       "description": "Scurries away after attacking.",
@@ -1683,6 +1923,7 @@
       "counterpartGUID": "a71d6c14de2dc0942a2251fcb3e169e1"
     },
     "LASER PONIES": {
+      "type": "summon",
       "guid": "5b357eb1fff99564493da1ac94b437bc",
       "corrupted": false,
       "description": "Deals dmg to all enemies, then loses strength.",
@@ -1690,6 +1931,7 @@
       "counterpartGUID": "101d836522704b546b05665ed0f363df"
     },
     "L4$3R PØN‡3$": {
+      "type": "summon",
       "guid": "101d836522704b546b05665ed0f363df",
       "corrupted": true,
       "description": "Deals dmg and inflicts <style=\"k\">weakness</style> on all enemies, then dies.",
@@ -1697,6 +1939,7 @@
       "counterpartGUID": "5b357eb1fff99564493da1ac94b437bc"
     },
     "LIL BEASTIES": {
+      "type": "summon",
       "guid": "ccd496b89c7436b4882fecd3f7cb1963",
       "corrupted": false,
       "description": "Gains +1 <style=\"k\">strength</style> after attacking.",
@@ -1704,6 +1947,7 @@
       "counterpartGUID": "a4f58a403ee7049469c1c58eff2132c1"
     },
     "L‡L B34$T‡3$": {
+      "type": "summon",
       "guid": "a4f58a403ee7049469c1c58eff2132c1",
       "corrupted": true,
       "description": "Gains +1 <style=\"k\">strength</style> and +1 health after attacking.",
@@ -1711,6 +1955,7 @@
       "counterpartGUID": "ccd496b89c7436b4882fecd3f7cb1963"
     },
     "POISON SPIDERS": {
+      "type": "summon",
       "guid": "ee486e78108c96d4ea6cf7b5e06dcc4a",
       "corrupted": false,
       "description": "Inflicts 2 <style=\"k\">poison</style>.",
@@ -1718,6 +1963,7 @@
       "counterpartGUID": "10a6ecf67a27d4a4f865957cf3cc46d8"
     },
     "PØ‡$ØN $P‡Ð3R$": {
+      "type": "summon",
       "guid": "10a6ecf67a27d4a4f865957cf3cc46d8",
       "corrupted": true,
       "description": "Inflicts 4 <style=\"k\">poison</style>.",
@@ -1725,6 +1971,7 @@
       "counterpartGUID": "ee486e78108c96d4ea6cf7b5e06dcc4a"
     },
     "SHAPESHIFTERS": {
+      "type": "summon",
       "guid": "a179338024c0d824eb129b4fec9867db",
       "corrupted": false,
       "description": "Shapeshifts into a random summon.",
@@ -1732,6 +1979,7 @@
       "counterpartGUID": "fbe158793bda39e429488587c9557910"
     },
     "$H4P3$H‡FT3R$": {
+      "type": "summon",
       "guid": "fbe158793bda39e429488587c9557910",
       "corrupted": true,
       "description": "Shapeshifts into a random corrupted summon.",
@@ -1739,6 +1987,7 @@
       "counterpartGUID": "a179338024c0d824eb129b4fec9867db"
     },
     "SKELETONS": {
+      "type": "summon",
       "guid": "217d0e4431355c84b83d7e4c2d019601",
       "corrupted": false,
       "description": "Has an extra life.",
@@ -1746,6 +1995,7 @@
       "counterpartGUID": "bd8a4a1032cc7ca4caf2026a35f18f4c"
     },
     "$K3L3TØN$": {
+      "type": "summon",
       "guid": "bd8a4a1032cc7ca4caf2026a35f18f4c",
       "corrupted": true,
       "description": "Has an extra life. Summon two skeletons at a time.",
@@ -1753,6 +2003,7 @@
       "counterpartGUID": "217d0e4431355c84b83d7e4c2d019601"
     },
     "SKILLED GOBLINS": {
+      "type": "summon",
       "guid": "bfa12a7d215c47a41b0ecb905c0081a4",
       "corrupted": false,
       "description": "50% odds to deal double dmg.",
@@ -1760,6 +2011,7 @@
       "counterpartGUID": "0ec97d765b34e1143b5534ff5915923c"
     },
     "$K‡LL3Ð GØBL‡N$": {
+      "type": "summon",
       "guid": "0ec97d765b34e1143b5534ff5915923c",
       "corrupted": true,
       "description": "50% odds to deal tripple dmg.",
@@ -1767,6 +2019,7 @@
       "counterpartGUID": "bfa12a7d215c47a41b0ecb905c0081a4"
     },
     "SPIDERS": {
+      "type": "summon",
       "guid": "37899b04c7f821f4d81532b9ab7bb814",
       "corrupted": false,
       "description": "",
@@ -1774,6 +2027,7 @@
       "counterpartGUID": "af80213bd117f4740b959c1a55c870a0"
     },
     "$P‡Ð3R$": {
+      "type": "summon",
       "guid": "af80213bd117f4740b959c1a55c870a0",
       "corrupted": true,
       "description": "",
@@ -1781,6 +2035,7 @@
       "counterpartGUID": "37899b04c7f821f4d81532b9ab7bb814"
     },
     "STONE TOTEMS": {
+      "type": "summon",
       "guid": "04d53a4e2e5377a43859b0f8bac64fa6",
       "corrupted": false,
       "description": "<style=\"k\">Stone</style>. Attackers get 1 <style=\"k\">weakness</style>.",
@@ -1788,6 +2043,7 @@
       "counterpartGUID": "364c1327a27d0564cb908061c2737a56"
     },
     "$TØN3 TØT3M$": {
+      "type": "summon",
       "guid": "364c1327a27d0564cb908061c2737a56",
       "corrupted": true,
       "description": "<style=\"k\">Stone</style>. Attackers get 1 <style=\"k\">weakness</style>. Has 2 <style=\"k\">missiles</style>.",
@@ -1795,6 +2051,7 @@
       "counterpartGUID": "04d53a4e2e5377a43859b0f8bac64fa6"
     },
     "TROLLS": {
+      "type": "summon",
       "guid": "1fadf37c8f2007740bf9134750a4ffda",
       "corrupted": false,
       "description": "",
@@ -1802,6 +2059,7 @@
       "counterpartGUID": "7253f488e25c0854ba94d93a2a7046cf"
     },
     "TRØLL$": {
+      "type": "summon",
       "guid": "7253f488e25c0854ba94d93a2a7046cf",
       "corrupted": true,
       "description": "",
@@ -1809,222 +2067,284 @@
       "counterpartGUID": "1fadf37c8f2007740bf9134750a4ffda"
     }
   },
-  "wands": {
+  "wand": {
     "BENT BAPPER": {
+      "type": "wand",
       "guid": "bf33138da2b083b479a1959f32c35090",
       "corrupted": false,
       "description": "50% odds to hit the wrong enemy.",
       "imageFileName": "wand_bent_bapper.png",
-      "counterpartGUID": "7e3d7ea083768f54c91050889c01370d"
+      "counterpartGUID": "7e3d7ea083768f54c91050889c01370d",
+      "damage": [1, 2, 3]
     },
     "B3NT B4PP3R": {
+      "type": "wand",
       "guid": "7e3d7ea083768f54c91050889c01370d",
       "corrupted": true,
       "description": "50% odds to hit the wrong enemy.",
       "imageFileName": "wand_bent_bapper.png",
-      "counterpartGUID": "bf33138da2b083b479a1959f32c35090"
+      "counterpartGUID": "bf33138da2b083b479a1959f32c35090",
+      "damage": [1, 2, 3]
     },
     "CRAZY": {
+      "type": "wand",
       "guid": "86226ccfd6b5a5e4fadf7a0826b05b06",
       "corrupted": false,
       "description": "Deals <style=k>wild</style> dmg.",
       "imageFileName": "wand_crazy.png",
-      "counterpartGUID": "4e7f33e32b6a90d4ca590cfff0f5cfef"
+      "counterpartGUID": "4e7f33e32b6a90d4ca590cfff0f5cfef",
+      "damage": [1, 2, 3]
     },
     "¢R4Z¥": {
+      "type": "wand",
       "guid": "4e7f33e32b6a90d4ca590cfff0f5cfef",
       "corrupted": true,
       "description": "Targets enemies at random.",
       "imageFileName": "wand_crazy.png",
-      "counterpartGUID": "86226ccfd6b5a5e4fadf7a0826b05b06"
+      "counterpartGUID": "86226ccfd6b5a5e4fadf7a0826b05b06",
+      "damage": [1, 2, 3]
     },
     "DEAD SNAKE": {
+      "type": "wand",
       "guid": "f05f19d6bcb4dd14fa273179da711318",
       "corrupted": false,
       "description": "Inflicts <style=\"k\">poison</style>.",
       "imageFileName": "wand_dead_snake.png",
-      "counterpartGUID": "7c65abe14d3c20d4fa0ea8ecc532c2fe"
+      "counterpartGUID": "7c65abe14d3c20d4fa0ea8ecc532c2fe",
+      "damage": [1, 2, 3]
     },
     "Ð34Ð $N4K3": {
+      "type": "wand",
       "guid": "7c65abe14d3c20d4fa0ea8ecc532c2fe",
       "corrupted": true,
       "description": "Inflicts <style=\"k\">poison</style>. Spends all <style=\"gem_icon\"> to apply that much <style=\"k\">poison</style> to all enemies.",
       "imageFileName": "wand_dead_snake.png",
-      "counterpartGUID": "f05f19d6bcb4dd14fa273179da711318"
+      "counterpartGUID": "f05f19d6bcb4dd14fa273179da711318",
+      "damage": [1, 2, 3]
     },
     "ELF TWIG": {
+      "type": "wand",
       "guid": "f1fe4a53d0478d245ac94ea91017a530",
       "corrupted": false,
       "description": "Target becomes <style=\"k\">marked</style>.",
       "imageFileName": "wand_elf_twig.png",
-      "counterpartGUID": "0b765ea3036dc934f898715a8baf95a2"
+      "counterpartGUID": "0b765ea3036dc934f898715a8baf95a2",
+      "damage": [1, 2, 3]
     },
     "3LF TW‡G": {
+      "type": "wand",
       "guid": "0b765ea3036dc934f898715a8baf95a2",
       "corrupted": true,
       "description": "Target becomes <style=\"k\">marked</style>. If it is already <style=\"k\">marked</style>, your friends attack.",
       "imageFileName": "wand_elf_twig.png",
-      "counterpartGUID": "f1fe4a53d0478d245ac94ea91017a530"
+      "counterpartGUID": "f1fe4a53d0478d245ac94ea91017a530",
+      "damage": [1, 2, 3]
     },
     "FIRE STICK": {
+      "type": "wand",
       "guid": "af84e7ffaae5a3440b1ecc3c987e9b73",
       "corrupted": false,
       "description": "<style=\"k\">Overkill</style>: Dmg all enemies equal to overkill dmg.",
       "imageFileName": "wand_bent_fire_stick.png",
-      "counterpartGUID": "6d1498aa7d07dd3479189d19fb8d2f18"
+      "counterpartGUID": "6d1498aa7d07dd3479189d19fb8d2f18",
+      "damage": [1, 2, 3]
     },
     "F‡R3 $T‡¢K": {
+      "type": "wand",
       "guid": "6d1498aa7d07dd3479189d19fb8d2f18",
       "corrupted": true,
       "description": "Double <style=\"k\">overkill</style>: Dmg all enemies equal to double overkill dmg.",
       "imageFileName": "wand_bent_fire_stick.png",
-      "counterpartGUID": "af84e7ffaae5a3440b1ecc3c987e9b73"
+      "counterpartGUID": "af84e7ffaae5a3440b1ecc3c987e9b73",
+      "damage": [1, 2, 3]
     },
     "GREAT BAPPER": {
+      "type": "wand",
       "guid": "431a097db292ece43ac69128ddc8fd88",
       "corrupted": false,
       "description": "",
       "imageFileName": "wand_bapper.png",
-      "counterpartGUID": "ea13e0440fdc1a746b87226a80a8e02d"
+      "counterpartGUID": "ea13e0440fdc1a746b87226a80a8e02d",
+      "damage": [1, 2, 3]
     },
     "GR34T B4PP3R": {
+      "type": "wand",
       "guid": "ea13e0440fdc1a746b87226a80a8e02d",
       "corrupted": true,
       "description": "Deals dmg twice.",
       "imageFileName": "wand_bapper.png",
-      "counterpartGUID": "431a097db292ece43ac69128ddc8fd88"
+      "counterpartGUID": "431a097db292ece43ac69128ddc8fd88",
+      "damage": [1, 2, 3]
     },
     "HOLY": {
+      "type": "wand",
       "guid": "f0b0dcbaf9641fd4a955ad1575c476c0",
       "corrupted": false,
       "description": "Inflicts 1 <style=\"k\">weakness</style>. Reset your wand power at the end of your turn.",
       "imageFileName": "wand_holy.png",
-      "counterpartGUID": "026d9642bc7efe145882332156632aac"
+      "counterpartGUID": "026d9642bc7efe145882332156632aac",
+      "damage": [1, 2, 3]
     },
     "HØL¥": {
+      "type": "wand",
       "guid": "026d9642bc7efe145882332156632aac",
       "corrupted": true,
       "description": "Inflicts 2 <style=\"k\">weakness</style>. Reset your wand power at the end of your turn.",
       "imageFileName": "wand_holy.png",
-      "counterpartGUID": "f0b0dcbaf9641fd4a955ad1575c476c0"
+      "counterpartGUID": "f0b0dcbaf9641fd4a955ad1575c476c0",
+      "damage": [1, 2, 3]
     },
     "HONEY DIPPER": {
+      "type": "wand",
       "guid": "ea63b03e6dfc8fa4eb0a674a7ee8dce5",
       "corrupted": false,
       "description": "Inflicts <style=\"k\">bees</style>.",
       "imageFileName": "wand_honey_dipper.png",
-      "counterpartGUID": "e06d11032c741f64985749e0e268600d"
+      "counterpartGUID": "e06d11032c741f64985749e0e268600d",
+      "damage": [1, 2, 3]
     },
     "HØN3¥ Ð‡PP3R": {
+      "type": "wand",
       "guid": "e06d11032c741f64985749e0e268600d",
       "corrupted": true,
       "description": "Inflicts <style=\"k\">killer bees</style>.",
       "imageFileName": "wand_honey_dipper.png",
-      "counterpartGUID": "ea63b03e6dfc8fa4eb0a674a7ee8dce5"
+      "counterpartGUID": "ea63b03e6dfc8fa4eb0a674a7ee8dce5",
+      "damage": [1, 2, 3]
     },
     "LIGHTNING ROD": {
+      "type": "wand",
       "guid": "e16dbb90f3d476540863edebb7ebb177",
       "corrupted": false,
       "description": "Resets after each use.",
       "imageFileName": "wand_lightning_rod.png",
-      "counterpartGUID": "7ce265e793e43434bb81038e93fe878e"
+      "counterpartGUID": "7ce265e793e43434bb81038e93fe878e",
+      "damage": [1, 2, 3]
     },
     "L‡GHTN‡NG RØÐ": {
+      "type": "wand",
       "guid": "7ce265e793e43434bb81038e93fe878e",
       "corrupted": true,
       "description": "At full power, <style=\"k\">stun</style> target. Resets after each use.",
       "imageFileName": "wand_lightning_rod.png",
-      "counterpartGUID": "e16dbb90f3d476540863edebb7ebb177"
+      "counterpartGUID": "e16dbb90f3d476540863edebb7ebb177",
+      "damage": [1, 2, 3]
     },
     "MAGICIANS WAND": {
+      "type": "wand",
       "guid": "112825b21e002904182d874a38f404ee",
       "corrupted": false,
       "description": "Use three times in a turn to do a <style=\"k\">card trick</style>.",
       "imageFileName": "wand_magicians.png",
-      "counterpartGUID": "0a003c4c323e2ca439cff4c8965be492"
+      "counterpartGUID": "0a003c4c323e2ca439cff4c8965be492",
+      "damage": [1, 2, 3]
     },
     "M4G‡¢‡4N$ W4NÐ": {
+      "type": "wand",
       "guid": "0a003c4c323e2ca439cff4c8965be492",
       "corrupted": true,
       "description": "Use three times in a turn to do a corrupted <style=\"k\">card trick</style>.",
       "imageFileName": "wand_magicians.png",
-      "counterpartGUID": "112825b21e002904182d874a38f404ee"
+      "counterpartGUID": "112825b21e002904182d874a38f404ee",
+      "damage": [1, 2, 3]
     },
     "PAIN": {
+      "type": "wand",
       "guid": "d485276f33489ed4291a97a31367fa05",
       "corrupted": false,
       "description": "Target friends to deal dmg to all enemies.",
       "imageFileName": "wand_deathwind.png",
-      "counterpartGUID": "3704467d8d0ca214782c6e3e78846411"
+      "counterpartGUID": "3704467d8d0ca214782c6e3e78846411",
+      "damage": [1, 2, 3]
     },
     "P4‡N": {
+      "type": "wand",
       "guid": "3704467d8d0ca214782c6e3e78846411",
       "corrupted": true,
       "description": "Target yourself to deal 4x dmg to all enemies.",
       "imageFileName": "wand_deathwind.png",
-      "counterpartGUID": "d485276f33489ed4291a97a31367fa05"
+      "counterpartGUID": "d485276f33489ed4291a97a31367fa05",
+      "damage": [1, 2, 3]
     },
     "PARROT WAND": {
+      "type": "wand",
       "guid": "23ac8c6d0c5e52b4bb2d664fa94b5d7e",
       "corrupted": false,
       "description": "Deals an additional (2) <style=\"k\">wild</style> dmg to a random enemy.",
       "imageFileName": "wand_parrot.png",
-      "counterpartGUID": "15c2104b91e9dd847ae102c22948d95e"
+      "counterpartGUID": "15c2104b91e9dd847ae102c22948d95e",
+      "damage": [1, 2, 3]
     },
     "P4RRØT W4NÐ": {
+      "type": "wand",
       "guid": "15c2104b91e9dd847ae102c22948d95e",
       "corrupted": true,
       "description": "Deals an additional (2) <style=\"k\">wild</style> dmg to each enemy.",
       "imageFileName": "wand_parrot.png",
-      "counterpartGUID": "23ac8c6d0c5e52b4bb2d664fa94b5d7e"
+      "counterpartGUID": "23ac8c6d0c5e52b4bb2d664fa94b5d7e",
+      "damage": [1, 2, 3]
     },
     "PITCHFORK": {
+      "type": "wand",
       "guid": "011f66ba81f34e141a8bd6719b1f7b20",
       "corrupted": false,
       "description": "Deals (1) dmg to adjacent enemies.",
       "imageFileName": "wand_pitchfork.png",
-      "counterpartGUID": "1e27a1fdf1deb284db83e2da20d900a2"
+      "counterpartGUID": "1e27a1fdf1deb284db83e2da20d900a2",
+      "damage": [1, 2, 3]
     },
     "P‡T¢HFØRK": {
+      "type": "wand",
       "guid": "1e27a1fdf1deb284db83e2da20d900a2",
       "corrupted": true,
       "description": "Deals wand dmg to adjacent enemies.",
       "imageFileName": "wand_pitchfork.png",
-      "counterpartGUID": "011f66ba81f34e141a8bd6719b1f7b20"
+      "counterpartGUID": "011f66ba81f34e141a8bd6719b1f7b20",
+      "damage": [1, 2, 3]
     },
     "UNICORN HORN": {
+      "type": "wand",
       "guid": "a551a1c3f37b4224dac537bb5a906110",
       "corrupted": false,
       "description": "Re-roll your remaining dice after each use.",
       "imageFileName": "wand_unicorn_horn.png",
-      "counterpartGUID": "b00f34bc1cba14b4cb4db0c557c93904"
+      "counterpartGUID": "b00f34bc1cba14b4cb4db0c557c93904",
+      "damage": [1, 2, 3]
     },
     "ÜN‡¢ØRN HØRN": {
+      "type": "wand",
       "guid": "b00f34bc1cba14b4cb4db0c557c93904",
       "corrupted": true,
       "description": "If a wand is rolled, <style=\"k\">BARK</style> to re-roll your remaining dice.",
       "imageFileName": "wand_unicorn_horn.png",
-      "counterpartGUID": "a551a1c3f37b4224dac537bb5a906110"
+      "counterpartGUID": "a551a1c3f37b4224dac537bb5a906110",
+      "damage": [1, 2, 3]
     },
     "WRENCH": {
+      "type": "wand",
       "guid": "aca62dcbe11189e4cb3552168ac33556",
       "corrupted": false,
       "description": "",
       "imageFileName": "wand_wrench.png",
-      "counterpartGUID": "9a795fb60829a3546935fe2c6a610b4a"
+      "counterpartGUID": "9a795fb60829a3546935fe2c6a610b4a",
+      "damage": [1, 2, 3]
     },
     "WR3N¢H": {
+      "type": "wand",
       "guid": "9a795fb60829a3546935fe2c6a610b4a",
       "corrupted": true,
       "description": "Charges itself after each use.",
       "imageFileName": "wand_wrench.png",
-      "counterpartGUID": "aca62dcbe11189e4cb3552168ac33556"
+      "counterpartGUID": "aca62dcbe11189e4cb3552168ac33556",
+      "damage": [1, 2, 3]
     },
     "ZAPPER WAND": {
+      "type": "wand",
       "guid": "6bc9dea8b39ddef4a8c6b30184c281e0",
       "corrupted": false,
       "description": "<style=\"hint\">Deals dmg based on wand charge. Charge with book.",
-      "imageFileName": "wand_zapper (default).png"
+      "imageFileName": "wand_zapper (default).png",
+      "damage": [1, 2, 3]
     }
   }
 }
