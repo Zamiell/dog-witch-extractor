@@ -85,134 +85,12 @@ async function makeEquipmentJSON(
     );
 
     for (const filePath of assetFilePaths) {
-      const guid = getEquipmentGUIDFromMeta(filePath);
-
-      const fileContents = readFile(filePath);
-
-      // The first 3 lines cause the YAML parser to fail, so we remove them.
-      /// %YAML 1.1
-      /// %TAG !u! tag:unity3d.com,2011:
-      /// --- !u!114 &11400000
-      const lines = fileContents.split("\n");
-      repeat(3, () => {
-        lines.shift();
-      });
-      const yamlContents = lines.join("\n");
-
-      const file = yaml.parse(yamlContents) as unknown;
-      if (!isObject(file)) {
-        throw new Error(
-          `Failed to parse the "${filePath}" file as an object: ${file}`,
-        );
-      }
-
-      const { MonoBehaviour } = file;
-
-      if (!isObject(MonoBehaviour)) {
-        throw new Error(
-          `Failed to parse the "MonoBehavior" field in the "${filePath}" file as an object: ${MonoBehaviour}`,
-        );
-      }
-
-      const {
-        equipmentName,
-        iconSprite,
-        description,
-        linkedCorruptionCounterpart,
-        IsCorrupted,
-      } = MonoBehaviour;
-
-      if (typeof equipmentName !== "string") {
-        throw new TypeError(
-          `Failed to parse the "equipmentName" field of the "${filePath}" file: ${equipmentName}`,
-        );
-      }
-
-      if (!isObject(iconSprite)) {
-        throw new TypeError(
-          `Failed to parse the "iconSprite" field of the "${filePath}" file as an object: ${iconSprite}`,
-        );
-      }
-
-      const { guid: iconSpriteGUID } = iconSprite;
-
-      if (typeof iconSpriteGUID !== "string") {
-        throw new TypeError(
-          `Failed to parse the "iconSprite.guid" field of the "${filePath}" file: ${iconSpriteGUID}`,
-        );
-      }
-
-      const imageFileName = getImageFileName(
+      const equipment = getEquipmentFromFile(
+        equipmentType,
         equipmentTypeDirectory,
-        iconSpriteGUID,
+        filePath,
       );
-
-      // Some files have no description, like "jewelry-bracelets\NoBracelet(Default).asset".
-      if (typeof description !== "string" && description !== null) {
-        throw new TypeError(
-          // eslint-disable-next-line @typescript-eslint/no-base-to-string
-          `Failed to parse the "description" field of the "${filePath}" file: ${description}`,
-        );
-      }
-
-      if (!isObject(linkedCorruptionCounterpart)) {
-        throw new TypeError(
-          `Failed to parse the "linkedCorruptionCounterpart" field of the "${filePath}" file as an object: ${linkedCorruptionCounterpart}`,
-        );
-      }
-
-      const { guid: counterpartGUID } = linkedCorruptionCounterpart;
-
-      if (
-        typeof counterpartGUID !== "string"
-        && counterpartGUID !== undefined
-      ) {
-        throw new TypeError(
-          // eslint-disable-next-line @typescript-eslint/no-base-to-string
-          `Failed to parse the "linkedCorruptionCounterpart.guid" field of the "${filePath}" file as an object: ${counterpartGUID}`,
-        );
-      }
-
-      if (typeof IsCorrupted !== "number") {
-        throw new TypeError(
-          `Failed to parse the "IsCorrupted" field of the "${filePath}" file: ${iconSpriteGUID}`,
-        );
-      }
-
-      if (IsCorrupted !== 0 && IsCorrupted !== 1) {
-        throw new TypeError(
-          `The "IsCorrupted" field of the "${filePath}" file has an unknown value: ${iconSpriteGUID}`,
-        );
-      }
-
-      const corrupted = IsCorrupted === 1;
-
-      switch (equipmentType) {
-        case EquipmentType.wand: {
-          allEquipment.push({
-            type: equipmentType,
-            guid,
-            corrupted,
-            description: description ?? "",
-            imageFileName,
-            counterpartGUID,
-            damage: [1, 2, 3],
-          });
-          break;
-        }
-
-        default: {
-          allEquipment.push({
-            type: equipmentType,
-            guid,
-            corrupted,
-            description: description ?? "",
-            imageFileName,
-            counterpartGUID,
-          });
-          break;
-        }
-      }
+      allEquipment.push(equipment);
     }
   }
 
@@ -228,6 +106,136 @@ async function makeEquipmentJSON(
   console.log(`Wrote file: ${equipmentPath}`);
 
   return allEquipment;
+}
+
+function getEquipmentFromFile(
+  equipmentType: EquipmentType,
+  equipmentTypeDirectory: string,
+  filePath: string,
+): Equipment {
+  const guid = getEquipmentGUIDFromMeta(filePath);
+
+  const fileContents = readFile(filePath);
+
+  // The first 3 lines cause the YAML parser to fail, so we remove them.
+  /// %YAML 1.1
+  /// %TAG !u! tag:unity3d.com,2011:
+  /// --- !u!114 &11400000
+  const lines = fileContents.split("\n");
+  repeat(3, () => {
+    lines.shift();
+  });
+  const yamlContents = lines.join("\n");
+
+  const file = yaml.parse(yamlContents) as unknown;
+  if (!isObject(file)) {
+    throw new Error(
+      `Failed to parse the "${filePath}" file as an object: ${file}`,
+    );
+  }
+
+  const { MonoBehaviour } = file;
+
+  if (!isObject(MonoBehaviour)) {
+    throw new Error(
+      `Failed to parse the "MonoBehavior" field in the "${filePath}" file as an object: ${MonoBehaviour}`,
+    );
+  }
+
+  const {
+    equipmentName,
+    iconSprite,
+    description,
+    linkedCorruptionCounterpart,
+    IsCorrupted,
+  } = MonoBehaviour;
+
+  if (typeof equipmentName !== "string") {
+    throw new TypeError(
+      `Failed to parse the "equipmentName" field of the "${filePath}" file: ${equipmentName}`,
+    );
+  }
+
+  if (!isObject(iconSprite)) {
+    throw new TypeError(
+      `Failed to parse the "iconSprite" field of the "${filePath}" file as an object: ${iconSprite}`,
+    );
+  }
+
+  const { guid: iconSpriteGUID } = iconSprite;
+
+  if (typeof iconSpriteGUID !== "string") {
+    throw new TypeError(
+      `Failed to parse the "iconSprite.guid" field of the "${filePath}" file: ${iconSpriteGUID}`,
+    );
+  }
+
+  const imageFileName = getImageFileName(
+    equipmentTypeDirectory,
+    iconSpriteGUID,
+  );
+
+  // Some files have no description, like "jewelry-bracelets\NoBracelet(Default).asset".
+  if (typeof description !== "string" && description !== null) {
+    throw new TypeError(
+      // eslint-disable-next-line @typescript-eslint/no-base-to-string
+      `Failed to parse the "description" field of the "${filePath}" file: ${description}`,
+    );
+  }
+
+  if (!isObject(linkedCorruptionCounterpart)) {
+    throw new TypeError(
+      `Failed to parse the "linkedCorruptionCounterpart" field of the "${filePath}" file as an object: ${linkedCorruptionCounterpart}`,
+    );
+  }
+
+  const { guid: counterpartGUID } = linkedCorruptionCounterpart;
+
+  if (typeof counterpartGUID !== "string" && counterpartGUID !== undefined) {
+    throw new TypeError(
+      // eslint-disable-next-line @typescript-eslint/no-base-to-string
+      `Failed to parse the "linkedCorruptionCounterpart.guid" field of the "${filePath}" file as an object: ${counterpartGUID}`,
+    );
+  }
+
+  if (typeof IsCorrupted !== "number") {
+    throw new TypeError(
+      `Failed to parse the "IsCorrupted" field of the "${filePath}" file: ${iconSpriteGUID}`,
+    );
+  }
+
+  if (IsCorrupted !== 0 && IsCorrupted !== 1) {
+    throw new TypeError(
+      `The "IsCorrupted" field of the "${filePath}" file has an unknown value: ${iconSpriteGUID}`,
+    );
+  }
+
+  const corrupted = IsCorrupted === 1;
+
+  switch (equipmentType) {
+    case EquipmentType.wand: {
+      return {
+        type: equipmentType,
+        guid,
+        corrupted,
+        description: description ?? "",
+        imageFileName,
+        counterpartGUID,
+        damage: [1, 2, 3],
+      };
+    }
+
+    default: {
+      return {
+        type: equipmentType,
+        guid,
+        corrupted,
+        description: description ?? "",
+        imageFileName,
+        counterpartGUID,
+      };
+    }
+  }
 }
 
 function getEquipmentGUIDFromMeta(filePath: string): string {
