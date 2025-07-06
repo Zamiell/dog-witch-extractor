@@ -22,6 +22,7 @@
     "complete-common": "2.3.1",
     "complete-node": "7.4.0",
     "glob": "11.0.3",
+    "windows-shortcuts-ps": "1.0.1",
     "yaml": "2.8.0"
   },
   "devDependencies": {

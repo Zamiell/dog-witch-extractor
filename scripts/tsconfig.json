@@ -10,5 +10,5 @@
     "complete-tsconfig/tsconfig.bun.json",
   ],
 
-  "include": ["./**/*.ts"],
+  "include": ["./**/*.ts", "../src/types/**/*.d.ts"],
 }

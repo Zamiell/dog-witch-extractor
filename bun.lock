@@ -7,6 +7,7 @@
         "complete-common": "2.3.1",
         "complete-node": "7.4.0",
         "glob": "11.0.3",
+        "windows-shortcuts-ps": "1.0.1",
         "yaml": "2.8.0",
       },
       "devDependencies": {
@@ -830,6 +831,8 @@
     "walk-up-path": ["walk-up-path@4.0.0", "", {}, "sha512-3hu+tD8YzSLGuFYtPRb48vdhKMi0KQV5sn+uWr8+7dMEq/2G/dtLrdDinkLjqq5TIbIBjYJ4Ax/n3YiaW7QM8A=="],
 
     "which": ["which@5.0.0", "", { "dependencies": { "isexe": "^3.1.1" }, "bin": { "node-which": "bin/which.js" } }, "sha512-JEdGzHwwkrbWoGOlIHqQ5gtprKGOenpDHpxE9zVR1bWbOtYRyPPHMe9FaP6x61CmNaTThSkb0DAJte5jD+DmzQ=="],
+
+    "windows-shortcuts-ps": ["windows-shortcuts-ps@1.0.1", "", {}, "sha512-0+M1S+pWlPJ04t/DJym2oYSy2hv9bRER52/82BtMmMtxOya7kBMxJqFVC9g6ruLvvKlytT74GCO40XNzzMZiKw=="],
 
     "word-wrap": ["word-wrap@1.2.5", "", {}, "sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA=="],
 

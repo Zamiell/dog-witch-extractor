@@ -10,9 +10,8 @@ import {
 } from "complete-node";
 import os from "node:os";
 import path from "node:path";
-import { DATA_PATH } from "../src/constants.js";
+import { DATA_PATH, PROJECT_ROOT } from "../src/constants.js";
 
-const PROJECT_ROOT = path.resolve(import.meta.dirname, "..");
 const REPOSITORIES_PATH = path.resolve(PROJECT_ROOT, "..");
 const PYWIKIBOT_REPOSITORY_PATH = path.join(REPOSITORIES_PATH, "pywikibot");
 
