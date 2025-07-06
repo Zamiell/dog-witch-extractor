@@ -95,9 +95,17 @@ async function main() {
           `The file of "${fileName}" exists on the wiki but it is outdated. (wiki: ${hash1}, local: ${hash2})`,
         );
       }
+
+      // https://www.mediawiki.org/wiki/Manual:Pywikibot/upload.py
+      // - "-keep" - Keep the filename as is.
+      // - "-noverify" - Do not ask for verification of the upload description if one is given.
+      // - "-ignorewarn" - Upload even if another file would be overwritten or another mistake would
+      //   be risked.
+      // eslint-disable-next-line no-await-in-loop
+      await $$`python pwb.py upload.py ${imageFilePath} ${DESCRIPTION} -keep -noverify -ignorewarn`;
     } else {
       // https://www.mediawiki.org/wiki/Manual:Pywikibot/upload.py
-      // - "-keep" - Keep the filename as is
+      // - "-keep" - Keep the filename as is.
       // - "-noverify" - Do not ask for verification of the upload description if one is given.
       // eslint-disable-next-line no-await-in-loop
       await $$`python pwb.py upload.py ${imageFilePath} ${DESCRIPTION} -keep -noverify`;
