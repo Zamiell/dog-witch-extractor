@@ -3,8 +3,8 @@
 import {
   $,
   $q,
+  getFileHashSHA1,
   getFilePathsInDirectory,
-  getFileSHA1,
   isDirectory,
   isFile,
 } from "complete-node";
@@ -31,17 +31,20 @@ const DESCRIPTION =
 await main();
 
 async function main() {
-  if (!isDirectory(PYWIKIBOT_REPOSITORY_PATH)) {
+  const pywikibotExists = await isDirectory(PYWIKIBOT_REPOSITORY_PATH);
+  if (!pywikibotExists) {
     throw new Error(
       `Failed to find the "pywikibot" directory at: ${PYWIKIBOT_REPOSITORY_PATH}`,
     );
   }
 
-  if (!isFile(FILE_EXISTS_SCRIPT_PATH)) {
+  const fileExistsScriptExists = await isFile(FILE_EXISTS_SCRIPT_PATH);
+  if (!fileExistsScriptExists) {
     throw new Error(`Failed to find a script at: ${FILE_EXISTS_SCRIPT_PATH}`);
   }
 
-  if (!isFile(DOWNLOAD_FILE_SCRIPT_PATH)) {
+  const downloadScriptExists = await isFile(DOWNLOAD_FILE_SCRIPT_PATH);
+  if (!downloadScriptExists) {
     throw new Error(`Failed to find a script at: ${DOWNLOAD_FILE_SCRIPT_PATH}`);
   }
 
@@ -59,7 +62,7 @@ async function main() {
   await $$`python pwb.py login.py`;
 
   const imagesDirectory = path.join(DATA_PATH, "images");
-  const imageFilePaths = getFilePathsInDirectory(imagesDirectory);
+  const imageFilePaths = await getFilePathsInDirectory(imagesDirectory);
 
   for (const imageFilePath of imageFilePaths) {
     const fileName = path.basename(imageFilePath);
@@ -79,16 +82,18 @@ async function main() {
       // eslint-disable-next-line no-await-in-loop
       await $$`python pwb.py ${DOWNLOAD_FILE_SCRIPT_PATH} -page:File:${fileName}`;
       const downloadedFilePath = path.join(tmpDir, fileName);
-      if (!isFile(downloadedFilePath)) {
+      // eslint-disable-next-line no-await-in-loop
+      const downloadedFileExists = await isFile(downloadedFilePath);
+      if (!downloadedFileExists) {
         throw new Error(
           `Failed to find the downloaded file at: ${downloadedFilePath}`,
         );
       }
 
       // eslint-disable-next-line no-await-in-loop
-      const hash1 = await getFileSHA1(downloadedFilePath);
+      const hash1 = await getFileHashSHA1(downloadedFilePath);
       // eslint-disable-next-line no-await-in-loop
-      const hash2 = await getFileSHA1(imageFilePath);
+      const hash2 = await getFileHashSHA1(imageFilePath);
 
       if (hash1 !== hash2) {
         throw new Error(

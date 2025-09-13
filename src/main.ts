@@ -6,7 +6,7 @@ import {
   trimSuffix,
 } from "complete-common";
 import {
-  copyFileOrDirectoryAsync,
+  copyFileOrDirectory,
   formatWithPrettier,
   getArgs,
   getFilePathsInDirectory,
@@ -36,7 +36,8 @@ async function main() {
     extractedFilesPath = DEFAULT_EXTRACTED_FILES_PATH;
   }
 
-  if (!isDirectory(extractedFilesPath)) {
+  const extractedFilesExists = await isDirectory(extractedFilesPath);
+  if (!extractedFilesExists) {
     throw new Error(
       `Failed to find the extracted Dog Witch game files at: ${extractedFilesPath}`,
     );
@@ -46,7 +47,7 @@ async function main() {
     `Looking through the extracted Dog Witch files at: ${extractedFilesPath}`,
   );
 
-  makeDirectory(DATA_PATH);
+  await makeDirectory(DATA_PATH);
   const equipment = await makeEquipmentJSON(extractedFilesPath);
   await copyEquipmentImages(equipment);
 }
@@ -62,7 +63,8 @@ async function makeEquipmentJSON(
     "equipment",
   );
 
-  if (!isDirectory(equipmentDirectory)) {
+  const equipmentDirectoryExists = await isDirectory(equipmentDirectory);
+  if (!equipmentDirectoryExists) {
     throw new Error(
       `Failed to find the equipment directory at: ${equipmentDirectory}`,
     );
@@ -73,19 +75,25 @@ async function makeEquipmentJSON(
   for (const equipmentType of EQUIPMENT_TYPES) {
     const directoryName = EQUIPMENT_TYPE_TO_DIRECTORY_NAME[equipmentType];
     const equipmentTypeDirectory = path.join(equipmentDirectory, directoryName);
-    if (!isDirectory(equipmentTypeDirectory)) {
+    // eslint-disable-next-line no-await-in-loop
+    const equipmentTypeDirectoryExists = await isDirectory(
+      equipmentTypeDirectory,
+    );
+    if (!equipmentTypeDirectoryExists) {
       throw new Error(
         `Failed to find an equipment directory at: ${equipmentTypeDirectory}`,
       );
     }
 
-    const filePaths = getFilePathsInDirectory(equipmentTypeDirectory);
+    // eslint-disable-next-line no-await-in-loop
+    const filePaths = await getFilePathsInDirectory(equipmentTypeDirectory);
     const assetFilePaths = filePaths.filter((filePath) =>
       filePath.endsWith(".asset"),
     );
 
     for (const filePath of assetFilePaths) {
-      const equipment = getEquipmentDataFromFile(
+      // eslint-disable-next-line no-await-in-loop
+      const equipment = await getEquipmentDataFromFile(
         equipmentType,
         equipmentTypeDirectory,
         filePath,
@@ -101,21 +109,21 @@ async function makeEquipmentJSON(
     "json",
     PROJECT_ROOT,
   );
-  writeFile(equipmentPath, formattedString);
+  await writeFile(equipmentPath, formattedString);
 
   console.log(`Wrote file: ${equipmentPath}`);
 
   return allEquipment;
 }
 
-function getEquipmentDataFromFile(
+async function getEquipmentDataFromFile(
   equipmentType: EquipmentType,
   equipmentTypeDirectory: string,
   filePath: string,
-): Equipment {
-  const guid = getEquipmentGUIDFromMetaFile(filePath);
+): Promise<Equipment> {
+  const guid = await getEquipmentGUIDFromMetaFile(filePath);
 
-  const fileContents = readFile(filePath);
+  const fileContents = await readFile(filePath);
 
   // The first 3 lines cause the YAML parser to fail, so we remove them.
   /// %YAML 1.1
@@ -175,7 +183,7 @@ function getEquipmentDataFromFile(
     );
   }
 
-  const imageFileName = getImageFileName(
+  const imageFileName = await getImageFileName(
     equipmentTypeDirectory,
     iconSpriteGUID,
   );
@@ -264,9 +272,9 @@ function getEquipmentDataFromFile(
   }
 }
 
-function getEquipmentGUIDFromMetaFile(filePath: string): string {
+async function getEquipmentGUIDFromMetaFile(filePath: string): Promise<string> {
   const metaFilePath = `${filePath}.meta`;
-  const fileContents = readFile(metaFilePath);
+  const fileContents = await readFile(metaFilePath);
 
   const file = yaml.parse(fileContents) as unknown;
   if (!isObject(file)) {
@@ -286,10 +294,10 @@ function getEquipmentGUIDFromMetaFile(filePath: string): string {
 }
 
 /** Search through every file in the sprites directory, looking for a matching GUID. */
-function getImageFileName(
+async function getImageFileName(
   equipmentTypeDirectory: string,
   equipmentGUID: string,
-): string {
+): Promise<string> {
   const equipmentType = path.basename(equipmentTypeDirectory);
 
   if (!equipmentType.endsWith("s")) {
@@ -306,19 +314,40 @@ function getImageFileName(
     equipmentTypeDirectory,
     spritesDirectoryName,
   );
-  if (!isDirectory(spritesDirectoryPath)) {
+  const spritesDirectoryExists = await isDirectory(spritesDirectoryPath);
+  if (!spritesDirectoryExists) {
     throw new Error(
       `Failed to find the sprites directory at: ${spritesDirectoryPath}`,
     );
   }
 
-  const filePaths = getFilePathsInDirectory(spritesDirectoryPath);
+  const filePaths = await getFilePathsInDirectory(spritesDirectoryPath);
   const metaFilePaths = filePaths.filter((fileName) =>
     fileName.endsWith(".asset.meta"),
   );
 
-  const matchingAssetMetaFilePath = metaFilePaths.find((filePath) => {
-    const fileContents = readFile(filePath);
+  const matchingAssetMetaFilePath = await getMatchingAssetMetaFilePath(
+    metaFilePaths,
+    equipmentGUID,
+  );
+  assertDefined(
+    matchingAssetMetaFilePath,
+    `Failed to find a matching meta file for GUID: ${equipmentGUID}`,
+  );
+
+  const fileName = path.basename(matchingAssetMetaFilePath);
+  const baseFileName = trimSuffix(fileName, ".asset.meta");
+
+  return `${baseFileName}.png`;
+}
+
+async function getMatchingAssetMetaFilePath(
+  metaFilePaths: readonly string[],
+  equipmentGUID: string,
+): Promise<string | undefined> {
+  for (const filePath of metaFilePaths) {
+    // eslint-disable-next-line no-await-in-loop
+    const fileContents = await readFile(filePath);
     const metaYAML = yaml.parse(fileContents) as unknown;
     if (!isObject(metaYAML)) {
       throw new Error(
@@ -334,19 +363,12 @@ function getImageFileName(
       );
     }
 
-    return guid === equipmentGUID;
-  });
-
-  if (matchingAssetMetaFilePath === undefined) {
-    throw new Error(
-      `Failed to find a matching meta file for GUID: ${equipmentGUID}`,
-    );
+    if (guid === equipmentGUID) {
+      return filePath;
+    }
   }
 
-  const fileName = path.basename(matchingAssetMetaFilePath);
-  const baseFileName = trimSuffix(fileName, ".asset.meta");
-
-  return `${baseFileName}.png`;
+  return undefined;
 }
 
 /**
@@ -408,7 +430,7 @@ async function copyEquipmentImages(allEquipment: readonly Equipment[]) {
       assertDefined(matchingFile, "Failed to get the first matching file.");
 
       const dstPath = path.join(imagesPath, fileName);
-      await copyFileOrDirectoryAsync(matchingFile, dstPath);
+      await copyFileOrDirectory(matchingFile, dstPath);
     }),
   );
 
